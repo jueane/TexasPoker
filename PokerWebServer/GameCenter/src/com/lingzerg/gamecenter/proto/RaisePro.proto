@@ -1,0 +1,3 @@
+message RaiseProto{
+	required int32 ante=2;//加注金额
+}

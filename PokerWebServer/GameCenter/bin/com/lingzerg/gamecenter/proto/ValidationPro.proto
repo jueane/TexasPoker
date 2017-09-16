@@ -1,0 +1,6 @@
+message ValidationProto{
+	required string token=1;
+	required int32 roomType=2;//1.普通赛.2.淘汰赛.
+	required int32 roomId=3;
+	required bool isSpectator=4;
+}

@@ -1,0 +1,66 @@
+package poker.console;
+
+message RoomInfoReqProto{
+	required int32 roomId=1;
+}
+
+message PlayerInfoReqProto{
+	required int32 roomId=1;
+	required int32 playerId=2;
+}
+
+
+
+message RoomInfoProto{
+	repeated PlayerProto playerList=1;
+	required int32 roomId=2;
+	required int32 smallBlind=3;
+	required int32 minTake=4;
+	required int32 maxTake=5;
+	required int32 bankerSeat=6;
+	required int32 smallBlindSeat=7;
+	optional int32 smallBlindBetted=8;
+	required int32 bigBlindSeat=9;
+	optional int32 bigBlindBetted=10;
+	required int32 gamePhase=11;//游戏进行阶段：0.未开始。1.初始化中。2.下注中。3.结算中。。
+	optional int32 turn=12;
+	optional int32 bettingSeat=13;
+	optional bytes dealtBoardCards=14;//已发公牌
+}
+
+
+message PlayerProto{
+	required int32 PlayerId=1;
+	required int32 seat=2;
+	optional string nickname=3;
+	required int32 winTimes=4;
+	required int32 loseTimes=5;
+	required int32 portrait=6;
+	required int32 portraitBorder=7;
+	required bool male=8;
+	required bool isChallenger=9;
+	required int32 bankRoll=10;//筹码
+	required int32 gold=11;
+	required int32 maxScore=12;
+	optional bytes holeCards=13;
+	repeated int32 anteList=14;
+	optional string headImg=15;
+}
+
+
+message RoomListProto{
+	repeated RoomProto roomList=1;
+	message RoomProto{
+		required int32 roomId=1;
+		required int32 roomType=2;
+		required int32 roomLevel=3;		
+		required int32 roomPhase=4;
+		required int32 playingCount=6;
+		required int32 sittingCount=7;
+		required int32 seatsCount=8;
+		required int32 betableCount=9;
+		required int32 noFoldCount=10;	
+	}
+}
+
+

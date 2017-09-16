@@ -1,0 +1,143 @@
+package poker.proto;
+
+message ActionBroadcastProto{
+	required int32 playerId=1;
+	required int32 seat=2;
+	required int32 act=3;//1=让牌，2=跟注，3=加注，4=all in，5=弃牌
+	required int32 ante=4;//注额
+}
+
+message ActionNoticeProto{
+	required int32 playerId=1;
+	required int32 seat=2;
+	required int32 remainBankroll=3;//剩余筹码
+	required bool checkable=4;//能否让牌
+	required int32 minCall=5;//下注下限
+	required int32 minRaise=6;//加注下限
+	optional int64 timeout=7; //下注超时
+}
+
+message PotListProto{
+	repeated int32 potList=1; 
+}
+
+message CardsProto{
+	required bytes cards=1;
+}
+
+message EnterRoomProto{
+	required int32 roomType=1; //1.普通赛.2.淘汰赛.
+	optional int32 roomLevel=2; //不同段位及其子类
+	optional int32 chasePlayerId=3; //要跟入的玩家id
+	optional bool isReconnect=4; //是否断线重连
+	optional int32 roomId=5; //重连的房间id
+}
+
+message EnterRoomRespProto{
+	required int32 roomId=1;//-1表示进入失败（目前淘汰赛场用，报名费不足）
+	required int32 roomType=2;//成功进入的房间类型
+	required int32 seat=3;
+}
+
+message KnockoutBroadcastProto{
+	required int32 playerId=1;
+	required int32 seat=2;
+	required int32 ranking=3;
+	optional int32 reward=4;
+}
+
+message KnockoutResultProto{
+	message KnockoutWinner{
+		required int32 playerId=1;
+		optional string nickname=2;
+		required int32 ranking=3;//排名
+		required int32 gainedTotal=4;//赢取金额
+	}
+	
+	repeated KnockoutWinner knockoutWinnerList=1;
+}
+
+message PlayerProto{
+	required int32 PlayerId=1;
+	required int32 seat=2;
+	optional string nickname=3;
+	required int32 winTimes=4;
+	required int32 loseTimes=5;
+	required int32 portrait=6;
+	required int32 portraitBorder=7;
+	required bool male=8;
+	required bool isChallenger=9;
+	required int32 bankRoll=10;//筹码
+	required int32 gold=11;
+	required int32 maxScore=12;
+	optional bytes holeCards=13;
+	repeated int32 anteList=14;
+	optional string headImg=15;
+}
+
+message PlayerJoinProto{
+	required int32 playerId=1;
+	required int32 seat=2; //座号
+	optional int32 seatsRemain=3; //剩余座位数量	
+	required PlayerProto player=4;
+}
+
+message PlayerLeaveProto{
+	required int32 playerId=1;	
+	optional int32 seatsRemain=2; //剩余座位数量
+}
+
+message RaiseProto{
+	required int32 ante=2;//加注金额
+}
+
+message RechargeBankrollProto{
+	required int32 count=1; //补充至多少筹码（包含已持有的）
+}
+
+message ResultProto{
+	message Winner{
+		required int32 playerId=1;
+		required int32 seat=2;//座号
+		optional string title=3;//牌型名称
+		optional int32 type=4;//牌型
+		optional bytes holecards=5;
+		optional bytes maxCards=6;//最大牌组合
+		required bool won=7;//是否获胜(第一名)
+		required int32 bankroll=8;//最终拥有的筹码
+		required int32 gained=9;//赢取金额(未减下注额)
+		required int32 actualGained=10;//实际赢取金额(已减下注额)
+	}
+			
+	repeated Winner winnerList=1;
+	
+}
+
+message RoomInfoProto{
+	repeated PlayerProto playerList=1;
+	required int32 roomId=2;
+	required int32 smallBlind=3;
+	required int32 minTake=4;
+	required int32 maxTake=5;
+	required int32 bankerSeat=6;
+	required int32 smallBlindSeat=7;
+	optional int32 smallBlindBetted=8;
+	required int32 bigBlindSeat=9;
+	optional int32 bigBlindBetted=10;
+	required int32 gamePhase=11;//游戏进行阶段：0.未开始。1.初始化中。2.下注中。3.结算中。。
+	optional int32 turn=12;
+	optional int32 bettingSeat=13;
+	optional bytes dealtBoardCards=14;//已发公牌
+}
+
+message ValidationProto{
+	required string token=1;
+}
+message ValidationRespProto{
+	required int32 id=1;
+}
+
+
+
+
+

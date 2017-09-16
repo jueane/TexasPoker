@@ -1,0 +1,7 @@
+message ActionNoticeProto{
+	required int32 playerId=1;
+	required int32 seat=2;
+	required int32 remainBankroll=3;//剩余筹码
+	required bool checkable=4;//能否让牌
+	required int32 minCall=5;//下注下限
+}

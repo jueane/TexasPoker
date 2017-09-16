@@ -1,0 +1,10 @@
+message KnockoutResultProto{
+	message KnockoutWinner{
+		required int32 playerId=1;
+		optional string nickname=2;
+		required int32 ranking=3;//排名
+		required int32 gainedTotal=4;//赢取金额
+	}
+	
+	repeated KnockoutWinner knockoutWinnerList=1;
+}

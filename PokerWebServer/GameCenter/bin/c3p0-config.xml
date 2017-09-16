@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="user">lingzerg</property>
+		<property name="password">xbayhj</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://115.28.46.205:3306/poker</property>
+
+		<property name="initialPoolSize">10</property>
+		<property name="maxIdleTime">25000</property>
+		<property name="maxPoolSize">200</property>
+		<property name="minPoolSize">10</property>
+
+		<property name="acquireIncrement">3</property>
+		<property name="acquireRetryAttempts">30</property>
+		<property name="acquireRetryDelay">1000</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="testConnectionOnCheckin">true</property>
+		<property name="automaticTestTable">c3p0test</property>
+		<property name="idleConnectionTestPeriod">18000</property>
+		<property name="checkoutTimeout">10000</property>
+		<property name="unreturnedConnectionTimeout">25</property>
+	</default-config>
+</c3p0-config>

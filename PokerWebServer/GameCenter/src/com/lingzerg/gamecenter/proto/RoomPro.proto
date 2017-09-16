@@ -1,0 +1,24 @@
+
+message RoomProto{
+	message Player{
+		required int32 PlayerId=1;
+		required int32 seat=2;
+		required string nickname=3;
+		required int32 winTimes=4;
+		required int32 loseTimes=5;
+		required int32 portrait=6;
+		required int32 portraitBorder=7;
+		required bool male=8;
+		required string sign=9;
+		required bool isChallenger=10;
+		required int32 bankRoll=11;//筹码
+		required int32 gold=12;
+		required int32 maxScore=13;
+	}
+
+	repeated Player playerList=1;
+	required int32 smallBlind=2;
+	required int32 bankerSeat=3;
+	required int32 smallBlindSeat=4;
+	required int32 bigBlindSeat=5;
+}

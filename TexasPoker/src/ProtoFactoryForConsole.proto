@@ -1,0 +1,28 @@
+package poker.proto;
+
+message RoomInfoReqProto{
+	required int32 roomId=1;
+}
+
+message PlayerInfoReqProto{
+	required int32 roomId=1;
+	required int32 playerId=2;
+}
+
+
+message RoomListProto{
+	repeated RoomProto roomList=1;
+	message RoomProto{
+		required int32 roomId=1;
+		required int32 roomType=2;
+		required int32 roomLevel=3;		
+		required int32 roomPhase=4;
+		required int32 playingCount=6;
+		required int32 sittingCount=7;
+		required int32 seatsCount=8;
+		required int32 betableCount=9;
+		required int32 noFoldCount=10;	
+	}
+}
+
+

@@ -1,0 +1,3 @@
+message CardsProto{
+	required bytes cards=1;
+}

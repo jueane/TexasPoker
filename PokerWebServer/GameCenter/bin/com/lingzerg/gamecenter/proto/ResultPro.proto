@@ -1,0 +1,16 @@
+
+message ResultProto{
+	message Winner{
+		required int32 playerId=1;
+		required int32 seat=2;//座号
+		optional string title=3;//牌型名称
+		optional int32 type=4;//牌型
+		optional bytes holecards=5;
+		optional bytes maxCards=6;//最大牌组合
+		required bool won=7;//是否获胜(第一名)
+		required int32 gainTotal=8;//赢取金额(未减注额)
+	}
+			
+	repeated Winner winnerList=1;
+	
+}

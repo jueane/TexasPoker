@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>  
+    <context-values>  
+        <!-- 该配置可以使path对应的文件中，如果使用key对象时，会自动补全其对应的java属性（通配符无效） -->  
+        <resource path="src/main/webapp/WEB-INF/template/userList.ftl">  
+            <value key="loan" object-class="com.lingzerg.kele.entity"/>  
+        </resource>  
+        <!-- 其余resource配置…… -->  
+    </context-values>  
+    <macro-library>  
+        <!-- 该配置可以使namespace命名空间下的所有macro、function自动补全 -->  
+        <!-- <entry namespace="component" path="src/main/webapp/WEB-INF/template/macro/component/component.ftl" project="web2.0" type="file"/> -->  
+        <!-- 其余macro-library配置…… -->  
+    </macro-library>  
+</config>  

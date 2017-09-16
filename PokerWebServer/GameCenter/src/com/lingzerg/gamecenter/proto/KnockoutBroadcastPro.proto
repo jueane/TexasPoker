@@ -1,0 +1,4 @@
+message KnockoutBroadcastProto{
+	required int32 playerId=1;
+	required int32 seat=2;
+}

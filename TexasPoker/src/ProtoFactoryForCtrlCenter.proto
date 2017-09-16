@@ -1,0 +1,14 @@
+package poker.proto;
+
+message CCValidationProto{
+	required string token=1;
+}
+
+message CCPlayerStausProto{
+	required int32 playerId=1;
+	optional int32 status=2;//0.不存在，1.正常，2.断开
+}
+
+message CCPlayerStatusListProto{
+	repeated CCPlayerStausProto playerStatusList=1;
+}

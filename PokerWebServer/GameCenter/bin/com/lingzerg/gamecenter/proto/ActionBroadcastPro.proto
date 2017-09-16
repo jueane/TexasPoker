@@ -1,0 +1,6 @@
+message ActionBroadcastProto{
+	required int32 playerId=1;
+	required int32 seat=2;
+	required int32 act=3;//1=让牌，2=跟注，3=加注，4=all in，5=弃牌
+	required int32 ante=4;//注额
+}
