@@ -1,0 +1,34 @@
+-----------------------------------Begin----------------------------------------
+
+11/14 02:55:48 new game begin in type 3 room 1.(small blind:25)
+大于大盲
+Player 241 in 0 recharge：2500
+大于大盲
+Player 240 in 1 recharge：2500
+Room 1，playingCount：2，Player list：
+    Id:241,gold:881403,bankroll:2500,status:NORMAL,
+    Id:240,gold:994912,bankroll:2500,status:NORMAL,
+
+Board cards：梅12，方13，红12，梅13，红A
+Thread id：24，banker seat：0，banker Id：241
+Turn：0
+    Player 240 in 1，bankroll：2475，anted：25，minCall：25,minRaise:75...Player
+ 240 joinGamersGroup.
+Player 241 leaveGamersGroup.
+Player 241 leave room.
+(托管3)Could not check.fold
+       奖池：
+
+Victory player id：240
+Id：240，victory：false，cards：两对
+    Origin cards：红A，黑A，方13，梅13，红12，梅12，方11
+    Max combined：红A，黑A，方13，梅13，红12
+    Hole cards：方11，黑A
+
+Result(not calculate)：
+        id：240，bankroll：2475，gained：0
+
+Player list：
+    Id:240,gold:994912,bankroll:2475,status:NORMAL,connection：false
+
+-------------------------------------End----------------------------------------

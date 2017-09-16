@@ -1,0 +1,839 @@
+Server statup....
+Initializing...
+十一月 11, 2014 4:52:07 下午 com.mchange.v2.log.MLog <clinit>
+信息: MLog clients using java 1.4+ standard logging.
+十一月 11, 2014 4:52:08 下午 com.mchange.v2.c3p0.C3P0Registry banner
+信息: Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+十一月 11, 2014 4:52:08 下午 com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+信息: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0test, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> braup59517uqv9m1yqreyz|6a7607a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> braup59517uqv9m1yqreyz|6a7607a, idleConnectionTestPeriod -> 18000, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://development.mysql.rds.aliyuncs.com:3306/poker, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 80, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 15, usesTraditionalReflectiveProxies -> false ]
+Load room type info...Done.
+Initialization is complete.
+Validation is successfully！Username：annawei
+Player 19 enter type 2 room 1.
+Player 19 joinGamersGroup.
+Player 19 leaveGamersGroup.
+Player 19 leave room.
+Validation is successfully！Username：ccnode
+Can not find normal room level 0
+Validation is successfully！Username：ccnode
+Can not find imperial room level 0
+Validation is successfully！Username：ccnode2
+Player 4 enter type 2 room 1.
+Player 4 joinGamersGroup.
+Validation is successfully！Username：ccnode2
+Can not find normal room level 0
+Validation is successfully！Username：ccnode2
+Player 4 enter type 3 room 5.
+Player 4 joinGamersGroup.
+Player 4 leaveGamersGroup.
+Player 4 leave room.
+Validation is successfully！Username：ccnode2
+Player 4 enter type 1 room 6.
+Player 4 joinGamersGroup.
+Player 4 leaveGamersGroup.
+Player 4 leave room.
+Validation is successfully！Username：ccnode2
+Player 4 enter type 1 room 6.
+Player 4 joinGamersGroup.
+Player 4 leaveGamersGroup.
+Player 4 leave room.
+Validation is successfully！Username：ccnode2
+Validation is successfully！Username：ccnode2
+Player 4 enter type 1 room 6.
+Player 4 joinGamersGroup.
+Player 4 leaveGamersGroup.
+Player 4 leave room.
+Validation is successfully！Username：ccnode2
+Player 4 enter type 1 room 6.
+Player 4 joinGamersGroup.
+Validation is successfully！Username：ccnode
+Player 3 enter type 1 room 6.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/12 10:45:10 new game begin in type 1 room 6.(small blind:5)
+大于大盲
+Player 4 in 0 recharge：80
+Player 4	bankroll80
+大于大盲
+Player 3 in 1 recharge：80
+Player 3	bankroll80
+Room 6，playingCount：2，Player list：
+    Id:4,gold:297578,bankroll:80,status:NORMAL,
+    Id:3,gold:241124,bankroll:80,status:NORMAL,
+
+Board cards：方2，方11，红5，梅11，方12
+Thread id：25，banker seat：0，banker Id：4
+Turn：0
+    Player 3 in 1，bankroll：75，anted：5，minCall：5,minRaise:15...Player 3 joinGamersGroup.
+(托管3)Could not check.fold
+       奖池：10(10)，
+
+Victory player id：4
+Id：4，victory：true，cards：两对
+    Origin cards：方12，梅12，方11，梅11，梅7，红5，方2
+    Max combined：方12，梅12，方11，梅11，梅7
+    Hole cards：梅12，梅7
+Id：3，victory：false，cards：两对
+    Origin cards：方12，梅11，方11，方6，红5，方2，红2
+    Max combined：梅11，方11，方2，红2，方12
+    Hole cards：方6，红2
+
+Result(not calculate)：
+	id：4，bankroll：80，gained：10
+	id：3，bankroll：75，gained：0
+
+Player list：
+    Id:4,gold:297578,bankroll:80,status:NORMAL,connection：true
+    Id:3,gold:241124,bankroll:75,status:NORMAL,connection：false
+
+-------------------------------------End----------------------------------------
+Remove player 3
+Player 3 leaveGamersGroup.
+Validation is successfully！Username：liyanan
+Player 153 enter type 1 room 6.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/12 11:01:43 new game begin in type 1 room 6.(small blind:5)
+Player 4	bankroll80
+大于大盲
+Player 153 in 1 recharge：80
+Player 153	bankroll80
+Room 6，playingCount：2，Player list：
+    Id:4,gold:297578,bankroll:80,status:NORMAL,
+    Id:153,gold:899707,bankroll:80,status:NORMAL,
+
+Board cards：黑10，红2，红12，红6，黑3
+Thread id：27，banker seat：1，banker Id：153
+Turn：0
+    Player 4 in 0，bankroll：75，anted：5，minCall：5,minRaise:15...Player 153 joinGamersGroup.
+Player 153 leaveGamersGroup.
+Player 153 leave room.
+(托管3)Could not check.fold
+       奖池：
+
+Victory player id：4
+Id：4，victory：false，cards：两对
+    Origin cards：红12，黑12，黑10，红6，梅6，黑3，红2
+    Max combined：红12，黑12，红6，梅6，黑10
+    Hole cards：黑12，梅6
+
+Result(not calculate)：
+	id：4，bankroll：75，gained：0
+
+Player list：
+    Id:4,gold:297578,bankroll:75,status:NORMAL,connection：false
+
+-------------------------------------End----------------------------------------
+Remove player 4
+Player 4 leaveGamersGroup.
+Validation is successfully！Username：liyanan
+Player 153 enter type 1 room 6.
+Player 153 joinGamersGroup.
+Player 153 leaveGamersGroup.
+Player 153 leave room.
+Validation is successfully！Username：liyanan
+Player 153 enter type 1 room 6.
+Player 153 joinGamersGroup.
+Validation is successfully！Username：ccnode6
+Player 7 enter type 1 room 6.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/12 11:30:21 new game begin in type 1 room 6.(small blind:5)
+大于大盲
+Player 153 in 0 recharge：80
+Player 153	bankroll80
+大于大盲
+Player 7 in 1 recharge：80
+Player 7	bankroll80
+Room 6，playingCount：2，Player list：
+    Id:153,gold:899697,bankroll:80,status:NORMAL,
+    Id:7,gold:752,bankroll:80,status:NORMAL,
+
+Board cards：方3，梅3，梅12，梅7，黑7
+Thread id：30，banker seat：0，banker Id：153
+Turn：0
+    Player 7 in 1，bankroll：75，anted：5，minCall：5,minRaise:15...Player 7 joinGamersGroup.
+Validation is successfully！Username：ccnode
+Player 3 enter type 1 room 6.
+Player 3 joinGamersGroup.
+Validation is successfully！Username：ccnode2
+Player 4 enter type 1 room 6.
+Player 4 joinGamersGroup.
+call 5
+    Player 153 in 0，bankroll：70，anted：10，checkable,minRaise:15...(托管3)check
+         All betted.
+       奖池：20(10)，
+         Broadcast cards：方3，梅3，梅12
+Turn：1
+    Player 7 in 1，bankroll：70，anted：10，checkable,minRaise:10...raise 10
+    Player 153 in 0，bankroll：70，anted：10，minCall：10,minRaise:20...(托管3)Could not check.fold
+       奖池：20(20)，
+
+Victory player id：7
+Id：7，victory：true，cards：两对
+    Origin cards：梅12，梅7，黑7，梅4，黑4，梅3，方3
+    Max combined：梅7，黑7，梅4，黑4，梅12
+    Hole cards：梅4，黑4
+Id：153，victory：false，cards：两对
+    Origin cards：红A，黑A，梅12，梅7，黑7，梅3，方3
+    Max combined：红A，黑A，梅7，黑7，梅12
+    Hole cards：红A，黑A
+
+Result(not calculate)：
+	id：153，bankroll：70，gained：0
+	id：7，bankroll：80，gained：20
+	id：3，bankroll：0，gained：0
+	id：4，bankroll：0，gained：0
+
+Player list：
+    Id:153,gold:899697,bankroll:70,status:NORMAL,connection：false
+    Id:7,gold:752,bankroll:80,status:NORMAL,connection：true
+    Id:3,gold:241199,bankroll:0,status:READY,connection：true
+    Id:4,gold:297653,bankroll:0,status:READY,connection：true
+
+-------------------------------------End----------------------------------------
+Remove player 153
+Player 153 leaveGamersGroup.
+-----------------------------------Begin----------------------------------------
+11/12 11:31:00 new game begin in type 1 room 6.(small blind:5)
+Player 7	bankroll80
+大于大盲
+Player 3 in 2 recharge：80
+Player 3	bankroll80
+大于大盲
+Player 4 in 3 recharge：80
+Player 4	bankroll80
+Room 6，playingCount：3，Player list：
+    Id:7,gold:752,bankroll:80,status:NORMAL,
+    Id:3,gold:241119,bankroll:80,status:NORMAL,
+    Id:4,gold:297573,bankroll:80,status:NORMAL,
+
+Board cards：红13，方12，黑6，红10，方6
+Thread id：32，banker seat：1，banker Id：7
+Turn：0
+    Player 7 in 1，bankroll：80，anted：0，minCall：10,minRaise:15...call 10
+    Player 3 in 2，bankroll：75，anted：5，minCall：5,minRaise:15...call 5
+    Player 4 in 3，bankroll：70，anted：10，checkable,minRaise:15...raise 15
+    Player 7 in 1，bankroll：70，anted：10，minCall：15,minRaise:40...call 15
+    Player 3 in 2，bankroll：70，anted：10，minCall：15,minRaise:40...call 15
+         All betted.
+       奖池：75(25)，
+         Broadcast cards：红13，方12，黑6
+Turn：1
+    Player 3 in 2，bankroll：55，anted：25，checkable,minRaise:10...check
+    Player 4 in 3，bankroll：55，anted：25，checkable,minRaise:10...raise 10
+    Player 7 in 1，bankroll：55，anted：25，minCall：10,minRaise:20...All in 55
+    Player 3 in 2，bankroll：55，anted：25，minCall：55,minRaise:100...All in 55
+    Player 4 in 3，bankroll：45，anted：35，minCall：45,minRaise:100...All in 45
+No player left.
+       奖池：240(80)，
+         Broadcast cards：红10，方6
+
+Victory player id：3
+Id：3，victory：true，cards：两对
+    Origin cards：红13，方13，方12，红10，方6，黑6，黑3
+    Max combined：红13，方13，方6，黑6，方12
+    Hole cards：黑3，方13
+Id：4，victory：false，cards：两对
+    Origin cards：红13，方12，红10，方10，方6，黑6，黑2
+    Max combined：红10，方10，方6，黑6，红13
+    Hole cards：方10，黑2
+Id：7，victory：false，cards：一对
+    Origin cards：红13，方12，红10，黑8，方6，黑6，方3
+    Max combined：方6，黑6，红13，方12，红10
+    Hole cards：方3，黑8
+
+Result(not calculate)：
+	id：7，bankroll：0，gained：0
+	id：3，bankroll：240，gained：240
+	id：4，bankroll：0，gained：0
+
+Player list：
+    Id:7,gold:752,bankroll:0,status:NORMAL,connection：true
+    Id:3,gold:241119,bankroll:240,status:NORMAL,connection：true
+    Id:4,gold:297573,bankroll:0,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/12 11:31:59 new game begin in type 1 room 6.(small blind:5)
+大于大盲
+Player 7 in 1 recharge：80
+Player 7	bankroll80
+Player 3	bankroll240
+大于大盲
+Player 4 in 3 recharge：80
+Player 4	bankroll80
+Room 6，playingCount：3，Player list：
+    Id:7,gold:672,bankroll:80,status:NORMAL,
+    Id:3,gold:241119,bankroll:240,status:NORMAL,
+    Id:4,gold:297493,bankroll:80,status:NORMAL,
+
+Board cards：红13，方7，梅13，方8，黑12
+Thread id：32，banker seat：2，banker Id：3
+Turn：0
+    Player 3 in 2，bankroll：240，anted：0，minCall：10,minRaise:15...fold
+    Player 4 in 3，bankroll：75，anted：5，minCall：5,minRaise:15...fold
+       奖池：10(10)，
+
+Victory player id：7
+Id：7，victory：true，cards：满堂红
+    Origin cards：红13，梅13，黑13，黑12，方8，方7，黑7
+    Max combined：红13，梅13，黑13，方7，黑7
+    Hole cards：黑13，黑7
+Id：3，victory：false，cards：两对
+    Origin cards：红13，梅13，黑12，方8，红8，方7，方4
+    Max combined：红13，梅13，方8，红8，黑12
+    Hole cards：方4，红8
+Id：4，victory：false，cards：一对
+    Origin cards：红A，梅13，红13，黑12，方8，方7，黑2
+    Max combined：梅13，红13，红A，黑12，方8
+    Hole cards：红A，黑2
+
+Result(not calculate)：
+	id：7，bankroll：80，gained：10
+	id：3，bankroll：240，gained：0
+	id：4，bankroll：75，gained：0
+
+Player list：
+    Id:7,gold:672,bankroll:80,status:NORMAL,connection：true
+    Id:3,gold:241119,bankroll:240,status:NORMAL,connection：true
+    Id:4,gold:297493,bankroll:75,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/12 11:32:44 new game begin in type 1 room 6.(small blind:5)
+Player 7	bankroll80
+Player 3	bankroll240
+Player 4	bankroll75
+Room 6，playingCount：3，Player list：
+    Id:7,gold:672,bankroll:80,status:NORMAL,
+    Id:3,gold:241119,bankroll:240,status:NORMAL,
+    Id:4,gold:297493,bankroll:75,status:NORMAL,
+
+Board cards：黑8，方4，黑A，方11，梅12
+Thread id：32，banker seat：3，banker Id：4
+Turn：0
+    Player 4 in 3，bankroll：75，anted：0，minCall：10,minRaise:15...fold
+    Player 7 in 1，bankroll：75，anted：5，minCall：5,minRaise:15...Player 4 joinSpectatorGroup.
+Player 4 leaveGamersGroup.
+fold
+       奖池：10(10)，
+
+Victory player id：3
+Id：3，victory：true，cards：一对
+    Origin cards：黑A，梅12，方11，红11，方10，黑8，方4
+    Max combined：方11，红11，黑A，梅12，方10
+    Hole cards：方10，红11
+Id：7，victory：false，cards：一对
+    Origin cards：黑A，梅12，方11，黑8，方4，梅4，梅2
+    Max combined：方4，梅4，黑A，梅12，方11
+    Hole cards：梅2，梅4
+
+Result(not calculate)：
+	id：7，bankroll：75，gained：0
+	id：3，bankroll：240，gained：10
+
+Player list：
+    Id:7,gold:672,bankroll:75,status:NORMAL,connection：true
+    Id:3,gold:241119,bankroll:240,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/12 11:33:31 new game begin in type 1 room 6.(small blind:5)
+Player 7	bankroll75
+Player 3	bankroll240
+Room 6，playingCount：2，Player list：
+    Id:7,gold:672,bankroll:75,status:NORMAL,
+    Id:3,gold:241119,bankroll:240,status:NORMAL,
+
+Board cards：方12，方10，黑6，梅6，黑10
+Thread id：32，banker seat：1，banker Id：7
+Turn：0
+    Player 3 in 2，bankroll：235，anted：5，minCall：5,minRaise:15...call 5
+    Player 7 in 1，bankroll：65，anted：10，checkable,minRaise:15...fold
+       奖池：20(10)，
+
+Victory player id：3
+Id：3，victory：true，cards：两对
+    Origin cards：方12，梅12，黑10，方10，方7，梅6，黑6
+    Max combined：方12，梅12，黑10，方10，方7
+    Hole cards：梅12，方7
+Id：7，victory：false，cards：两对
+    Origin cards：红A，方12，黑10，方10，黑6，梅6，黑3
+    Max combined：黑10，方10，黑6，梅6，红A
+    Hole cards：红A，黑3
+
+Result(not calculate)：
+	id：7，bankroll：65，gained：0
+	id：3，bankroll：250，gained：20
+
+Player list：
+    Id:7,gold:672,bankroll:65,status:NORMAL,connection：true
+    Id:3,gold:241119,bankroll:250,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+Player 7 joinSpectatorGroup.
+Player 7 leaveGamersGroup.
+Validation is successfully！Username：ccnode
+Player 3 enter type 1 room 6.
+Player 7 leaveSpectatorGroup.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/12 11:39:16 new game begin in type 1 room 6.(small blind:5)
+大于大盲
+Player 7 in 0 recharge：80
+Player 7	bankroll80
+Player 3	bankroll250
+Room 6，playingCount：2，Player list：
+    Id:7,gold:657,bankroll:80,status:NORMAL,
+    Id:3,gold:241119,bankroll:250,status:NORMAL,
+
+Board cards：梅4，红3，黑8，方11，红A
+Thread id：30，banker seat：2，banker Id：3
+Turn：0
+    Player 7 in 0，bankroll：75，anted：5，minCall：5,minRaise:15...Player 7 joinGamersGroup.
+call 5
+    Player 3 in 2，bankroll：240，anted：10，checkable,minRaise:15...check
+         All betted.
+       奖池：20(10)，
+         Broadcast cards：梅4，红3，黑8
+Turn：1
+    Player 7 in 0，bankroll：70，anted：10，checkable,minRaise:10...Validation is successfully！Username：ccnode2
+Player 4 enter type 1 room 6.
+raise 10
+    Player 3 in 2，bankroll：240，anted：10，minCall：10,minRaise:20...call 10
+         All betted.
+       奖池：40(20)，
+         Broadcast cards：方11
+Turn：2
+    Player 7 in 0，bankroll：60，anted：20，checkable,minRaise:10...Player 4 leaveSpectatorGroup.
+Player 4 joinGamersGroup.
+raise 10
+    Player 3 in 2，bankroll：230，anted：20，minCall：10,minRaise:20...call 10
+         All betted.
+       奖池：60(30)，
+         Broadcast cards：红A
+Turn：3
+    Player 7 in 0，bankroll：50，anted：30，checkable,minRaise:10...check
+    Player 3 in 2，bankroll：220，anted：30，checkable,minRaise:10...check
+         All checked.
+       奖池：60(30)，
+
+Victory player id：3
+Id：3，victory：true，cards：一对
+    Origin cards：红A，方A，方11，黑8，梅4，红3，梅2
+    Max combined：红A，方A，方11，黑8，梅4
+    Hole cards：梅2，方A
+Id：7，victory：false，cards：高牌
+    Origin cards：红A，方12，方11，黑8，方7，梅4，红3
+    Max combined：红A，方12，方11，黑8，方7
+    Hole cards：方12，方7
+
+Result(not calculate)：
+	id：7，bankroll：50，gained：0
+	id：4，bankroll：0，gained：0
+	id：3，bankroll：280，gained：60
+
+Player list：
+    Id:7,gold:657,bankroll:50,status:NORMAL,connection：true
+    Id:4,gold:297568,bankroll:0,status:READY,connection：true
+    Id:3,gold:241119,bankroll:280,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/12 11:40:01 new game begin in type 1 room 6.(small blind:5)
+Player 7	bankroll50
+大于大盲
+Player 4 in 1 recharge：80
+Player 4	bankroll80
+Player 3	bankroll280
+Room 6，playingCount：3，Player list：
+    Id:7,gold:657,bankroll:50,status:NORMAL,
+    Id:4,gold:297488,bankroll:80,status:NORMAL,
+    Id:3,gold:241119,bankroll:280,status:NORMAL,
+
+Board cards：方11，梅6，黑4，黑13，黑2
+Thread id：32，banker seat：0，banker Id：7
+Turn：0
+    Player 7 in 0，bankroll：50，anted：0，minCall：10,minRaise:15...call 10
+    Player 4 in 1，bankroll：75，anted：5，minCall：5,minRaise:15...call 5
+    Player 3 in 2，bankroll：270，anted：10，checkable,minRaise:15...check
+         All betted.
+       奖池：30(10)，
+         Broadcast cards：方11，梅6，黑4
+Turn：1
+    Player 4 in 1，bankroll：70，anted：10，checkable,minRaise:10...check
+    Player 3 in 2，bankroll：270，anted：10，checkable,minRaise:10...check
+    Player 7 in 0，bankroll：40，anted：10，checkable,minRaise:10...raise 10
+    Player 4 in 1，bankroll：70，anted：10，minCall：10,minRaise:20...call 10
+    Player 3 in 2，bankroll：270，anted：10，minCall：10,minRaise:20...call 10
+         All betted.
+       奖池：60(20)，
+         Broadcast cards：黑13
+Turn：2
+    Player 4 in 1，bankroll：60，anted：20，checkable,minRaise:10...Player 3 leaveGamersGroup.
+Player 3 leave room.
+
+Victory player id：4
+Id：4，victory：true，cards：一对
+    Origin cards：黑13，梅12，黑11，方11，梅6，黑4，黑2
+    Max combined：黑11，方11，黑13，梅12，梅6
+    Hole cards：黑11，梅12
+
+Result(not calculate)：
+	id：4，bankroll：120，gained：60
+
+Player list：
+    Id:4,gold:297488,bankroll:120,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+Player 7 leaveGamersGroup.
+Player 7 leave room.
+Player 4 leaveGamersGroup.
+Player 4 leave room.
+Validation is successfully！Username：ccnode6
+Player 7 enter type 3 room 5.
+Player 7 joinGamersGroup.
+Validation is successfully！Username：ccnode2
+Player 4 enter type 3 room 5.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/12 11:41:21 new game begin in type 3 room 5.(small blind:25)
+大于大盲
+Player 7 in 0 recharge：500
+Player 7	bankroll500
+大于大盲
+Player 4 in 1 recharge：500
+Player 4	bankroll500
+Room 5，playingCount：2，Player list：
+    Id:7,gold:187,bankroll:500,status:NORMAL,
+    Id:4,gold:297108,bankroll:500,status:NORMAL,
+
+Board cards：梅13，黑11，梅11，梅10，红13
+Thread id：26，banker seat：0，banker Id：7
+Turn：0
+    Player 4 in 1，bankroll：475，anted：25，minCall：25,minRaise:75...Player 4 joinGamersGroup.
+Validation is successfully！Username：ccnode
+Player 3 enter type 3 room 5.
+Player 3 joinGamersGroup.
+call 25
+    Player 7 in 0，bankroll：450，anted：50，checkable,minRaise:75...fold
+       奖池：100(50)，
+
+Victory player id：4
+Id：4，victory：true，cards：满堂红
+    Origin cards：梅13，红13，梅11，黑11，红11，梅10，红10
+    Max combined：梅11，黑11，红11，梅13，红13
+    Hole cards：红11，红10
+Id：7，victory：false，cards：两对
+    Origin cards：梅13，红13，红12，黑11，梅11，方10，梅10
+    Max combined：梅13，红13，黑11，梅11，红12
+    Hole cards：方10，红12
+
+Result(not calculate)：
+	id：7，bankroll：450，gained：0
+	id：4，bankroll：550，gained：100
+	id：3，bankroll：0，gained：0
+
+Player list：
+    Id:7,gold:187,bankroll:450,status:NORMAL,connection：true
+    Id:4,gold:297108,bankroll:550,status:NORMAL,connection：true
+    Id:3,gold:241379,bankroll:0,status:READY,connection：true
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/12 11:41:42 new game begin in type 3 room 5.(small blind:25)
+Player 7	bankroll450
+Player 4	bankroll550
+大于大盲
+Player 3 in 2 recharge：500
+Player 3	bankroll500
+Room 5，playingCount：3，Player list：
+    Id:7,gold:187,bankroll:450,status:NORMAL,
+    Id:4,gold:297108,bankroll:550,status:NORMAL,
+    Id:3,gold:240879,bankroll:500,status:NORMAL,
+
+Board cards：红A，方A，方11，红12，红13
+Thread id：32，banker seat：1，banker Id：4
+Turn：0
+    Player 4 in 1，bankroll：550，anted：0，minCall：50,minRaise:75...Player 3 leaveGamersGroup.
+Player 3 leave room.
+fold
+       奖池：75(50)，
+
+Victory player id：7
+Id：7，victory：true，cards：两对
+    Origin cards：红A，方A，红13，红12，梅12，方11，红11
+    Max combined：红A，方A，红12，梅12，红13
+    Hole cards：梅12，红11
+Id：4，victory：false，cards：满堂红
+    Origin cards：红A，方A，红13，红12，方12，黑12，方11
+    Max combined：红12，方12，黑12，红A，方A
+    Hole cards：方12，黑12
+
+Result(not calculate)：
+	id：7，bankroll：475，gained：75
+	id：4，bankroll：550，gained：0
+
+Player list：
+    Id:7,gold:187,bankroll:475,status:NORMAL,connection：true
+    Id:4,gold:297108,bankroll:550,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+Player 4 leaveGamersGroup.
+Player 4 leave room.
+Player 7 leaveGamersGroup.
+Player 7 leave room.
+Validation is successfully！Username：ccnode
+Player 3 enter type 4 room 7.
+Player 3 joinGamersGroup.
+Validation is successfully！Username：ccnode2
+Player 4 enter type 4 room 7.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/12 11:42:08 new game begin in type 4 room 7.(small blind:25)
+大于大盲
+Player 3 in 0 recharge：500
+Player 3	bankroll500
+大于大盲
+Player 4 in 1 recharge：500
+Player 4	bankroll500
+Room 7，playingCount：2，Player list：
+    Id:3,gold:240854,bankroll:500,status:NORMAL,
+    Id:4,gold:297158,bankroll:500,status:NORMAL,
+
+Board cards：方10，黑6，黑7，梅A，梅8
+Thread id：24，banker seat：0，banker Id：3
+Turn：0
+    Player 4 in 1，bankroll：475，anted：25，minCall：25,minRaise:75...Player 4 joinGamersGroup.
+Validation is successfully！Username：ccnode6
+Player 7 enter type 4 room 7.
+Player 7 joinGamersGroup.
+call 25
+    Player 3 in 0，bankroll：450，anted：50，checkable,minRaise:75...raise 75
+    Player 4 in 1，bankroll：450，anted：50，minCall：75,minRaise:200...call 75
+         All betted.
+       奖池：250(125)，
+         Broadcast cards：方10，黑6，黑7
+Turn：1
+    Player 4 in 1，bankroll：375，anted：125，checkable,minRaise:50...check
+    Player 3 in 0，bankroll：375，anted：125，checkable,minRaise:50...check
+         All checked.
+       奖池：250(125)，
+         Broadcast cards：梅A
+Turn：2
+    Player 4 in 1，bankroll：375，anted：125，checkable,minRaise:50...raise 50
+    Player 3 in 0，bankroll：375，anted：125，minCall：50,minRaise:100...call 50
+         All betted.
+       奖池：350(175)，
+         Broadcast cards：梅8
+Turn：3
+    Player 4 in 1，bankroll：325，anted：175，checkable,minRaise:50...check
+    Player 3 in 0，bankroll：325，anted：175，checkable,minRaise:50...check
+         All checked.
+       奖池：350(175)，
+
+java.lang.NullPointerException
+	at com.lingzerg.gamecenter.main.room.impl.GameRule.add(GameRule.java:122)
+	at com.lingzerg.gamecenter.main.room.impl.omaha.GameRuleOmaha.add(GameRuleOmaha.java:25)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.computeVictory(RoomImpl.java:1069)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterAction(RoomImpl.java:1004)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterOneTurn(RoomImpl.java:943)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:696)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:902)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:372)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Player 4 leaveGamersGroup.
+Player 4 leave room.
+玩家3超时
+Player 3 leaveGamersGroup.
+Player 3 leave room.
+Player 7 leaveGamersGroup.
+Player 7 leave room.
+Validation is successfully！Username：ccnode
+Player 3 enter type 1 room 6.
+Player 3 joinGamersGroup.
+Validation is successfully！Username：ccnode2
+Player 4 enter type 1 room 6.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/12 11:44:27 new game begin in type 1 room 6.(small blind:5)
+大于大盲
+Player 3 in 0 recharge：80
+Player 3	bankroll80
+大于大盲
+Player 4 in 1 recharge：80
+Player 4	bankroll80
+Room 6，playingCount：2，Player list：
+    Id:3,gold:241099,bankroll:80,status:NORMAL,
+    Id:4,gold:297403,bankroll:80,status:NORMAL,
+
+Board cards：方3，方8，方5，红3，黑7
+Thread id：30，banker seat：1，banker Id：4
+Turn：0
+    Player 3 in 0，bankroll：75，anted：5，minCall：5,minRaise:15...Player 4 joinGamersGroup.
+call 5
+    Player 4 in 1，bankroll：70，anted：10，checkable,minRaise:15...check
+         All betted.
+       奖池：20(10)，
+         Broadcast cards：方3，方8，方5
+Turn：1
+    Player 3 in 0，bankroll：70，anted：10，checkable,minRaise:10...check
+    Player 4 in 1，bankroll：70，anted：10，checkable,minRaise:10...check
+         All checked.
+       奖池：20(10)，
+         Broadcast cards：红3
+Turn：2
+    Player 3 in 0，bankroll：70，anted：10，checkable,minRaise:10...check
+    Player 4 in 1，bankroll：70，anted：10，checkable,minRaise:10...check
+         All checked.
+       奖池：20(10)，
+         Broadcast cards：黑7
+Turn：3
+    Player 3 in 0，bankroll：70，anted：10，checkable,minRaise:10...check
+    Player 4 in 1，bankroll：70，anted：10，checkable,minRaise:10...check
+         All checked.
+       奖池：20(10)，
+
+Victory player id：3
+Id：3，victory：true，cards：一对
+    Origin cards：红A，方8，黑7，方5，梅4，红3，方3
+    Max combined：红3，方3，红A，方8，黑7
+    Hole cards：梅4，红A
+Id：4，victory：false，cards：一对
+    Origin cards：黑13，梅12，方8，黑7，方5，红3，方3
+    Max combined：红3，方3，黑13，梅12，方8
+    Hole cards：梅12，黑13
+
+Result(not calculate)：
+	id：3，bankroll：90，gained：20
+	id：4，bankroll：70，gained：0
+
+Player list：
+    Id:3,gold:241099,bankroll:90,status:NORMAL,connection：true
+    Id:4,gold:297403,bankroll:70,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/12 11:44:50 new game begin in type 1 room 6.(small blind:5)
+Player 3	bankroll90
+Player 4	bankroll70
+Room 6，playingCount：2，Player list：
+    Id:3,gold:241099,bankroll:90,status:NORMAL,
+    Id:4,gold:297403,bankroll:70,status:NORMAL,
+
+Board cards：黑4，梅7，方11，红10，红A
+Thread id：32，banker seat：0，banker Id：3
+Turn：0
+    Player 4 in 1，bankroll：65，anted：5，minCall：5,minRaise:15...fold
+       奖池：10(10)，
+
+Victory player id：3
+Id：3，victory：true，cards：高牌
+    Origin cards：红A，方11，红10，红8，梅7，黑4，黑3
+    Max combined：红A，方11，红10，红8，梅7
+    Hole cards：黑3，红8
+Id：4，victory：false，cards：一对
+    Origin cards：红A，方11，红10，梅10，方9，梅7，黑4
+    Max combined：红10，梅10，红A，方11，方9
+    Hole cards：方9，梅10
+
+Result(not calculate)：
+	id：3，bankroll：90，gained：10
+	id：4，bankroll：65，gained：0
+
+Player list：
+    Id:3,gold:241099,bankroll:90,status:NORMAL,connection：true
+    Id:4,gold:297403,bankroll:65,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/12 11:45:17 new game begin in type 1 room 6.(small blind:5)
+Player 3	bankroll90
+Player 4	bankroll65
+Room 6，playingCount：2，Player list：
+    Id:3,gold:241099,bankroll:90,status:NORMAL,
+    Id:4,gold:297403,bankroll:65,status:NORMAL,
+
+Board cards：方3，黑6，黑7，梅2，红9
+Thread id：32，banker seat：1，banker Id：4
+Turn：0
+    Player 3 in 0，bankroll：85，anted：5，minCall：5,minRaise:15...call 5
+    Player 4 in 1，bankroll：55，anted：10，checkable,minRaise:15...fold
+       奖池：20(10)，
+
+Victory player id：3
+Id：3，victory：true，cards：高牌
+    Origin cards：梅A，黑10，红9，黑7，黑6，方3，梅2
+    Max combined：梅A，黑10，红9，黑7，黑6
+    Hole cards：黑10，梅A
+Id：4，victory：false，cards：两对
+    Origin cards：红9，黑7，方7，黑6，方3，梅3，梅2
+    Max combined：黑7，方7，方3，梅3，红9
+    Hole cards：方7，梅3
+
+Result(not calculate)：
+	id：3，bankroll：90，gained：10
+	id：4，bankroll：65，gained：10
+
+Player list：
+    Id:3,gold:241099,bankroll:90,status:NORMAL,connection：true
+    Id:4,gold:297403,bankroll:65,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+Player 4 joinSpectatorGroup.
+Player 4 leaveGamersGroup.
+Validation is successfully！Username：ccnode6
+Player 7 enter type 1 room 6.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/12 12:18:40 new game begin in type 1 room 6.(small blind:5)
+Player 3	bankroll90
+大于大盲
+Player 7 in 1 recharge：80
+Player 7	bankroll80
+Room 6，playingCount：2，Player list：
+    Id:3,gold:241099,bankroll:90,status:NORMAL,
+    Id:7,gold:582,bankroll:80,status:NORMAL,
+
+Board cards：方3，红10，方A，黑4，黑13
+Thread id：24，banker seat：0，banker Id：3
+Turn：0
+    Player 7 in 1，bankroll：75，anted：5，minCall：5,minRaise:15...Player 7 joinGamersGroup.
+call 5
+    Player 3 in 0，bankroll：80，anted：10，checkable,minRaise:15...
+Victory player id：3
+Id：3，victory：true，cards：一对
+    Origin cards：方A，黑13，红10，黑4，方3，黑3，红2
+    Max combined：方3，黑3，方A，黑13，红10
+    Hole cards：黑3，红2
+
+Result(not calculate)：
+	id：3，bankroll：100，gained：20
+
+Player list：
+    Id:3,gold:241099,bankroll:100,status:NORMAL,connection：true
+
+-------------------------------------End----------------------------------------
+Player 7 leaveGamersGroup.
+Player 7 leave room.

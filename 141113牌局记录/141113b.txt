@@ -1,0 +1,1799 @@
+Server statup....
+Initializing...
+Ê®Ò»ÔÂ 13, 2014 4:28:56 ÏÂÎç com.mchange.v2.log.MLog <clinit>
+ÐÅÏ¢: MLog clients using java 1.4+ standard logging.
+Ê®Ò»ÔÂ 13, 2014 4:28:56 ÏÂÎç com.mchange.v2.c3p0.C3P0Registry banner
+ÐÅÏ¢: Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+Ê®Ò»ÔÂ 13, 2014 4:28:57 ÏÂÎç com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+ÐÅÏ¢: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0test, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> braup5951aosquf11djplz|6a7607a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> braup5951aosquf11djplz|6a7607a, idleConnectionTestPeriod -> 18000, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://development.mysql.rds.aliyuncs.com:3306/poker, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 80, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 15, usesTraditionalReflectiveProxies -> false ]
+Load room type info...Done.
+Initialization is complete.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 4 room 1.
+Player 240 joinGamersGroup.
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 4 room 1.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/13 04:29:20 new game begin in type 4 room 1.(small blind:25)
+´óÓÚ´óÃ¤
+Player 240 in 0 recharge£º2500
+Player 240	bankroll2500
+´óÓÚ´óÃ¤
+Player 199 in 1 recharge£º2500
+Player 199	bankroll2500
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:2500,status:NORMAL,
+    Id:199,gold:92266,bankroll:2500,status:NORMAL,
+
+Board cards£º·½A£¬·½6£¬Ã·11£¬ºÚ6£¬Ã·2
+Thread id£º24£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 199 in 1£¬bankroll£º2475£¬anted£º25£¬minCall£º25,minRaise:75...Player 199 joinGamersGroup.
+call 25
+    Player 240 in 0£¬bankroll£º2450£¬anted£º50£¬checkable,minRaise:75...raise 75
+    Player 199 in 1£¬bankroll£º2450£¬anted£º50£¬minCall£º75,minRaise:200...call 75
+         All betted.
+       ½±³Ø£º250(125)£¬
+         Broadcast cards£º·½A£¬·½6£¬Ã·11
+Turn£º1
+    Player 199 in 1£¬bankroll£º2375£¬anted£º125£¬checkable,minRaise:50...check
+    Player 240 in 0£¬bankroll£º2375£¬anted£º125£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º2375£¬anted£º125£¬minCall£º50,minRaise:100...Validation is successfully£¡Username£ºliyanan
+Player 153 enter type 4 room 1.
+Player 153 joinGamersGroup.
+call 50
+         All betted.
+       ½±³Ø£º350(175)£¬
+         Broadcast cards£ººÚ6
+Turn£º2
+    Player 199 in 1£¬bankroll£º2325£¬anted£º175£¬checkable,minRaise:50...check
+    Player 240 in 0£¬bankroll£º2325£¬anted£º175£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º2325£¬anted£º175£¬minCall£º50,minRaise:100...call 50
+         All betted.
+       ½±³Ø£º450(225)£¬
+         Broadcast cards£ºÃ·2
+Turn£º3
+    Player 199 in 1£¬bankroll£º2275£¬anted£º225£¬checkable,minRaise:50...check
+    Player 240 in 0£¬bankroll£º2275£¬anted£º225£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º2275£¬anted£º225£¬minCall£º50,minRaise:100...call 50
+         All betted.
+       ½±³Ø£º550(275)£¬
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬Ã·11£¬ºÚ11£¬ºì8£¬·½6£¬ºÚ6£¬Ã·2
+    Max combined£ºÃ·11£¬ºÚ11£¬·½6£¬ºÚ6£¬·½A
+    Hole cards£ººì8£¬ºÚ11£¬Ã·8£¬·½12
+Id£º199£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬Ã·11£¬ºì7£¬Ã·7£¬·½6£¬ºÚ6£¬Ã·2
+    Max combined£ººì7£¬Ã·7£¬·½6£¬ºÚ6£¬·½A
+    Hole cards£ººì7£¬·½3£¬ºì3£¬Ã·7
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º2775£¬gained£º550
+	id£º199£¬bankroll£º2225£¬gained£º0
+	id£º153£¬bankroll£º0£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:2775,status:NORMAL,connection£ºtrue
+    Id:199,gold:92266,bankroll:2225,status:NORMAL,connection£ºtrue
+    Id:153,gold:895735,bankroll:0,status:READY,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:30:01 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll2775
+Player 199	bankroll2225
+´óÓÚ´óÃ¤
+Player 153 in 2 recharge£º2500
+Player 153	bankroll2500
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:2775,status:NORMAL,
+    Id:199,gold:92266,bankroll:2225,status:NORMAL,
+    Id:153,gold:893235,bankroll:2500,status:NORMAL,
+
+Board cards£ººìA£¬ºÚ12£¬Ã·4£¬Ã·13£¬ºÚ6
+Thread id£º32£¬banker seat£º1£¬banker Id£º199
+Turn£º0
+    Player 199 in 1£¬bankroll£º2225£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 153 in 2£¬bankroll£º2475£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 240 in 0£¬bankroll£º2725£¬anted£º50£¬checkable,minRaise:75...raise 75
+    Player 199 in 1£¬bankroll£º2175£¬anted£º50£¬minCall£º75,minRaise:200...call 75
+    Player 153 in 2£¬bankroll£º2450£¬anted£º50£¬minCall£º75,minRaise:200...fold
+         All betted.
+       ½±³Ø£º250(125)£¬
+         Broadcast cards£ººìA£¬ºÚ12£¬Ã·4
+Turn£º1
+    Player 240 in 0£¬bankroll£º2650£¬anted£º125£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º2100£¬anted£º125£¬minCall£º50,minRaise:100...raise 1250
+    Player 240 in 0£¬bankroll£º2600£¬anted£º175£¬minCall£º1200,minRaise:2450...call 1200
+         All betted.
+       ½±³Ø£º2750(1375)£¬
+         Broadcast cards£ºÃ·13
+Turn£º2
+    Player 240 in 0£¬bankroll£º1400£¬anted£º1375£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º850£¬anted£º1375£¬minCall£º50,minRaise:100...call 50
+         All betted.
+       ½±³Ø£º2850(1425)£¬
+         Broadcast cards£ººÚ6
+Turn£º3
+    Player 240 in 0£¬bankroll£º1350£¬anted£º1425£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º800£¬anted£º1425£¬minCall£º50,minRaise:100...call 50
+         All betted.
+       ½±³Ø£º2950(1475)£¬
+
+Victory player id£º199
+Id£º199£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬·½A£¬Ã·13£¬ºÚ12£¬Ã·12£¬ºÚ6£¬Ã·4
+    Max combined£ººìA£¬·½A£¬ºÚ12£¬Ã·12£¬Ã·13
+    Hole cards£º·½A£¬·½4£¬·½9£¬Ã·12
+Id£º240£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬Ã·A£¬Ã·13£¬ºÚ12£¬ºÚ6£¬ºì6£¬Ã·4
+    Max combined£ººìA£¬Ã·A£¬ºÚ6£¬ºì6£¬Ã·13
+    Hole cards£ºÃ·A£¬ºì6£¬Ã·2£¬ºì9
+Id£º153£¬victory£ºfalse£¬cards£ºÈýÌõ
+    Origin cards£ººìA£¬Ã·13£¬ºÚ12£¬ºÚ6£¬Ã·6£¬·½6£¬Ã·4
+    Max combined£ººÚ6£¬Ã·6£¬·½6£¬ºìA£¬Ã·13
+    Hole cards£ºÃ·6£¬·½6£¬ºì5£¬Ã·3
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º1300£¬gained£º0
+	id£º199£¬bankroll£º3700£¬gained£º2950
+	id£º153£¬bankroll£º2450£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:1300,status:NORMAL,connection£ºtrue
+    Id:199,gold:92266,bankroll:3700,status:NORMAL,connection£ºtrue
+    Id:153,gold:893235,bankroll:2450,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:31:18 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll1300
+Player 199	bankroll3700
+Player 153	bankroll2450
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:1300,status:NORMAL,
+    Id:199,gold:92266,bankroll:3700,status:NORMAL,
+    Id:153,gold:893235,bankroll:2450,status:NORMAL,
+
+Board cards£ººì8£¬Ã·3£¬ºÚ10£¬Ã·6£¬ºÚ5
+Thread id£º32£¬banker seat£º2£¬banker Id£º153
+Turn£º0
+    Player 153 in 2£¬bankroll£º2450£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 240 in 0£¬bankroll£º1275£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 199 in 1£¬bankroll£º3650£¬anted£º50£¬checkable,minRaise:75...check
+         All betted.
+       ½±³Ø£º150(50)£¬
+         Broadcast cards£ººì8£¬Ã·3£¬ºÚ10
+Turn£º1
+    Player 240 in 0£¬bankroll£º1250£¬anted£º50£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º3650£¬anted£º50£¬minCall£º50,minRaise:100...call 50
+    Player 153 in 2£¬bankroll£º2400£¬anted£º50£¬minCall£º50,minRaise:100...raise 500
+    Player 240 in 0£¬bankroll£º1200£¬anted£º100£¬minCall£º450,minRaise:950...fold
+    Player 199 in 1£¬bankroll£º3600£¬anted£º100£¬minCall£º450,minRaise:950...call 450
+         All betted.
+       ½±³Ø£º1100(550)£¬
+         Broadcast cards£ºÃ·6
+Turn£º2
+    Player 199 in 1£¬bankroll£º3150£¬anted£º550£¬checkable,minRaise:50...check
+    Player 153 in 2£¬bankroll£º1900£¬anted£º550£¬checkable,minRaise:50...raise 1250
+    Player 199 in 1£¬bankroll£º3150£¬anted£º550£¬minCall£º1250,minRaise:2500...fold
+       ½±³Ø£º1800(1800)£¬
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºË³×Ó
+    Origin cards£ººÚ10£¬ºì8£¬Ã·6£¬ºÚ5£¬·½4£¬Ã·3£¬·½2
+    Max combined£ºÃ·6£¬ºÚ5£¬·½4£¬Ã·3£¬·½2
+    Hole cards£ººì10£¬·½4£¬·½2£¬ºÚ8
+Id£º199£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½13£¬ºÚ10£¬ºì8£¬Ã·6£¬ºÚ5£¬Ã·3£¬ºì3
+    Max combined£ºÃ·3£¬ºì3£¬·½13£¬ºÚ10£¬ºì8
+    Hole cards£º·½13£¬ºì3£¬Ã·4£¬Ã·12
+Id£º240£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚ10£¬ºì8£¬Ã·6£¬·½6£¬ºì5£¬ºÚ5£¬Ã·3
+    Max combined£ºÃ·6£¬·½6£¬ºì5£¬ºÚ5£¬ºÚ10
+    Hole cards£ººì5£¬Ã·13£¬·½6£¬Ã·11
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º1200£¬gained£º0
+	id£º199£¬bankroll£º3150£¬gained£º0
+	id£º153£¬bankroll£º2450£¬gained£º1800
+
+Player list£º
+    Id:240,gold:888,bankroll:1200,status:NORMAL,connection£ºtrue
+    Id:199,gold:92266,bankroll:3150,status:NORMAL,connection£ºtrue
+    Id:153,gold:893235,bankroll:2450,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:32:05 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll1200
+Player 199	bankroll3150
+Player 153	bankroll2450
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:1200,status:NORMAL,
+    Id:199,gold:92266,bankroll:3150,status:NORMAL,
+    Id:153,gold:893235,bankroll:2450,status:NORMAL,
+
+Board cards£ººÚ12£¬ºì4£¬ºì10£¬·½13£¬ºÚ3
+Thread id£º32£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 240 in 0£¬bankroll£º1200£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 199 in 1£¬bankroll£º3125£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 153 in 2£¬bankroll£º2400£¬anted£º50£¬checkable,minRaise:75...check
+         All betted.
+       ½±³Ø£º150(50)£¬
+         Broadcast cards£ººÚ12£¬ºì4£¬ºì10
+Turn£º1
+    Player 199 in 1£¬bankroll£º3100£¬anted£º50£¬checkable,minRaise:50...check
+    Player 153 in 2£¬bankroll£º2400£¬anted£º50£¬checkable,minRaise:50...raise 50
+    Player 240 in 0£¬bankroll£º1150£¬anted£º50£¬minCall£º50,minRaise:100...raise 100
+    Player 199 in 1£¬bankroll£º3100£¬anted£º50£¬minCall£º100,minRaise:150...call 100
+    Player 153 in 2£¬bankroll£º2350£¬anted£º100£¬minCall£º50,minRaise:150...call 50
+         All betted.
+       ½±³Ø£º450(150)£¬
+         Broadcast cards£º·½13
+Turn£º2
+    Player 199 in 1£¬bankroll£º3000£¬anted£º150£¬checkable,minRaise:50...check
+    Player 153 in 2£¬bankroll£º2300£¬anted£º150£¬checkable,minRaise:50...raise 150
+    Player 240 in 0£¬bankroll£º1050£¬anted£º150£¬minCall£º150,minRaise:300...All in 1050
+    Player 199 in 1£¬bankroll£º3000£¬anted£º150£¬minCall£º1050,minRaise:1950...fold
+    Player 153 in 2£¬bankroll£º2150£¬anted£º300£¬minCall£º900,minRaise:1950...fold
+       ½±³Ø£º1200(1200)£¬
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºË³×Ó
+    Origin cards£º·½13£¬ºÚ12£¬Ã·11£¬ºì10£¬ºÚ9£¬ºì4£¬ºÚ3
+    Max combined£º·½13£¬ºÚ12£¬Ã·11£¬ºì10£¬ºÚ9
+    Hole cards£ººÚ9£¬·½3£¬ºì9£¬Ã·11
+Id£º199£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·A£¬·½13£¬ºÚ12£¬ºì10£¬ºÚ8£¬ºì4£¬ºÚ3
+    Max combined£ºÃ·A£¬·½13£¬ºÚ12£¬ºì10£¬ºÚ8
+    Hole cards£ººÚ8£¬ºì5£¬·½6£¬Ã·A
+Id£º153£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½13£¬ºÚ12£¬ºì10£¬·½9£¬·½8£¬ºì4£¬ºÚ3
+    Max combined£º·½13£¬ºÚ12£¬ºì10£¬·½9£¬·½8
+    Hole cards£ºÃ·5£¬·½9£¬·½8£¬ºÚ6
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º1200£¬gained£º1200
+	id£º199£¬bankroll£º3000£¬gained£º0
+	id£º153£¬bankroll£º2150£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:1200,status:NORMAL,connection£ºtrue
+    Id:199,gold:92266,bankroll:3000,status:NORMAL,connection£ºtrue
+    Id:153,gold:893235,bankroll:2150,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:33:00 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll1200
+Player 199	bankroll3000
+Player 153	bankroll2150
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:1200,status:NORMAL,
+    Id:199,gold:92266,bankroll:3000,status:NORMAL,
+    Id:153,gold:893235,bankroll:2150,status:NORMAL,
+
+Board cards£º·½12£¬·½2£¬ºìA£¬ºÚ4£¬Ã·11
+Thread id£º32£¬banker seat£º1£¬banker Id£º199
+Turn£º0
+    Player 199 in 1£¬bankroll£º3000£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 153 in 2£¬bankroll£º2125£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 240 in 0£¬bankroll£º1150£¬anted£º50£¬checkable,minRaise:75...raise 75
+    Player 199 in 1£¬bankroll£º2950£¬anted£º50£¬minCall£º75,minRaise:200...raise 200
+    Player 153 in 2£¬bankroll£º2100£¬anted£º50£¬minCall£º200,minRaise:375...call 200
+    Player 240 in 0£¬bankroll£º1075£¬anted£º125£¬minCall£º125,minRaise:375...raise 375
+    Player 199 in 1£¬bankroll£º2750£¬anted£º250£¬minCall£º250,minRaise:750...call 250
+    Player 153 in 2£¬bankroll£º1900£¬anted£º250£¬minCall£º250,minRaise:750...call 250
+         All betted.
+       ½±³Ø£º1500(500)£¬
+         Broadcast cards£º·½12£¬·½2£¬ºìA
+Turn£º1
+    Player 153 in 2£¬bankroll£º1650£¬anted£º500£¬checkable,minRaise:50...check
+    Player 240 in 0£¬bankroll£º700£¬anted£º500£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º2500£¬anted£º500£¬minCall£º50,minRaise:100...raise 500
+    Player 153 in 2£¬bankroll£º1650£¬anted£º500£¬minCall£º500,minRaise:950...fold
+    Player 240 in 0£¬bankroll£º650£¬anted£º550£¬minCall£º450,minRaise:950...All in 650
+    Player 199 in 1£¬bankroll£º2000£¬anted£º1000£¬minCall£º200,minRaise:900...call 200
+Only one player left.
+       ½±³Ø£º2400(1200)£¬
+         Broadcast cards£ººÚ4£¬Ã·11
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬·½A£¬ºì12£¬·½12£¬Ã·11£¬ºÚ4£¬·½2
+    Max combined£ººìA£¬·½A£¬ºì12£¬·½12£¬Ã·11
+    Hole cards£ººì12£¬ºì2£¬·½A£¬·½11
+Id£º199£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººìA£¬Ã·A£¬·½12£¬Ã·11£¬Ã·7£¬ºÚ4£¬·½2
+    Max combined£ººìA£¬Ã·A£¬·½12£¬Ã·11£¬Ã·7
+    Hole cards£ºÃ·A£¬Ã·7£¬Ã·3£¬ºì6
+Id£º153£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººìA£¬·½12£¬Ã·11£¬ºÚ11£¬Ã·8£¬ºÚ4£¬·½2
+    Max combined£ºÃ·11£¬ºÚ11£¬ºìA£¬·½12£¬Ã·8
+    Hole cards£º·½7£¬ºÚ11£¬Ã·8£¬ºì5
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º2400£¬gained£º2400
+	id£º199£¬bankroll£º1800£¬gained£º0
+	id£º153£¬bankroll£º1650£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:2400,status:NORMAL,connection£ºtrue
+    Id:199,gold:92266,bankroll:1800,status:NORMAL,connection£ºtrue
+    Id:153,gold:893235,bankroll:1650,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:34:04 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll2400
+Player 199	bankroll1800
+Player 153	bankroll1650
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:2400,status:NORMAL,
+    Id:199,gold:92266,bankroll:1800,status:NORMAL,
+    Id:153,gold:893235,bankroll:1650,status:NORMAL,
+
+Board cards£ººì10£¬Ã·9£¬ºÚ12£¬Ã·5£¬ºì3
+Thread id£º32£¬banker seat£º2£¬banker Id£º153
+Turn£º0
+    Player 153 in 2£¬bankroll£º1650£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 240 in 0£¬bankroll£º2375£¬anted£º25£¬minCall£º25,minRaise:75...raise 100
+    Player 199 in 1£¬bankroll£º1750£¬anted£º50£¬minCall£º75,minRaise:200...call 75
+    Player 153 in 2£¬bankroll£º1600£¬anted£º50£¬minCall£º75,minRaise:200...call 75
+         All betted.
+       ½±³Ø£º375(125)£¬
+         Broadcast cards£ººì10£¬Ã·9£¬ºÚ12
+Turn£º1
+    Player 240 in 0£¬bankroll£º2275£¬anted£º125£¬checkable,minRaise:50...fold
+    Player 199 in 1£¬bankroll£º1675£¬anted£º125£¬checkable,minRaise:50...check
+    Player 153 in 2£¬bankroll£º1525£¬anted£º125£¬checkable,minRaise:50...raise 500
+    Player 199 in 1£¬bankroll£º1675£¬anted£º125£¬minCall£º500,minRaise:1000...call 500
+         All betted.
+       ½±³Ø£º1250(625)£¬
+         Broadcast cards£ºÃ·5
+Turn£º2
+    Player 199 in 1£¬bankroll£º1175£¬anted£º625£¬checkable,minRaise:50...check
+    Player 153 in 2£¬bankroll£º1025£¬anted£º625£¬checkable,minRaise:50...raise 500
+    Player 199 in 1£¬bankroll£º1175£¬anted£º625£¬minCall£º500,minRaise:1000...raise 1000
+    Player 153 in 2£¬bankroll£º525£¬anted£º1125£¬minCall£º500,minRaise:1500...All in 525
+    Player 199 in 1£¬bankroll£º175£¬anted£º1625£¬minCall£º25,minRaise:1050...call 25
+Only one player left.
+       ½±³Ø£º3300(1650)£¬
+         Broadcast cards£ººì3
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºË³×Ó
+    Origin cards£ººÚ12£¬·½11£¬ºì10£¬Ã·9£¬Ã·8£¬Ã·5£¬ºì3
+    Max combined£ººÚ12£¬·½11£¬ºì10£¬Ã·9£¬Ã·8
+    Hole cards£ºÃ·8£¬ºì4£¬·½11£¬Ã·7
+Id£º199£¬victory£ºfalse£¬cards£ºÈýÌõ
+    Origin cards£ººÚ12£¬ºì10£¬Ã·9£¬Ã·5£¬ºì5£¬·½5£¬ºì3
+    Max combined£ºÃ·5£¬ºì5£¬·½5£¬ºÚ12£¬ºì10
+    Hole cards£ººì5£¬·½5£¬ºÚ10£¬Ã·2
+Id£º240£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ12£¬ºì10£¬Ã·9£¬ºÚ9£¬ºÚ6£¬Ã·5£¬ºì3
+    Max combined£ºÃ·9£¬ºÚ9£¬ºÚ12£¬ºì10£¬ºÚ6
+    Hole cards£ººÚ6£¬ºÚ4£¬ºÚ9£¬ºì2
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º2275£¬gained£º0
+	id£º199£¬bankroll£º150£¬gained£º0
+	id£º153£¬bankroll£º3300£¬gained£º3300
+
+Player list£º
+    Id:240,gold:888,bankroll:2275,status:NORMAL,connection£ºtrue
+    Id:199,gold:92266,bankroll:150,status:NORMAL,connection£ºtrue
+    Id:153,gold:893235,bankroll:3300,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:35:02 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll2275
+Player 199	bankroll150
+Player 153	bankroll3300
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:2275,status:NORMAL,
+    Id:199,gold:92266,bankroll:150,status:NORMAL,
+    Id:153,gold:893235,bankroll:3300,status:NORMAL,
+
+Board cards£ºÃ·6£¬ºì6£¬Ã·13£¬·½2£¬Ã·12
+Thread id£º32£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 240 in 0£¬bankroll£º2275£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 199 in 1£¬bankroll£º125£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 153 in 2£¬bankroll£º3250£¬anted£º50£¬checkable,minRaise:75...check
+         All betted.
+       ½±³Ø£º150(50)£¬
+         Broadcast cards£ºÃ·6£¬ºì6£¬Ã·13
+Turn£º1
+    Player 199 in 1£¬bankroll£º100£¬anted£º50£¬checkable,minRaise:50...fold
+    Player 153 in 2£¬bankroll£º3250£¬anted£º50£¬checkable,minRaise:50...Player 199 joinSpectatorGroup.
+Player 199 leaveGamersGroup.
+Player 199 leaveSpectatorGroup.
+Player 199 joinGamersGroup.
+check
+    Player 240 in 0£¬bankroll£º2225£¬anted£º50£¬checkable,minRaise:50...raise 50
+    Player 153 in 2£¬bankroll£º3250£¬anted£º50£¬minCall£º50,minRaise:100...call 50
+         All betted.
+       ½±³Ø£º250(100)£¬
+         Broadcast cards£º·½2
+Turn£º2
+    Player 153 in 2£¬bankroll£º3200£¬anted£º100£¬checkable,minRaise:50...check
+    Player 240 in 0£¬bankroll£º2175£¬anted£º100£¬checkable,minRaise:50...raise 50
+    Player 153 in 2£¬bankroll£º3200£¬anted£º100£¬minCall£º50,minRaise:100...call 50
+         All betted.
+       ½±³Ø£º350(150)£¬
+         Broadcast cards£ºÃ·12
+Turn£º3
+    Player 153 in 2£¬bankroll£º3150£¬anted£º150£¬checkable,minRaise:50...fold
+       ½±³Ø£º350(150)£¬
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·13£¬Ã·12£¬ºì8£¬ºì6£¬Ã·6£¬·½2£¬ºÚ2
+    Max combined£ººì6£¬Ã·6£¬·½2£¬ºÚ2£¬Ã·13
+    Hole cards£ººì8£¬Ã·11£¬ºÚ2£¬·½7
+Id£º199£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·13£¬Ã·12£¬ºì10£¬·½8£¬Ã·6£¬ºì6£¬·½2
+    Max combined£ºÃ·6£¬ºì6£¬Ã·13£¬Ã·12£¬ºì10
+    Hole cards£º·½8£¬ºì10£¬·½9£¬·½3
+Id£º153£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·13£¬Ã·12£¬ºÚ10£¬ºì6£¬Ã·6£¬Ã·3£¬·½2
+    Max combined£ººì6£¬Ã·6£¬Ã·13£¬Ã·12£¬ºÚ10
+    Hole cards£ºÃ·3£¬ºì7£¬ºì5£¬ºÚ10
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º2475£¬gained£º350
+	id£º199£¬bankroll£º0£¬gained£º0
+	id£º153£¬bankroll£º3150£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:2475,status:NORMAL,connection£ºtrue
+    Id:199,gold:92266,bankroll:0,status:NORMAL,connection£ºtrue
+    Id:153,gold:893235,bankroll:3150,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:36:00 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll2475
+´óÓÚ´óÃ¤
+Player 199 in 1 recharge£º2500
+Player 199	bankroll2500
+Player 153	bankroll3150
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:2475,status:NORMAL,
+    Id:199,gold:89866,bankroll:2500,status:NORMAL,
+    Id:153,gold:893235,bankroll:3150,status:NORMAL,
+
+Board cards£ººÚ4£¬ºì8£¬ºÚ7£¬ºì7£¬ºì6
+Thread id£º32£¬banker seat£º1£¬banker Id£º199
+Turn£º0
+    Player 199 in 1£¬bankroll£º2500£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 153 in 2£¬bankroll£º3125£¬anted£º25£¬minCall£º25,minRaise:75...raise 500
+    Player 240 in 0£¬bankroll£º2425£¬anted£º50£¬minCall£º475,minRaise:1000...raise 1000
+    Player 199 in 1£¬bankroll£º2450£¬anted£º50£¬minCall£º1000,minRaise:1575...raise 1575
+    Player 153 in 2£¬bankroll£º2625£¬anted£º525£¬minCall£º1100,minRaise:2200...All in 2625
+    Player 240 in 0£¬bankroll£º1425£¬anted£º1050£¬minCall£º2100,minRaise:4675...All in 1425
+    Player 199 in 1£¬bankroll£º875£¬anted£º1625£¬minCall£º1525,minRaise:4675...All in 875
+No player left.
+       ½±³Ø£º7425(2475)£¬50(2500)£¬650(3150)£¬
+         Broadcast cards£ººÚ4£¬ºì8£¬ºÚ7£¬ºì7£¬ºì6
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÍ¬»¨
+    Origin cards£ººì10£¬ºì8£¬ºì7£¬ºÚ7£¬ºì6£¬ºì5£¬ºÚ4
+    Max combined£ººì10£¬ºì8£¬ºì7£¬ºì6£¬ºì5
+    Hole cards£ººÚ5£¬ºì3£¬ºì5£¬ºì10
+Id£º153£¬victory£ºfalse£¬cards£ºË³×Ó
+    Origin cards£ºÃ·11£¬ºì8£¬ºì7£¬ºÚ7£¬ºì6£¬Ã·5£¬ºÚ4
+    Max combined£ººì8£¬ºì7£¬ºì6£¬Ã·5£¬ºÚ4
+    Hole cards£ºÃ·11£¬ºì2£¬Ã·A£¬Ã·5
+Id£º199£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·13£¬ºì13£¬ºì8£¬ºÚ7£¬ºì7£¬ºì6£¬ºÚ4
+    Max combined£ºÃ·13£¬ºì13£¬ºÚ7£¬ºì7£¬ºì8
+    Hole cards£ºÃ·13£¬Ã·3£¬ºì13£¬·½10
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º7425£¬gained£º7425
+	id£º199£¬bankroll£º0£¬gained£º0
+	id£º153£¬bankroll£º700£¬gained£º700
+
+Player list£º
+    Id:240,gold:888,bankroll:7425,status:NORMAL,connection£ºtrue
+    Id:199,gold:89866,bankroll:0,status:NORMAL,connection£ºtrue
+    Id:153,gold:893235,bankroll:700,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:36:38 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll7425
+´óÓÚ´óÃ¤
+Player 199 in 1 recharge£º2500
+Player 199	bankroll2500
+Player 153	bankroll700
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:7425,status:NORMAL,
+    Id:199,gold:87366,bankroll:2500,status:NORMAL,
+    Id:153,gold:893235,bankroll:700,status:NORMAL,
+
+Board cards£ººÚ4£¬·½6£¬ºÚ10£¬ºÚ13£¬·½3
+Thread id£º32£¬banker seat£º2£¬banker Id£º153
+Turn£º0
+    Player 153 in 2£¬bankroll£º700£¬anted£º0£¬minCall£º50,minRaise:75...All in 700
+    Player 240 in 0£¬bankroll£º7400£¬anted£º25£¬minCall£º675,minRaise:1350...call 675
+    Player 199 in 1£¬bankroll£º2450£¬anted£º50£¬minCall£º650,minRaise:1350...call 650
+         All betted.
+       ½±³Ø£º2100(700)£¬
+         Broadcast cards£ººÚ4£¬·½6£¬ºÚ10
+Turn£º1
+    Player 240 in 0£¬bankroll£º6725£¬anted£º700£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º1800£¬anted£º700£¬minCall£º50,minRaise:100...call 50
+         All betted.
+       ½±³Ø£º2100(700)£¬100(750)£¬
+         Broadcast cards£ººÚ13
+Turn£º2
+    Player 240 in 0£¬bankroll£º6675£¬anted£º750£¬checkable,minRaise:50...raise 50
+    Player 199 in 1£¬bankroll£º1750£¬anted£º750£¬minCall£º50,minRaise:100...raise 500
+    Player 240 in 0£¬bankroll£º6625£¬anted£º800£¬minCall£º450,minRaise:950...fold
+         All betted.
+       ½±³Ø£º2100(700)£¬550(1250)£¬
+         Broadcast cards£º·½3
+
+Victory player id£º199
+Id£º199£¬victory£ºtrue£¬cards£ºÍ¬»¨
+    Origin cards£ººÚ13£¬ºÚ12£¬ºÚ10£¬ºÚ7£¬·½6£¬ºÚ4£¬·½3
+    Max combined£ººÚ13£¬ºÚ12£¬ºÚ10£¬ºÚ7£¬ºÚ4
+    Hole cards£º·½4£¬ºÚ2£¬ºÚ7£¬ºÚ12
+Id£º153£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººìA£¬ºÚA£¬ºÚ13£¬ºÚ10£¬·½6£¬ºÚ4£¬·½3
+    Max combined£ººìA£¬ºÚA£¬ºÚ13£¬ºÚ10£¬·½6
+    Hole cards£ººì10£¬ºìA£¬ºì9£¬ºÚA
+Id£º240£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬ºÚ10£¬Ã·10£¬·½8£¬·½6£¬ºÚ4£¬·½3
+    Max combined£ººÚ10£¬Ã·10£¬ºÚ13£¬·½8£¬·½6
+    Hole cards£º·½8£¬ºÚ8£¬Ã·10£¬Ã·5
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º6625£¬gained£º0
+	id£º199£¬bankroll£º3900£¬gained£º2650
+	id£º153£¬bankroll£º0£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:6625,status:NORMAL,connection£ºtrue
+    Id:199,gold:87366,bankroll:3900,status:NORMAL,connection£ºtrue
+    Id:153,gold:893235,bankroll:0,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:37:26 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll6625
+Player 199	bankroll3900
+´óÓÚ´óÃ¤
+Player 153 in 2 recharge£º2500
+Player 153	bankroll2500
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:6625,status:NORMAL,
+    Id:199,gold:87366,bankroll:3900,status:NORMAL,
+    Id:153,gold:890735,bankroll:2500,status:NORMAL,
+
+Board cards£º·½9£¬Ã·4£¬ºÚ5£¬ºÚ13£¬ºÚ8
+Thread id£º32£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 240 in 0£¬bankroll£º6625£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 199 in 1£¬bankroll£º3875£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 153 in 2£¬bankroll£º2450£¬anted£º50£¬checkable,minRaise:75...check
+         All betted.
+       ½±³Ø£º150(50)£¬
+         Broadcast cards£º·½9£¬Ã·4£¬ºÚ5
+Turn£º1
+    Player 199 in 1£¬bankroll£º3850£¬anted£º50£¬checkable,minRaise:50...fold
+    Player 153 in 2£¬bankroll£º2450£¬anted£º50£¬checkable,minRaise:50...raise 500
+    Player 240 in 0£¬bankroll£º6575£¬anted£º50£¬minCall£º500,minRaise:1000...call 500
+         All betted.
+       ½±³Ø£º1100(550)£¬
+         Broadcast cards£ººÚ13
+Turn£º2
+    Player 153 in 2£¬bankroll£º1950£¬anted£º550£¬checkable,minRaise:50...All in 1950
+    Player 240 in 0£¬bankroll£º6075£¬anted£º550£¬minCall£º1950,minRaise:3900...call 1950
+Only one player left.
+       ½±³Ø£º5000(2500)£¬
+         Broadcast cards£ººÚ8
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬·½13£¬ºÚ10£¬·½9£¬ºÚ8£¬ºÚ5£¬Ã·4
+    Max combined£ººÚ13£¬·½13£¬ºÚ10£¬·½9£¬ºÚ8
+    Hole cards£º·½3£¬·½13£¬ºÚ10£¬·½2
+Id£º240£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬·½9£¬ºÚ8£¬ºÚ5£¬Ã·4£¬Ã·2£¬ºì2
+    Max combined£ºÃ·2£¬ºì2£¬ºÚ13£¬·½9£¬ºÚ8
+    Hole cards£ººì6£¬Ã·2£¬Ã·3£¬ºì2
+Id£º199£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬ºì12£¬·½9£¬ºÚ8£¬ºÚ5£¬·½4£¬Ã·4
+    Max combined£º·½4£¬Ã·4£¬ºÚ13£¬ºì12£¬·½9
+    Hole cards£ººì7£¬Ã·11£¬·½4£¬ºì12
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º4125£¬gained£º0
+	id£º199£¬bankroll£º3850£¬gained£º0
+	id£º153£¬bankroll£º5000£¬gained£º5000
+
+Player list£º
+    Id:240,gold:888,bankroll:4125,status:NORMAL,connection£ºtrue
+    Id:199,gold:87366,bankroll:3850,status:NORMAL,connection£ºtrue
+    Id:153,gold:890735,bankroll:5000,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:38:19 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll4125
+Player 199	bankroll3850
+Player 153	bankroll5000
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:4125,status:NORMAL,
+    Id:199,gold:87366,bankroll:3850,status:NORMAL,
+    Id:153,gold:890735,bankroll:5000,status:NORMAL,
+
+Board cards£ººì11£¬ºì5£¬Ã·10£¬Ã·2£¬Ã·11
+Thread id£º32£¬banker seat£º1£¬banker Id£º199
+Turn£º0
+    Player 199 in 1£¬bankroll£º3850£¬anted£º0£¬minCall£º50,minRaise:75...fold
+    Player 153 in 2£¬bankroll£º4975£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 240 in 0£¬bankroll£º4075£¬anted£º50£¬checkable,minRaise:75...raise 75
+    Player 153 in 2£¬bankroll£º4950£¬anted£º50£¬minCall£º75,minRaise:200...call 75
+         All betted.
+       ½±³Ø£º250(125)£¬
+         Broadcast cards£ººì11£¬ºì5£¬Ã·10
+Turn£º1
+    Player 153 in 2£¬bankroll£º4875£¬anted£º125£¬checkable,minRaise:50...raise 1250
+    Player 240 in 0£¬bankroll£º4000£¬anted£º125£¬minCall£º1250,minRaise:2500...raise 2500
+    Player 153 in 2£¬bankroll£º3625£¬anted£º1375£¬minCall£º1250,minRaise:3750...call 1250
+         All betted.
+       ½±³Ø£º5250(2625)£¬
+         Broadcast cards£ºÃ·2
+Turn£º2
+    Player 153 in 2£¬bankroll£º2375£¬anted£º2625£¬checkable,minRaise:50...All in 2375
+    Player 240 in 0£¬bankroll£º1500£¬anted£º2625£¬minCall£º2375,minRaise:4750...All in 1500
+No player left.
+       ½±³Ø£º8250(4125)£¬875(5000)£¬
+         Broadcast cards£ºÃ·11
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººì11£¬Ã·11£¬Ã·10£¬Ã·8£¬ºÚ8£¬ºì5£¬Ã·2
+    Max combined£ººì11£¬Ã·11£¬Ã·8£¬ºÚ8£¬Ã·10
+    Hole cards£ºÃ·8£¬·½4£¬ºÚ8£¬ºÚ6
+Id£º153£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚA£¬Ã·11£¬ºì11£¬Ã·10£¬·½5£¬ºì5£¬Ã·2
+    Max combined£ºÃ·11£¬ºì11£¬·½5£¬ºì5£¬ºÚA
+    Hole cards£º·½5£¬·½3£¬Ã·6£¬ºÚA
+Id£º199£¬victory£ºfalse£¬cards£ºÂúÌÃºì
+    Origin cards£ººì11£¬Ã·11£¬·½11£¬Ã·10£¬ºì5£¬ºÚ5£¬Ã·2
+    Max combined£ººì11£¬Ã·11£¬·½11£¬ºì5£¬ºÚ5
+    Hole cards£º·½11£¬ºì9£¬ºÚ5£¬·½12
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º8250£¬gained£º8250
+	id£º199£¬bankroll£º3850£¬gained£º0
+	id£º153£¬bankroll£º875£¬gained£º875
+
+Player list£º
+    Id:240,gold:888,bankroll:8250,status:NORMAL,connection£ºtrue
+    Id:199,gold:87366,bankroll:3850,status:NORMAL,connection£ºtrue
+    Id:153,gold:890735,bankroll:875,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:39:25 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll8250
+Player 199	bankroll3850
+Player 153	bankroll875
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:240,gold:888,bankroll:8250,status:NORMAL,
+    Id:199,gold:87366,bankroll:3850,status:NORMAL,
+    Id:153,gold:890735,bankroll:875,status:NORMAL,
+
+Board cards£ººì12£¬ºÚ5£¬ºÚ8£¬ºÚ11£¬ºÚ9
+Thread id£º32£¬banker seat£º2£¬banker Id£º153
+Turn£º0
+    Player 153 in 2£¬bankroll£º875£¬anted£º0£¬minCall£º50,minRaise:75...call 50
+    Player 240 in 0£¬bankroll£º8225£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 199 in 1£¬bankroll£º3800£¬anted£º50£¬checkable,minRaise:75...fold
+         All betted.
+       ½±³Ø£º150(50)£¬
+         Broadcast cards£ººì12£¬ºÚ5£¬ºÚ8
+Turn£º1
+    Player 240 in 0£¬bankroll£º8200£¬anted£º50£¬checkable,minRaise:50...Player 199 joinSpectatorGroup.
+Player 199 leaveGamersGroup.
+raise 50
+    Player 153 in 2£¬bankroll£º825£¬anted£º50£¬minCall£º50,minRaise:100...All in 825
+    Player 240 in 0£¬bankroll£º8150£¬anted£º100£¬minCall£º775,minRaise:1600...raise 1600
+Only one player left.
+       ½±³Ø£º1800(875)£¬825(1700)£¬
+         Broadcast cards£ººÚ11£¬ºÚ9
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºÍ¬»¨
+    Origin cards£ººì12£¬ºÚ11£¬ºÚ9£¬ºÚ8£¬ºÚ5£¬ºì5£¬ºÚ4
+    Max combined£ººÚ11£¬ºÚ9£¬ºÚ8£¬ºÚ5£¬ºÚ4
+    Hole cards£ººì5£¬ºì13£¬ºÚ4£¬Ã·2
+Id£º240£¬victory£ºfalse£¬cards£ºË³×Ó
+    Origin cards£ººì12£¬ºÚ11£¬·½11£¬Ã·10£¬ºÚ9£¬ºÚ8£¬ºÚ5
+    Max combined£ººì12£¬ºÚ11£¬Ã·10£¬ºÚ9£¬ºÚ8
+    Hole cards£º·½11£¬Ã·10£¬·½3£¬Ã·9
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º7375£¬gained£º825
+	id£º153£¬bankroll£º1800£¬gained£º1800
+
+Player list£º
+    Id:240,gold:888,bankroll:7375,status:NORMAL,connection£ºtrue
+    Id:153,gold:890735,bankroll:1800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:40:19 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll7375
+Player 153	bankroll1800
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:7375,status:NORMAL,
+    Id:153,gold:890735,bankroll:1800,status:NORMAL,
+
+Board cards£ººì5£¬Ã·2£¬·½8£¬Ã·8£¬·½6
+Thread id£º32£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 153 in 2£¬bankroll£º1775£¬anted£º25£¬minCall£º25,minRaise:75...All in 1775
+    Player 240 in 0£¬bankroll£º7325£¬anted£º50£¬minCall£º1750,minRaise:3550...call 1750
+Only one player left.
+       ½±³Ø£º3600(1800)£¬
+         Broadcast cards£ººì5£¬Ã·2£¬·½8£¬Ã·8£¬·½6
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚA£¬Ã·A£¬·½8£¬Ã·8£¬·½6£¬ºì5£¬Ã·2
+    Max combined£ººÚA£¬Ã·A£¬·½8£¬Ã·8£¬·½6
+    Hole cards£ººÚA£¬Ã·A£¬·½4£¬ºìA
+Id£º153£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚ11£¬·½11£¬·½8£¬Ã·8£¬·½6£¬ºì5£¬Ã·2
+    Max combined£ººÚ11£¬·½11£¬·½8£¬Ã·8£¬·½6
+    Hole cards£ººÚ11£¬·½11£¬·½9£¬ºì11
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º9175£¬gained£º3600
+	id£º153£¬bankroll£º0£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:9175,status:NORMAL,connection£ºtrue
+    Id:153,gold:890735,bankroll:0,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:40:36 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll9175
+´óÓÚ´óÃ¤
+Player 153 in 2 recharge£º2500
+Player 153	bankroll2500
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:9175,status:NORMAL,
+    Id:153,gold:888235,bankroll:2500,status:NORMAL,
+
+Board cards£º·½3£¬ºÚ8£¬·½12£¬Ã·12£¬ºì11
+Thread id£º32£¬banker seat£º2£¬banker Id£º153
+Turn£º0
+    Player 240 in 0£¬bankroll£º9150£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 153 in 2£¬bankroll£º2450£¬anted£º50£¬checkable,minRaise:75...All in 2450
+    Player 240 in 0£¬bankroll£º9125£¬anted£º50£¬minCall£º2450,minRaise:4950...call 2450
+Only one player left.
+       ½±³Ø£º5000(2500)£¬
+         Broadcast cards£º·½3£¬ºÚ8£¬·½12£¬Ã·12£¬ºì11
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£º·½12£¬Ã·12£¬ºì11£¬·½10£¬ºì10£¬ºÚ8£¬·½3
+    Max combined£º·½12£¬Ã·12£¬·½10£¬ºì10£¬ºì11
+    Hole cards£º·½5£¬·½10£¬ºì10£¬ºì8
+Id£º153£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬Ã·12£¬·½12£¬ºì11£¬ºì9£¬ºÚ8£¬·½3
+    Max combined£ºÃ·12£¬·½12£¬ºÚA£¬ºì11£¬ºì9
+    Hole cards£ººì4£¬ºÚA£¬Ã·5£¬ºì9
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º11675£¬gained£º5000
+	id£º153£¬bankroll£º0£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:11675,status:NORMAL,connection£ºtrue
+    Id:153,gold:888235,bankroll:0,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:40:58 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll11675
+´óÓÚ´óÃ¤
+Player 153 in 2 recharge£º2500
+Player 153	bankroll2500
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:11675,status:NORMAL,
+    Id:153,gold:885735,bankroll:2500,status:NORMAL,
+
+Board cards£ºÃ·12£¬Ã·6£¬·½A£¬ºì9£¬ºì11
+Thread id£º32£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 153 in 2£¬bankroll£º2475£¬anted£º25£¬minCall£º25,minRaise:75...All in 2475
+    Player 240 in 0£¬bankroll£º11625£¬anted£º50£¬minCall£º2450,minRaise:4950...call 2450
+Only one player left.
+       ½±³Ø£º5000(2500)£¬
+         Broadcast cards£ºÃ·12£¬Ã·6£¬·½A£¬ºì9£¬ºì11
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÈýÌõ
+    Origin cards£º·½A£¬Ã·12£¬ºì11£¬ºÚ11£¬·½11£¬ºì9£¬Ã·6
+    Max combined£ººì11£¬ºÚ11£¬·½11£¬·½A£¬Ã·12
+    Hole cards£ººÚ11£¬Ã·10£¬·½11£¬·½5
+Id£º153£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬Ã·12£¬ºì11£¬ºì9£¬Ã·6£¬ºì6£¬ºÚ5
+    Max combined£ºÃ·6£¬ºì6£¬·½A£¬Ã·12£¬ºì11
+    Hole cards£ººì6£¬ºÚ5£¬·½8£¬Ã·3
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º14175£¬gained£º5000
+	id£º153£¬bankroll£º0£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:14175,status:NORMAL,connection£ºtrue
+    Id:153,gold:885735,bankroll:0,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:41:26 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll14175
+´óÓÚ´óÃ¤
+Player 153 in 2 recharge£º2500
+Player 153	bankroll2500
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:14175,status:NORMAL,
+    Id:153,gold:883235,bankroll:2500,status:NORMAL,
+
+Board cards£ºÃ·11£¬Ã·9£¬Ã·10£¬·½13£¬Ã·8
+Thread id£º32£¬banker seat£º2£¬banker Id£º153
+Turn£º0
+    Player 240 in 0£¬bankroll£º14150£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 153 in 2£¬bankroll£º2450£¬anted£º50£¬checkable,minRaise:75...All in 2450
+    Player 240 in 0£¬bankroll£º14125£¬anted£º50£¬minCall£º2450,minRaise:4950...call 2450
+Only one player left.
+       ½±³Ø£º5000(2500)£¬
+         Broadcast cards£ºÃ·11£¬Ã·9£¬Ã·10£¬·½13£¬Ã·8
+
+Í¬»¨Ë³
+Í¬»¨Ë³
+Í¬»¨Ë³
+Í¬»¨Ë³
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÍ¬»¨Ë³
+    Origin cards£º·½13£¬Ã·11£¬Ã·10£¬Ã·9£¬Ã·8£¬Ã·7£¬ºì7
+    Max combined£ºÃ·11£¬Ã·10£¬Ã·9£¬Ã·8£¬Ã·7
+    Hole cards£ºÃ·7£¬ºì7£¬Ã·4£¬·½5
+Id£º153£¬victory£ºfalse£¬cards£ºË³×Ó
+    Origin cards£º·½13£¬·½12£¬Ã·11£¬Ã·10£¬Ã·9£¬·½9£¬Ã·8
+    Max combined£º·½13£¬·½12£¬Ã·11£¬Ã·10£¬Ã·9
+    Hole cards£º·½12£¬·½9£¬·½7£¬ºÚ9
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º16675£¬gained£º5000
+	id£º153£¬bankroll£º0£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:16675,status:NORMAL,connection£ºtrue
+    Id:153,gold:883235,bankroll:0,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:42:06 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll16675
+´óÓÚ´óÃ¤
+Player 153 in 2 recharge£º2500
+Player 153	bankroll2500
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:16675,status:NORMAL,
+    Id:153,gold:880735,bankroll:2500,status:NORMAL,
+
+Board cards£º·½9£¬ºÚ9£¬ºì9£¬·½4£¬ºì10
+Thread id£º32£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 153 in 2£¬bankroll£º2475£¬anted£º25£¬minCall£º25,minRaise:75...fold
+       ½±³Ø£º50(50)£¬
+
+Victory player id£º240
+Id£º240£¬victory£ºtrue£¬cards£ºÂúÌÃºì
+    Origin cards£ººì10£¬ºÚ9£¬ºì9£¬·½9£¬·½4£¬·½2£¬Ã·2
+    Max combined£ººÚ9£¬ºì9£¬·½9£¬·½2£¬Ã·2
+    Hole cards£º·½2£¬ºÚ13£¬Ã·2£¬Ã·3
+Id£º153£¬victory£ºfalse£¬cards£ºÂúÌÃºì
+    Origin cards£ºÃ·11£¬ºì10£¬ºì9£¬·½9£¬ºÚ9£¬·½4£¬ºì4
+    Max combined£ººì9£¬·½9£¬ºÚ9£¬·½4£¬ºì4
+    Hole cards£ºÃ·11£¬ºÚ5£¬Ã·12£¬ºì4
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º16675£¬gained£º50
+	id£º153£¬bankroll£º2475£¬gained£º0
+
+Player list£º
+    Id:240,gold:888,bankroll:16675,status:NORMAL,connection£ºtrue
+    Id:153,gold:880735,bankroll:2475,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:42:33 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll16675
+Player 153	bankroll2475
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:16675,status:NORMAL,
+    Id:153,gold:880735,bankroll:2475,status:NORMAL,
+
+Board cards£º·½5£¬Ã·6£¬·½8£¬ºÚ12£¬ºì3
+Thread id£º32£¬banker seat£º2£¬banker Id£º153
+Turn£º0
+    Player 240 in 0£¬bankroll£º16650£¬anted£º25£¬minCall£º25,minRaise:75...All in 16650
+    Player 153 in 2£¬bankroll£º2425£¬anted£º50£¬minCall£º16625,minRaise:33300...All in 2425
+No player left.
+       ½±³Ø£º4950(2475)£¬14200(16675)£¬
+         Broadcast cards£º·½5£¬Ã·6£¬·½8£¬ºÚ12£¬ºì3
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºÈýÌõ
+    Origin cards£ººÚ12£¬·½8£¬Ã·6£¬·½6£¬ºì6£¬·½5£¬ºì3
+    Max combined£ºÃ·6£¬·½6£¬ºì6£¬ºÚ12£¬·½8
+    Hole cards£ººì11£¬ºÚ9£¬·½6£¬ºì6
+Id£º240£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ12£¬Ã·12£¬·½11£¬·½8£¬Ã·6£¬·½5£¬ºì3
+    Max combined£ººÚ12£¬Ã·12£¬·½11£¬·½8£¬Ã·6
+    Hole cards£º·½11£¬ºì2£¬Ã·12£¬Ã·10
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º14200£¬gained£º14200
+	id£º153£¬bankroll£º4950£¬gained£º4950
+
+Player list£º
+    Id:240,gold:888,bankroll:14200,status:NORMAL,connection£ºtrue
+    Id:153,gold:880735,bankroll:4950,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:42:53 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll14200
+Player 153	bankroll4950
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:14200,status:NORMAL,
+    Id:153,gold:880735,bankroll:4950,status:NORMAL,
+
+Board cards£ººì3£¬Ã·8£¬·½12£¬Ã·6£¬ºÚ2
+Thread id£º32£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 153 in 2£¬bankroll£º4925£¬anted£º25£¬minCall£º25,minRaise:75...All in 4925
+    Player 240 in 0£¬bankroll£º14150£¬anted£º50£¬minCall£º4900,minRaise:9850...call 4900
+Only one player left.
+       ½±³Ø£º9900(4950)£¬
+         Broadcast cards£ººì3£¬Ã·8£¬·½12£¬Ã·6£¬ºÚ2
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºÈýÌõ
+    Origin cards£º·½12£¬ºì12£¬Ã·12£¬Ã·8£¬Ã·6£¬ºì3£¬ºÚ2
+    Max combined£º·½12£¬ºì12£¬Ã·12£¬Ã·8£¬Ã·6
+    Hole cards£ºÃ·13£¬ºì12£¬·½10£¬Ã·12
+Id£º240£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬·½12£¬Ã·8£¬Ã·6£¬ºì3£¬ºÚ2£¬·½2
+    Max combined£ººÚ2£¬·½2£¬ºÚ13£¬·½12£¬Ã·8
+    Hole cards£ººì9£¬ºÚ13£¬Ã·10£¬·½2
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º9250£¬gained£º0
+	id£º153£¬bankroll£º9900£¬gained£º9900
+
+Player list£º
+    Id:240,gold:888,bankroll:9250,status:NORMAL,connection£ºtrue
+    Id:153,gold:880735,bankroll:9900,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:43:12 new game begin in type 4 room 1.(small blind:25)
+Player 240	bankroll9250
+Player 153	bankroll9900
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:888,bankroll:9250,status:NORMAL,
+    Id:153,gold:880735,bankroll:9900,status:NORMAL,
+
+Board cards£º·½7£¬ºì7£¬·½11£¬ºÚA£¬·½2
+Thread id£º32£¬banker seat£º2£¬banker Id£º153
+Turn£º0
+    Player 240 in 0£¬bankroll£º9225£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 153 in 2£¬bankroll£º9850£¬anted£º50£¬checkable,minRaise:75...All in 9850
+    Player 240 in 0£¬bankroll£º9200£¬anted£º50£¬minCall£º9850,minRaise:19750...All in 9200
+No player left.
+       ½±³Ø£º18500(9250)£¬650(9900)£¬
+         Broadcast cards£º·½7£¬ºì7£¬·½11£¬ºÚA£¬·½2
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºÂúÌÃºì
+    Origin cards£ººÚA£¬·½11£¬·½7£¬ºì7£¬ºÚ7£¬·½2£¬Ã·2
+    Max combined£º·½7£¬ºì7£¬ºÚ7£¬·½2£¬Ã·2
+    Hole cards£º·½9£¬ºÚ7£¬ºì12£¬Ã·2
+Id£º240£¬victory£ºfalse£¬cards£ºÍ¬»¨
+    Origin cards£ººÚA£¬·½11£¬·½10£¬ºì7£¬·½7£¬·½4£¬·½2
+    Max combined£º·½11£¬·½10£¬·½7£¬·½4£¬·½2
+    Hole cards£ºÃ·5£¬·½4£¬ºì9£¬·½10
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º0£¬gained£º0
+	id£º153£¬bankroll£º19150£¬gained£º19150
+
+Player list£º
+    Id:240,gold:888,bankroll:0,status:NORMAL,connection£ºtrue
+    Id:153,gold:880735,bankroll:19150,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:43:33 new game begin in type 4 room 1.(small blind:25)
+´óÓÚ´óÃ¤
+Player 240 in 0 recharge£º888
+Player 240	bankroll888
+Player 153	bankroll19150
+Room 1£¬playingCount£º2£¬Player list£º
+    Id:240,gold:0,bankroll:888,status:NORMAL,
+    Id:153,gold:880735,bankroll:19150,status:NORMAL,
+
+Board cards£ººÚ4£¬ºÚ5£¬ºÚ9£¬ºÚ3£¬ºì8
+Thread id£º32£¬banker seat£º0£¬banker Id£º240
+Turn£º0
+    Player 153 in 2£¬bankroll£º19125£¬anted£º25£¬minCall£º25,minRaise:75...call 25
+    Player 240 in 0£¬bankroll£º838£¬anted£º50£¬checkable,minRaise:75...check
+         All betted.
+       ½±³Ø£º100(50)£¬
+         Broadcast cards£ººÚ4£¬ºÚ5£¬ºÚ9
+Turn£º1
+    Player 153 in 2£¬bankroll£º19100£¬anted£º50£¬checkable,minRaise:50...All in 19100
+    Player 240 in 0£¬bankroll£º838£¬anted£º50£¬minCall£º19100,minRaise:38200...All in 838
+No player left.
+       ½±³Ø£º1776(888)£¬18262(19150)£¬
+         Broadcast cards£ººÚ3£¬ºì8
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºÍ¬»¨
+    Origin cards£ººÚ13£¬ºì10£¬ºÚ9£¬ºì8£¬ºÚ5£¬ºÚ4£¬ºÚ3
+    Max combined£ººÚ13£¬ºÚ9£¬ºÚ5£¬ºÚ4£¬ºÚ3
+    Hole cards£ººì10£¬Ã·8£¬ºÚ2£¬ºÚ13
+Id£º240£¬victory£ºfalse£¬cards£ºÍ¬»¨
+    Origin cards£ºÃ·12£¬ºÚ12£¬ºÚ9£¬ºì8£¬ºÚ5£¬ºÚ4£¬ºÚ3
+    Max combined£ººÚ12£¬ºÚ9£¬ºÚ5£¬ºÚ4£¬ºÚ3
+    Hole cards£ºÃ·12£¬·½4£¬ºÚ12£¬·½2
+
+Result(not calculate)£º
+	id£º240£¬bankroll£º0£¬gained£º0
+	id£º153£¬bankroll£º20038£¬gained£º20038
+
+Player list£º
+    Id:240,gold:0,bankroll:0,status:NORMAL,connection£ºtrue
+    Id:153,gold:880735,bankroll:20038,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/13 04:43:53 new game begin in type 4 room 1.(small blind:25)
+´óÓÚ´óÃ¤
+Player 240 in 0 standup.
+Player 240 leaveGamersGroup.
+Player 240 joinSpectatorGroup.
+Exception in thread "Timer-1" java.lang.NullPointerException
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.checkBankroll(RoomImpl.java:599)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.begin(RoomImpl.java:529)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl$6.run(RoomImpl.java:1035)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Player 240 leaveSpectatorGroup.
+Player 240 leave room.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 4 room 1.
+Player 240 joinGamersGroup.
+Player request 240 recharging 5000
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 4 room 1.
+Player 240 joinGamersGroup.
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Player 199 leaveSpectatorGroup.
+Player 199 joinGamersGroup.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 4 room 1.
+Player 240 joinGamersGroup.
+Player 199 leaveGamersGroup.
+Player 199 leave room.
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 4 room 1.
+Player 199 joinGamersGroup.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 4 room 1.
+Player 240 joinGamersGroup.
+Player 199 leaveGamersGroup.
+Player 199 leave room.
+Player 153 leaveGamersGroup.
+Player 153 leave room.
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Validation is successfully£¡Username£ºliyanan
+Player 153 enter type 4 room 1.
+Player 153 joinGamersGroup.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 4 room 1.
+Player 240 joinGamersGroup.
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 4 room 1.
+Player 199 joinGamersGroup.
+Player 199 leaveGamersGroup.
+Player 199 leave room.
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 4 room 1.
+Player 240 joinGamersGroup.
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 4 room 1.
+Player 199 joinGamersGroup.
+Player 153 leaveGamersGroup.
+Player 153 leave room.
+Player 199 leaveGamersGroup.
+Player 199 leave room.
+Validation is successfully£¡Username£ºliyanan
+Player 153 enter type 3 room 2.
+Player 153 joinGamersGroup.
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 3 room 2.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/13 04:51:25 new game begin in type 3 room 2.(small blind:25)
+´óÓÚ´óÃ¤
+Player 153 in 0 recharge£º2500
+Player 153	bankroll2500
+´óÓÚ´óÃ¤
+Player 199 in 1 recharge£º2500
+Player 199	bankroll2500
+Room 2£¬playingCount£º2£¬Player list£º
+    Id:153,gold:898273,bankroll:2500,status:NORMAL,
+    Id:199,gold:88666,bankroll:2500,status:NORMAL,
+
+Board cards£ººÚ12£¬·½10£¬ºì11£¬ºÚA£¬ºì12
+Thread id£º29£¬banker seat£º0£¬banker Id£º153
+Turn£º0
+    Player 199 in 1£¬bankroll£º2475£¬anted£º25£¬minCall£º25,minRaise:75...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInTurn(RoomImpl.java:674)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.begin(RoomImpl.java:541)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl$2.run(RoomImpl.java:442)
+	at java.lang.Thread.run(Thread.java:745)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.joinGamersGroup(RoomImpl.java:444)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.playerEnter(RoomImpl.java:146)
+	at com.lingzerg.gamecenter.main.EventHandler.enterRoom(EventHandler.java:269)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:115)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+raise 500
+    Player 153 in 0£¬bankroll£º2450£¬anted£º50£¬minCall£º475,minRaise:1000...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+call 475
+         All betted.
+       ½±³Ø£º1050(525)£¬
+         Broadcast cards£ººÚ12£¬·½10£¬ºì11
+Turn£º1
+    Player 199 in 1£¬bankroll£º1975£¬anted£º525£¬checkable,minRaise:50...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInTurn(RoomImpl.java:674)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterOneTurn(RoomImpl.java:938)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:713)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+raise 500
+    Player 153 in 0£¬bankroll£º1975£¬anted£º525£¬minCall£º500,minRaise:1000...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 1 room 3.
+Player 240 joinGamersGroup.
+All in 1975
+    Player 199 in 1£¬bankroll£º1475£¬anted£º1025£¬minCall£º1475,minRaise:3450...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+All in 1475
+No player left.
+       ½±³Ø£º5000(2500)£¬
+         Broadcast cards£ººÚA£¬ºì12
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºË³×Ó
+    Origin cards£ººÚA£¬Ã·13£¬ºì12£¬ºÚ12£¬ºì11£¬·½10£¬ºÚ10
+    Max combined£ººÚA£¬Ã·13£¬ºì12£¬ºì11£¬·½10
+    Hole cards£ºÃ·13£¬ºÚ10
+Id£º199£¬victory£ºtrue£¬cards£ºË³×Ó
+    Origin cards£ººÚA£¬ºì13£¬·½13£¬ºÚ12£¬ºì12£¬ºì11£¬·½10
+    Max combined£ººÚA£¬ºì13£¬ºÚ12£¬ºì11£¬·½10
+    Hole cards£ººì13£¬·½13
+
+Result(not calculate)£º
+	id£º153£¬bankroll£º2500£¬gained£º2500
+	id£º199£¬bankroll£º2500£¬gained£º2500
+
+Player list£º
+    Id:153,gold:898273,bankroll:2500,status:NORMAL,connection£ºtrue
+    Id:199,gold:88666,bankroll:2500,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.waitingForNextPlay(RoomImpl.java:1043)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterAction(RoomImpl.java:1025)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterOneTurn(RoomImpl.java:945)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:906)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 3 room 2.
+Player 240 joinGamersGroup.
+Player 153 leaveGamersGroup.
+Player 153 leave room.
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Player 199 leaveGamersGroup.
+Player 199 leave room.
+Validation is successfully£¡Username£ºliyanan
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 3 room 2.
+Player 199 joinGamersGroup.
+Validation is successfully£¡Username£ºliyanan
+Player 153 enter type 3 room 2.
+Player 153 joinGamersGroup.
+Validation is successfully£¡Username£ºzhzlgb
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 3 room 2.
+Player 240 joinGamersGroup.
+Player 199 leaveGamersGroup.
+Player 199 leave room.
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Player 153 leaveGamersGroup.
+Player 153 leave room.
+Validation is successfully£¡Username£ºliyanan
+Player 153 enter type 2 room 4.
+Player 153 joinGamersGroup.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 2 room 4.
+Player 240 joinGamersGroup.
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 1 room 3.
+Player 199 joinGamersGroup.
+Player 199 leaveGamersGroup.
+Player 199 leave room.
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 2 room 4.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/13 04:54:38 new game begin in type 2 room 4.(small blind:50)
+A knockout play begin.
+Room 4£¬playingCount£º3£¬Player list£º
+    Id:153,gold:900773,bankroll:5000,status:NORMAL,
+    Id:240,gold:999999,bankroll:5000,status:NORMAL,
+    Id:199,gold:91166,bankroll:5000,status:NORMAL,
+
+Board cards£º·½A£¬ºì11£¬Ã·12£¬Ã·3£¬·½7
+Thread id£º24£¬banker seat£º0£¬banker Id£º153
+Turn£º0
+    Player 153 in 0£¬bankroll£º5000£¬anted£º0£¬minCall£º100,minRaise:150...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInTurn(RoomImpl.java:674)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.begin(RoomImpl.java:541)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl$2.run(RoomImpl.java:442)
+	at java.lang.Thread.run(Thread.java:745)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.joinGamersGroup(RoomImpl.java:444)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.playerEnter(RoomImpl.java:146)
+	at com.lingzerg.gamecenter.main.room.impl.knockout.KnockoutRoomImpl.playerEnter(KnockoutRoomImpl.java:53)
+	at com.lingzerg.gamecenter.main.EventHandler.enterRoom(EventHandler.java:237)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:115)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+All in 5000
+    Player 240 in 1£¬bankroll£º4950£¬anted£º50£¬minCall£º4950,minRaise:9900...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.room.impl.knockout.KnockoutRoomImpl.requestHandler(KnockoutRoomImpl.java:210)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+All in 4950
+    Player 199 in 2£¬bankroll£º4900£¬anted£º100£¬minCall£º4900,minRaise:9900...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.room.impl.knockout.KnockoutRoomImpl.requestHandler(KnockoutRoomImpl.java:210)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+fold
+No player left.
+       ½±³Ø£º10000(5000)£¬
+         Broadcast cards£º·½A£¬ºì11£¬Ã·12£¬Ã·3£¬·½7
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£ºÈýÌõ
+    Origin cards£º·½A£¬Ã·12£¬ºì11£¬·½11£¬ºÚ11£¬·½7£¬Ã·3
+    Max combined£ººì11£¬·½11£¬ºÚ11£¬·½A£¬Ã·12
+    Hole cards£º·½11£¬ºÚ11
+Id£º240£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬Ã·12£¬ºì11£¬ºì10£¬·½7£¬Ã·3£¬ºì3
+    Max combined£ºÃ·3£¬ºì3£¬·½A£¬Ã·12£¬ºì11
+    Hole cards£ººì10£¬ºì3
+Id£º199£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬Ã·12£¬ºì11£¬Ã·11£¬·½7£¬Ã·3£¬ºÚ3
+    Max combined£ººì11£¬Ã·11£¬Ã·3£¬ºÚ3£¬·½A
+    Hole cards£ºÃ·11£¬ºÚ3
+
+Result(not calculate)£º
+	id£º153£¬bankroll£º10000£¬gained£º10000
+	id£º240£¬bankroll£º0£¬gained£º0
+	id£º199£¬bankroll£º4900£¬gained£º0
+
+Player list£º
+    Id:153,gold:900773,bankroll:10000,status:NORMAL,connection£ºtrue
+    Id:240,gold:999999,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:199,gold:91166,bankroll:4900,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.waitingForNextPlay(RoomImpl.java:1043)
+	at com.lingzerg.gamecenter.main.room.impl.knockout.KnockoutRoomImpl.waitingForNextPlay(KnockoutRoomImpl.java:188)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterAction(RoomImpl.java:1025)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterOneTurn(RoomImpl.java:945)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:906)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.room.impl.knockout.KnockoutRoomImpl.requestHandler(KnockoutRoomImpl.java:210)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Player 199 leaveGamersGroup.
+Player 199 leave room.
+Player 153 leaveGamersGroup.
+Player 153 leave room.
+Validation is successfully£¡Username£ºliyanan
+Player 153 enter type 1 room 3.
+Player 153 joinGamersGroup.
+Validation is successfully£¡Username£ºxiaoguo33
+Player 199 enter type 1 room 3.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/13 04:55:34 new game begin in type 1 room 3.(small blind:5)
+´óÓÚ´óÃ¤
+Player 153 in 0 recharge£º400
+Player 153	bankroll400
+´óÓÚ´óÃ¤
+Player 199 in 1 recharge£º400
+Player 199	bankroll400
+Room 3£¬playingCount£º2£¬Player list£º
+    Id:153,gold:900373,bankroll:400,status:NORMAL,
+    Id:199,gold:90766,bankroll:400,status:NORMAL,
+
+Board cards£ººì12£¬·½2£¬·½8£¬·½3£¬ºì9
+Thread id£º26£¬banker seat£º0£¬banker Id£º153
+Turn£º0
+    Player 199 in 1£¬bankroll£º395£¬anted£º5£¬minCall£º5,minRaise:15...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInTurn(RoomImpl.java:674)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.begin(RoomImpl.java:541)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl$2.run(RoomImpl.java:442)
+	at java.lang.Thread.run(Thread.java:745)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.joinGamersGroup(RoomImpl.java:444)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.playerEnter(RoomImpl.java:146)
+	at com.lingzerg.gamecenter.main.EventHandler.enterRoom(EventHandler.java:207)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:115)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 1 room 3.
+Player 240 joinGamersGroup.
+call 5
+    Player 153 in 0£¬bankroll£º390£¬anted£º10£¬checkable,minRaise:15...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+check
+         All betted.
+       ½±³Ø£º20(10)£¬
+         Broadcast cards£ººì12£¬·½2£¬·½8
+Turn£º1
+    Player 199 in 1£¬bankroll£º390£¬anted£º10£¬checkable,minRaise:10...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInTurn(RoomImpl.java:674)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterOneTurn(RoomImpl.java:938)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:713)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+check
+    Player 153 in 0£¬bankroll£º390£¬anted£º10£¬checkable,minRaise:10...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+check
+         All checked.
+       ½±³Ø£º20(10)£¬
+         Broadcast cards£º·½3
+Turn£º2
+    Player 199 in 1£¬bankroll£º390£¬anted£º10£¬checkable,minRaise:10...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInTurn(RoomImpl.java:674)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterOneTurn(RoomImpl.java:938)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:698)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+check
+    Player 153 in 0£¬bankroll£º390£¬anted£º10£¬checkable,minRaise:10...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+check
+         All checked.
+       ½±³Ø£º20(10)£¬
+         Broadcast cards£ººì9
+Turn£º3
+    Player 199 in 1£¬bankroll£º390£¬anted£º10£¬checkable,minRaise:10...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInTurn(RoomImpl.java:674)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterOneTurn(RoomImpl.java:938)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:698)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+check
+    Player 153 in 0£¬bankroll£º390£¬anted£º10£¬checkable,minRaise:10...java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:756)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+check
+         All checked.
+       ½±³Ø£º20(10)£¬
+
+Victory player id£º153
+Id£º153£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·13£¬ºì12£¬ºì9£¬·½8£¬Ã·4£¬·½3£¬·½2
+    Max combined£ºÃ·13£¬ºì12£¬ºì9£¬·½8£¬Ã·4
+    Hole cards£ºÃ·4£¬Ã·13
+Id£º199£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººì12£¬Ã·10£¬ºì9£¬·½8£¬ºì6£¬·½3£¬·½2
+    Max combined£ººì12£¬Ã·10£¬ºì9£¬·½8£¬ºì6
+    Hole cards£ººì6£¬Ã·10
+
+Result(not calculate)£º
+	id£º153£¬bankroll£º410£¬gained£º20
+	id£º199£¬bankroll£º390£¬gained£º0
+	id£º240£¬bankroll£º0£¬gained£º0
+
+Player list£º
+    Id:153,gold:900373,bankroll:410,status:NORMAL,connection£ºtrue
+    Id:199,gold:90766,bankroll:390,status:NORMAL,connection£ºtrue
+    Id:240,gold:999999,bankroll:0,status:READY,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+java.lang.IllegalStateException: Timer already cancelled.
+	at java.util.Timer.sched(Timer.java:397)
+	at java.util.Timer.schedule(Timer.java:193)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.taskContinue(RoomImpl.java:382)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.waitingForNextPlay(RoomImpl.java:1043)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterAction(RoomImpl.java:1025)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.afterOneTurn(RoomImpl.java:945)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionInRound(RoomImpl.java:698)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.actionHandler(RoomImpl.java:904)
+	at com.lingzerg.gamecenter.main.room.impl.RoomImpl.requestHandler(RoomImpl.java:374)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:119)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Player request 240 recharging 800
+Player 240 leaveGamersGroup.
+Player 240 leave room.
+Validation is successfully£¡Username£ºzhzlgb
+Player 240 enter type 1 room 3.
+Player 240 joinGamersGroup.
+Player 199 leaveGamersGroup.
+Player 199 leave room.

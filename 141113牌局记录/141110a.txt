@@ -1,0 +1,2963 @@
+Server statup....
+Initializing...
+Ê®Ò»ÔÂ 11, 2014 12:48:46 ÉÏÎç com.mchange.v2.log.MLog <clinit>
+ÐÅÏ¢: MLog clients using java 1.4+ standard logging.
+Ê®Ò»ÔÂ 11, 2014 12:48:46 ÉÏÎç com.mchange.v2.c3p0.C3P0Registry banner
+ÐÅÏ¢: Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+Ê®Ò»ÔÂ 11, 2014 12:48:47 ÉÏÎç com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+ÐÅÏ¢: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> c3p0test, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> braup59516wbzccecauvh|6a7607a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> braup59516wbzccecauvh|6a7607a, idleConnectionTestPeriod -> 18000, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://development.mysql.rds.aliyuncs.com:3306/poker, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 80, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 15, usesTraditionalReflectiveProxies -> false ]
+Load room type info...Done.
+Initialization is complete.
+Validation is successfully£¡Username£ºccnode
+Player 3 enter type 2 room 1.
+Player 3 joinGamersGroup.
+Player 3 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 3 leave room.
+Validation is successfully£¡Username£ºccnode5
+Player 6 enter type 2 room 1.
+Player 6 joinGamersGroup.
+Validation is successfully£¡Username£ºccnode9
+Player 226 enter type 2 room 1.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/11 12:46:18 new game begin in type 2 room 1.
+A knockout play begin.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:5000,status:NORMAL,
+    Id:6,gold:32009,bankroll:5000,status:NORMAL,
+    Id:226,gold:38407,bankroll:5000,status:NORMAL,
+
+Board cards£ººÚ7£¬ºÚ13£¬Ã·9£¬ºì3£¬·½7
+Thread id£º28£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º5000£¬anted£º0£¬minCall£º100,minRaise:150...Player 226 joinGamersGroup.
+(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 1£¬bankroll£º4950£¬anted£º50£¬minCall£º50,minRaise:150...Validation is successfully£¡Username£ºccnode
+Player 3 enter type 2 room 2.
+Player 3 joinGamersGroup.
+All in 4950
+    Player 226 in 2£¬bankroll£º4900£¬anted£º100£¬minCall£º4900,minRaise:9900...All in 4900
+No player left.
+       ½±³Ø£º10000(5000)£¬
+         Broadcast cards£ººÚ7£¬ºÚ13£¬Ã·9£¬ºì3£¬·½7
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚ13£¬Ã·12£¬ºì9£¬Ã·9£¬ºÚ7£¬·½7£¬ºì3
+    Max combined£ººì9£¬Ã·9£¬ºÚ7£¬·½7£¬ºÚ13
+    Hole cards£ººì9£¬Ã·12
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬Ã·9£¬·½8£¬·½7£¬ºÚ7£¬Ã·5£¬ºì3
+    Max combined£º·½7£¬ºÚ7£¬ºÚ13£¬Ã·9£¬·½8
+    Hole cards£º·½8£¬Ã·5
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬ºÚ13£¬Ã·9£¬·½7£¬ºÚ7£¬·½3£¬ºì3
+    Max combined£º·½7£¬ºÚ7£¬·½3£¬ºì3£¬·½A
+    Hole cards£º·½3£¬·½A
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º5000£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º10000£¬gained£º10000
+
+Player list£º
+    Id:3,gold:240004,bankroll:5000,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:10000,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:46:42 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:5000,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:10000,status:NORMAL,
+
+Board cards£ºÃ·12£¬ºì10£¬·½5£¬ºì11£¬Ã·10
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º4900£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·12£¬ºì11£¬ºì10£¬Ã·10£¬·½8£¬ºÚ5£¬·½5
+    Max combined£ººì10£¬Ã·10£¬ºÚ5£¬·½5£¬Ã·12
+    Hole cards£ººÚ5£¬·½8
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·12£¬ºì11£¬Ã·11£¬Ã·10£¬ºì10£¬·½7£¬·½5
+    Max combined£ººì11£¬Ã·11£¬Ã·10£¬ºì10£¬Ã·12
+    Hole cards£º·½7£¬Ã·11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4900£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º10000£¬gained£º200
+
+Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:10000,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:46:52 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:10000,status:NORMAL,
+
+Board cards£ººÚ8£¬·½9£¬ºì3£¬ºì4£¬ºÚ11
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9900£¬anted£º100£¬minCall£º100,minRaise:300...fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººì13£¬ºì12£¬ºÚ11£¬·½9£¬ºÚ8£¬ºì4£¬ºì3
+    Max combined£ººì13£¬ºì12£¬ºÚ11£¬·½9£¬ºÚ8
+    Hole cards£ººì13£¬ºì12
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººÚ11£¬·½9£¬ºÚ8£¬ºÚ6£¬ºì4£¬ºì3£¬ºÚ2
+    Max combined£ººÚ11£¬·½9£¬ºÚ8£¬ºÚ6£¬ºì4
+    Hole cards£ººÚ2£¬ºÚ6
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4900£¬gained£º200
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9900£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9900,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:47:19 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9900,status:NORMAL,
+
+Board cards£ºÃ·2£¬·½3£¬ºì3£¬ºì7£¬·½A
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º4800£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬ºì11£¬ºì7£¬ºÚ5£¬·½3£¬ºì3£¬Ã·2
+    Max combined£º·½3£¬ºì3£¬·½A£¬ºì11£¬ºì7
+    Hole cards£ººÚ5£¬ºì11
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬ºì7£¬Ã·7£¬·½5£¬·½3£¬ºì3£¬Ã·2
+    Max combined£ººì7£¬Ã·7£¬·½3£¬ºì3£¬·½A
+    Hole cards£ºÃ·7£¬·½5
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4800£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9900£¬gained£º200
+
+Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9900,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:47:29 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9900,status:NORMAL,
+
+Board cards£ººÚ7£¬·½9£¬ºìA£¬ºì8£¬·½13
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9800£¬anted£º100£¬minCall£º100,minRaise:300...fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººìA£¬·½13£¬·½9£¬ºì8£¬ºÚ7£¬ºì5£¬Ã·4
+    Max combined£ººìA£¬·½13£¬·½9£¬ºì8£¬ºÚ7
+    Hole cards£ºÃ·4£¬ºì5
+Id£º226£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬·½13£¬ºì13£¬·½9£¬ºì8£¬ºì7£¬ºÚ7
+    Max combined£º·½13£¬ºì13£¬ºì7£¬ºÚ7£¬ºìA
+    Hole cards£ººì7£¬ºì13
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4800£¬gained£º200
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:47:56 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ººì2£¬ºì13£¬·½13£¬Ã·7£¬ºÚ11
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º4700£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººì13£¬·½13£¬ºÚ11£¬Ã·11£¬Ã·9£¬Ã·7£¬ºì2
+    Max combined£ººì13£¬·½13£¬ºÚ11£¬Ã·11£¬Ã·9
+    Hole cards£ºÃ·9£¬Ã·11
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬·½13£¬·½12£¬ºÚ11£¬Ã·8£¬Ã·7£¬ºì2
+    Max combined£ººì13£¬·½13£¬·½12£¬ºÚ11£¬Ã·8
+    Hole cards£º·½12£¬Ã·8
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4700£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º200
+
+Player list£º
+    Id:3,gold:240004,bankroll:4700,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:48:06 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4700,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ººÚ7£¬Ã·13£¬ºìA£¬·½5£¬Ã·5
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9700£¬anted£º100£¬minCall£º100,minRaise:300...All in 9700
+    Player 3 in 0£¬bankroll£º4500£¬anted£º200£¬minCall£º9600,minRaise:19400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º9800(9800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººìA£¬Ã·13£¬Ã·10£¬ºÚ7£¬Ã·6£¬·½5£¬Ã·5
+    Max combined£º·½5£¬Ã·5£¬ºìA£¬Ã·13£¬Ã·10
+    Hole cards£ºÃ·10£¬Ã·6
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬ºÚA£¬Ã·13£¬ºÚ7£¬Ã·5£¬·½5£¬Ã·3
+    Max combined£ººìA£¬ºÚA£¬Ã·5£¬·½5£¬Ã·13
+    Hole cards£ººÚA£¬Ã·3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4500£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º9800
+
+Player list£º
+    Id:3,gold:240004,bankroll:4500,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:48:18 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4500,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ººÚ6£¬Ã·6£¬ºÚ5£¬Ã·2£¬ºì13
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º4400£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººì13£¬Ã·10£¬ºì10£¬Ã·6£¬ºÚ6£¬ºÚ5£¬Ã·2
+    Max combined£ºÃ·10£¬ºì10£¬Ã·6£¬ºÚ6£¬ºì13
+    Hole cards£ºÃ·10£¬ºì10
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬ºÚ11£¬ºÚ6£¬Ã·6£¬ºÚ5£¬ºÚ4£¬Ã·2
+    Max combined£ººÚ6£¬Ã·6£¬ºì13£¬ºÚ11£¬ºÚ5
+    Hole cards£ººÚ11£¬ºÚ4
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4400£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º200
+
+Player list£º
+    Id:3,gold:240004,bankroll:4400,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:48:29 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4400,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ºÃ·6£¬·½A£¬·½5£¬Ã·2£¬ºì6
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9600£¬anted£º200£¬minCall£º200,minRaise:600...call 200
+    Player 3 in 0£¬bankroll£º4000£¬anted£º400£¬checkable,minRaise:600...(ÍÐ¹Ü3)check
+         All betted.
+       ½±³Ø£º800(400)£¬
+         Broadcast cards£ºÃ·6£¬·½A£¬·½5
+Turn£º1
+    Player 226 in 2£¬bankroll£º9400£¬anted£º400£¬checkable,minRaise:400...raise 400
+    Player 3 in 0£¬bankroll£º4000£¬anted£º400£¬minCall£º400,minRaise:800...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬Ã·10£¬ºì7£¬Ã·6£¬ºì6£¬·½5£¬Ã·2
+    Max combined£ºÃ·6£¬ºì6£¬·½A£¬Ã·10£¬ºì7
+    Hole cards£ºÃ·10£¬ºì7
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬·½11£¬ºì11£¬Ã·6£¬ºì6£¬·½5£¬Ã·2
+    Max combined£º·½11£¬ºì11£¬Ã·6£¬ºì6£¬·½A
+    Hole cards£º·½11£¬ºì11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4000£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:4000,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:48:43 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4000,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ººÚ10£¬Ã·2£¬Ã·9£¬·½6£¬ºÚ8
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º3800£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬ºÚ10£¬Ã·9£¬ºÚ8£¬·½6£¬Ã·2£¬ºÚ2
+    Max combined£ºÃ·2£¬ºÚ2£¬ºÚ13£¬ºÚ10£¬Ã·9
+    Hole cards£ººÚ13£¬ºÚ2
+Id£º3£¬victory£ºfalse£¬cards£ºË³×Ó
+    Origin cards£ºÃ·12£¬·½11£¬ºÚ10£¬Ã·9£¬ºÚ8£¬·½6£¬Ã·2
+    Max combined£ºÃ·12£¬·½11£¬ºÚ10£¬Ã·9£¬ºÚ8
+    Hole cards£º·½11£¬Ã·12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3800£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:3800,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:48:53 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3800,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£º·½8£¬ºì2£¬·½4£¬ºì6£¬·½A
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9600£¬anted£º200£¬minCall£º200,minRaise:600...call 200
+    Player 3 in 0£¬bankroll£º3400£¬anted£º400£¬checkable,minRaise:600...(ÍÐ¹Ü3)check
+         All betted.
+       ½±³Ø£º800(400)£¬
+         Broadcast cards£º·½8£¬ºì2£¬·½4
+Turn£º1
+    Player 226 in 2£¬bankroll£º9400£¬anted£º400£¬checkable,minRaise:400...raise 400
+    Player 3 in 0£¬bankroll£º3400£¬anted£º400£¬minCall£º400,minRaise:800...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£º·½A£¬·½13£¬ºÚ9£¬·½8£¬ºì6£¬·½4£¬ºì2
+    Max combined£º·½A£¬·½13£¬ºÚ9£¬·½8£¬ºì6
+    Hole cards£ººÚ9£¬·½13
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬·½8£¬ºì6£¬Ã·5£¬ºÚ5£¬·½4£¬ºì2
+    Max combined£ºÃ·5£¬ºÚ5£¬·½A£¬·½8£¬ºì6
+    Hole cards£ºÃ·5£¬ºÚ5
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3400£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:3400,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:49:10 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3400,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ºÃ·8£¬ºì10£¬ºÚ5£¬Ã·7£¬ºÚ8
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º3200£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººì10£¬·½9£¬ºÚ8£¬Ã·8£¬Ã·7£¬·½5£¬ºÚ5
+    Max combined£ººÚ8£¬Ã·8£¬·½5£¬ºÚ5£¬ºì10
+    Hole cards£º·½5£¬·½9
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººì10£¬Ã·8£¬ºÚ8£¬Ã·7£¬ºÚ6£¬ºÚ5£¬·½2
+    Max combined£ºÃ·8£¬ºÚ8£¬ºì10£¬Ã·7£¬ºÚ6
+    Hole cards£º·½2£¬ºÚ6
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3200£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:3200,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:49:20 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3200,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ºÃ·3£¬Ã·11£¬Ã·9£¬Ã·A£¬·½A
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9600£¬anted£º200£¬minCall£º200,minRaise:600...call 200
+    Player 3 in 0£¬bankroll£º2800£¬anted£º400£¬checkable,minRaise:600...(ÍÐ¹Ü3)check
+         All betted.
+       ½±³Ø£º800(400)£¬
+         Broadcast cards£ºÃ·3£¬Ã·11£¬Ã·9
+Turn£º1
+    Player 226 in 2£¬bankroll£º9400£¬anted£º400£¬checkable,minRaise:400...raise 400
+    Player 3 in 0£¬bankroll£º2800£¬anted£º400£¬minCall£º400,minRaise:800...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·A£¬·½A£¬Ã·11£¬Ã·9£¬ºì5£¬·½4£¬Ã·3
+    Max combined£ºÃ·A£¬·½A£¬Ã·11£¬Ã·9£¬ºì5
+    Hole cards£ººì5£¬·½4
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·A£¬·½A£¬ºì12£¬Ã·11£¬Ã·9£¬·½7£¬Ã·3
+    Max combined£ºÃ·A£¬·½A£¬ºì12£¬Ã·11£¬Ã·9
+    Hole cards£º·½7£¬ºì12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2800£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:2800,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:49:38 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2800,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ºÃ·5£¬Ã·6£¬ºÚ3£¬ºÚ7£¬·½2
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º2600£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£º·½12£¬ºì9£¬ºÚ7£¬Ã·6£¬Ã·5£¬ºÚ3£¬·½2
+    Max combined£º·½12£¬ºì9£¬ºÚ7£¬Ã·6£¬Ã·5
+    Hole cards£º·½12£¬ºì9
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·12£¬·½9£¬ºÚ7£¬Ã·6£¬Ã·5£¬ºÚ3£¬·½2
+    Max combined£ºÃ·12£¬·½9£¬ºÚ7£¬Ã·6£¬Ã·5
+    Hole cards£ºÃ·12£¬·½9
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2600£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:2600,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:49:48 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2600,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ººì9£¬Ã·12£¬·½9£¬Ã·3£¬·½12
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9600£¬anted£º200£¬minCall£º200,minRaise:600...call 200
+    Player 3 in 0£¬bankroll£º2200£¬anted£º400£¬checkable,minRaise:600...(ÍÐ¹Ü3)check
+         All betted.
+       ½±³Ø£º800(400)£¬
+         Broadcast cards£ººì9£¬Ã·12£¬·½9
+Turn£º1
+    Player 226 in 2£¬bankroll£º9400£¬anted£º400£¬checkable,minRaise:400...raise 2000
+    Player 3 in 0£¬bankroll£º2200£¬anted£º400£¬minCall£º2000,minRaise:4000...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º2400(2400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·12£¬·½12£¬Ã·10£¬ºì9£¬·½9£¬Ã·7£¬Ã·3
+    Max combined£ºÃ·12£¬·½12£¬ºì9£¬·½9£¬Ã·10
+    Hole cards£ºÃ·7£¬Ã·10
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·12£¬·½12£¬ºì11£¬ºì9£¬·½9£¬Ã·3£¬ºì3
+    Max combined£ºÃ·12£¬·½12£¬ºì9£¬·½9£¬ºì11
+    Hole cards£ººì11£¬ºì3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2200£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º2400
+
+Player list£º
+    Id:3,gold:240004,bankroll:2200,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:50:09 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2200,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ººì13£¬Ã·3£¬ºÚ11£¬·½9£¬·½A
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º2000£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬ºì13£¬ºÚ11£¬·½9£¬Ã·9£¬·½7£¬Ã·3
+    Max combined£º·½9£¬Ã·9£¬·½A£¬ºì13£¬ºÚ11
+    Hole cards£º·½7£¬Ã·9
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½A£¬ºì13£¬ºÚ11£¬·½9£¬·½8£¬Ã·3£¬ºÚ2
+    Max combined£º·½A£¬ºì13£¬ºÚ11£¬·½9£¬·½8
+    Hole cards£º·½8£¬ºÚ2
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2000£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:2000,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:50:20 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2000,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£º·½9£¬ºÚ13£¬ºÚ6£¬Ã·2£¬ºÚA
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9600£¬anted£º200£¬minCall£º200,minRaise:600...call 200
+    Player 3 in 0£¬bankroll£º1600£¬anted£º400£¬checkable,minRaise:600...(ÍÐ¹Ü3)check
+         All betted.
+       ½±³Ø£º800(400)£¬
+         Broadcast cards£º·½9£¬ºÚ13£¬ºÚ6
+Turn£º1
+    Player 226 in 2£¬bankroll£º9400£¬anted£º400£¬checkable,minRaise:400...raise 400
+    Player 3 in 0£¬bankroll£º1600£¬anted£º400£¬minCall£º400,minRaise:800...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬ºÚ13£¬·½13£¬ºì12£¬·½9£¬ºÚ6£¬Ã·2
+    Max combined£ººÚ13£¬·½13£¬ºÚA£¬ºì12£¬·½9
+    Hole cards£º·½13£¬ºì12
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººÚA£¬ºÚ13£¬Ã·10£¬·½9£¬ºÚ6£¬Ã·5£¬Ã·2
+    Max combined£ººÚA£¬ºÚ13£¬Ã·10£¬·½9£¬ºÚ6
+    Hole cards£ºÃ·10£¬Ã·5
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º1600£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:1600,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:50:32 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:1600,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ºÃ·3£¬Ã·9£¬·½6£¬ºÚ4£¬Ã·2
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+    Player 3 in 0£¬bankroll£º1200£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·9£¬ºì7£¬·½7£¬·½6£¬ºÚ4£¬Ã·3£¬Ã·2
+    Max combined£ººì7£¬·½7£¬Ã·9£¬·½6£¬ºÚ4
+    Hole cards£ººì7£¬·½7
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººìA£¬ºì11£¬Ã·9£¬·½6£¬ºÚ4£¬Ã·3£¬Ã·2
+    Max combined£ººìA£¬ºì11£¬Ã·9£¬·½6£¬ºÚ4
+    Hole cards£ººìA£¬ºì11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º1200£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:1200,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:50:42 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:1200,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ººÚ6£¬Ã·4£¬Ã·5£¬ºì11£¬ºÚ2
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9400£¬anted£º400£¬minCall£º400,minRaise:1200...call 400
+    Player 3 in 0£¬bankroll£º400£¬anted£º800£¬checkable,minRaise:1200...(ÍÐ¹Ü3)check
+         All betted.
+       ½±³Ø£º1600(800)£¬
+         Broadcast cards£ººÚ6£¬Ã·4£¬Ã·5
+Turn£º1
+    Player 226 in 2£¬bankroll£º9000£¬anted£º800£¬checkable,minRaise:800...raise 800
+    Player 3 in 0£¬bankroll£º400£¬anted£º800£¬minCall£º800,minRaise:1600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1600(1600)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºË³×Ó
+    Origin cards£ººì11£¬ºì9£¬ºÚ6£¬Ã·5£¬Ã·4£¬Ã·3£¬ºÚ2
+    Max combined£ººÚ6£¬Ã·5£¬Ã·4£¬Ã·3£¬ºÚ2
+    Hole cards£ºÃ·3£¬ºì9
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººì11£¬·½11£¬·½8£¬ºÚ6£¬Ã·5£¬Ã·4£¬ºÚ2
+    Max combined£ººì11£¬·½11£¬·½8£¬ºÚ6£¬Ã·5
+    Hole cards£º·½8£¬·½11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º400£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º1600
+
+Player list£º
+    Id:3,gold:240004,bankroll:400,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:50:55 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:400,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ºÃ·9£¬Ã·3£¬ºÚ9£¬ºì9£¬·½3
+Thread id£º32£¬banker seat£º2£¬banker Id£º226
+Turn£º0
+Only one player left.
+       ½±³Ø£º800(400)£¬400(800)£¬
+         Broadcast cards£ºÃ·9£¬Ã·3£¬ºÚ9£¬ºì9£¬·½3
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÂúÌÃºì
+    Origin cards£ºÃ·12£¬ºÚ11£¬ºì9£¬Ã·9£¬ºÚ9£¬Ã·3£¬·½3
+    Max combined£ººì9£¬Ã·9£¬ºÚ9£¬Ã·3£¬·½3
+    Hole cards£ºÃ·12£¬ºÚ11
+Id£º226£¬victory£ºtrue£¬cards£ºÂúÌÃºì
+    Origin cards£ºÃ·9£¬ºÚ9£¬ºì9£¬ºì5£¬Ã·4£¬Ã·3£¬·½3
+    Max combined£ºÃ·9£¬ºÚ9£¬ºì9£¬Ã·3£¬·½3
+    Hole cards£ºÃ·4£¬ºì5
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º400£¬gained£º400
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º9800£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:400,status:NORMAL,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:51:05 new game begin in type 2 room 1.
+Room 1£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:400,status:NORMAL,
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:9800,status:NORMAL,
+
+Board cards£ºÃ·2£¬ºì7£¬ºì9£¬ºÚ8£¬·½12
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 226 in 2£¬bankroll£º9400£¬anted£º400£¬minCall£º400,minRaise:1200...call 400
+Only one player left.
+       ½±³Ø£º800(400)£¬400(800)£¬
+         Broadcast cards£ºÃ·2£¬ºì7£¬ºì9£¬ºÚ8£¬·½12
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬·½12£¬ºì9£¬·½9£¬ºÚ8£¬ºì7£¬Ã·2
+    Max combined£ººì9£¬·½9£¬ºì13£¬·½12£¬ºÚ8
+    Hole cards£ººì13£¬·½9
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½12£¬ºÚ11£¬ºì9£¬ºÚ8£¬ºì7£¬·½3£¬Ã·2
+    Max combined£º·½12£¬ºÚ11£¬ºì9£¬ºÚ8£¬ºì7
+    Hole cards£ººÚ11£¬·½3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º0£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º10200£¬gained£º1200
+Only one player left.
+Get last player error in knockout
+µÚ1Ãû£º3
+µÚ2Ãû£º6
+
+Player list£º
+    Id:3,gold:240004,bankroll:0,status:KNOCKED_OUT,connection£ºfalse
+    Id:6,gold:32009,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:10200,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+Player 3 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 6 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 226 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 3 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 3 leave room.
+Validation is successfully£¡Username£ºccnode9
+Validation is successfully£¡Username£ºccnode9
+Player 226 enter type 2 room 2.
+Player 226 joinGamersGroup.
+Player 226 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 226 leave room.
+Validation is successfully£¡Username£ºccnode5
+Player 6 enter type 2 room 2.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/11 12:51:33 new game begin in type 2 room 2.
+A knockout play begin.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:5000,status:NORMAL,
+    Id:226,gold:38407,bankroll:5000,status:NORMAL,
+    Id:6,gold:32209,bankroll:5000,status:NORMAL,
+
+Board cards£ººÚ7£¬ºÚ2£¬Ã·8£¬ºì3£¬Ã·5
+Thread id£º27£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º5000£¬anted£º0£¬minCall£º100,minRaise:150...Player 6 joinGamersGroup.
+(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º4950£¬anted£º50£¬minCall£º50,minRaise:150...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º100(100)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·8£¬ºÚ7£¬·½6£¬Ã·5£¬ºÚ3£¬ºì3£¬ºÚ2
+    Max combined£ººÚ3£¬ºì3£¬Ã·8£¬ºÚ7£¬·½6
+    Hole cards£ººÚ3£¬·½6
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ10£¬Ã·8£¬ºÚ7£¬Ã·5£¬ºì5£¬ºì3£¬ºÚ2
+    Max combined£ºÃ·5£¬ºì5£¬ºÚ10£¬Ã·8£¬ºÚ7
+    Hole cards£ººÚ10£¬ºì5
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½13£¬Ã·8£¬ºÚ7£¬Ã·5£¬Ã·4£¬ºì3£¬ºÚ2
+    Max combined£º·½13£¬Ã·8£¬ºÚ7£¬Ã·5£¬Ã·4
+    Hole cards£º·½13£¬Ã·4
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º5000£¬gained£º0
+	id£º226£¬bankroll£º4950£¬gained£º0
+	id£º6£¬bankroll£º5000£¬gained£º100
+
+Player list£º
+    Id:3,gold:240004,bankroll:5000,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:5000,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+Player 6 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 6 leave room.
+-----------------------------------Begin----------------------------------------
+11/11 12:51:43 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:5000,status:NORMAL,
+    Id:226,gold:38407,bankroll:4950,status:NORMAL,
+    Id:6,gold:32209,bankroll:5000,status:NORMAL,
+
+Board cards£º·½13£¬Ã·4£¬ºÚ2£¬Ã·9£¬ºÚ8
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º4950£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º4900£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººìA£¬·½13£¬Ã·9£¬ºÚ8£¬Ã·4£¬ºì3£¬ºÚ2
+    Max combined£ººìA£¬·½13£¬Ã·9£¬ºÚ8£¬Ã·4
+    Hole cards£ººì3£¬ºìA
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½13£¬·½11£¬ºì9£¬Ã·9£¬ºÚ8£¬Ã·4£¬ºÚ2
+    Max combined£ººì9£¬Ã·9£¬·½13£¬·½11£¬ºÚ8
+    Hole cards£ººì9£¬·½11
+Id£º6£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½13£¬ºì12£¬Ã·9£¬ºÚ8£¬·½6£¬Ã·4£¬ºÚ2
+    Max combined£º·½13£¬ºì12£¬Ã·9£¬ºÚ8£¬·½6
+    Hole cards£º·½6£¬ºì12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º5000£¬gained£º200
+	id£º226£¬bankroll£º4950£¬gained£º0
+	id£º6£¬bankroll£º4900£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:5000,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4900,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+Validation is successfully£¡Username£ºccnode5
+Player 6 enter type 2 room 3.
+Player 6 joinGamersGroup.
+Validation is successfully£¡Username£ºccnode9
+Player 226 enter type 2 room 3.
+Player 226 joinGamersGroup.
+Validation is successfully£¡Username£ºccnode
+Player 3 enter type 2 room 3.
+
+Condition met in room 1,game beginning.
+-----------------------------------Begin----------------------------------------
+11/11 12:51:50 new game begin in type 2 room 3.
+A knockout play begin.
+Room 3£¬playingCount£º3£¬Player list£º
+    Id:6,gold:32209,bankroll:5000,status:NORMAL,
+    Id:226,gold:38407,bankroll:5000,status:NORMAL,
+    Id:3,gold:240504,bankroll:5000,status:NORMAL,
+
+Board cards£º·½7£¬·½3£¬ºÚ8£¬ºì7£¬Ã·13
+Thread id£º25£¬banker seat£º0£¬banker Id£º6
+Turn£º0
+    Player 6 in 0£¬bankroll£º5000£¬anted£º0£¬minCall£º100,minRaise:150...Player 3 joinGamersGroup.
+-----------------------------------Begin----------------------------------------
+11/11 12:51:53 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:5000,status:NORMAL,
+    Id:226,gold:38407,bankroll:4950,status:NORMAL,
+    Id:6,gold:32209,bankroll:4900,status:NORMAL,
+
+Board cards£ººì9£¬ºÚ11£¬ºÚ7£¬Ã·10£¬ºì7
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º4900£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º4900£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºË³×Ó
+    Origin cards£ººÚ11£¬Ã·10£¬ºì9£¬Ã·8£¬ºì7£¬ºÚ7£¬Ã·2
+    Max combined£ººÚ11£¬Ã·10£¬ºì9£¬Ã·8£¬ºì7
+    Hole cards£ºÃ·2£¬Ã·8
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚ11£¬Ã·10£¬ºì9£¬ºÚ7£¬ºì7£¬ºÚ6£¬ºì6
+    Max combined£ººÚ7£¬ºì7£¬ºÚ6£¬ºì6£¬ºÚ11
+    Hole cards£ººÚ6£¬ºì6
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚ11£¬Ã·10£¬ºì9£¬ºÚ9£¬ºì7£¬ºÚ7£¬·½3
+    Max combined£ººì9£¬ºÚ9£¬ºì7£¬ºÚ7£¬ºÚ11
+    Hole cards£ººÚ9£¬·½3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4900£¬gained£º0
+	id£º226£¬bankroll£º4950£¬gained£º200
+	id£º6£¬bankroll£º4900£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4900,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+All in 5000
+    Player 226 in 1£¬bankroll£º4950£¬anted£º50£¬minCall£º4950,minRaise:9900...All in 4950
+    Player 3 in 2£¬bankroll£º4900£¬anted£º100£¬minCall£º4900,minRaise:9900...All in 4900
+No player left.
+       ½±³Ø£º15000(5000)£¬
+         Broadcast cards£º·½7£¬·½3£¬ºÚ8£¬ºì7£¬Ã·13
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬Ã·13£¬ºÚ8£¬·½7£¬ºì7£¬·½3£¬ºÚ2
+    Max combined£º·½7£¬ºì7£¬ºÚA£¬Ã·13£¬ºÚ8
+    Hole cards£ººÚA£¬ºÚ2
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººìA£¬Ã·13£¬ºÚ8£¬·½7£¬ºì7£¬ºì6£¬·½3
+    Max combined£º·½7£¬ºì7£¬ºìA£¬Ã·13£¬ºÚ8
+    Hole cards£ººì6£¬ºìA
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·13£¬ºì12£¬ºÚ8£¬·½7£¬ºì7£¬·½5£¬·½3
+    Max combined£º·½7£¬ºì7£¬Ã·13£¬ºì12£¬ºÚ8
+    Hole cards£º·½5£¬ºì12
+
+Result(not calculate)£º
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º7500£¬gained£º7500
+	id£º3£¬bankroll£º7500£¬gained£º7500
+
+Player list£º
+    Id:6,gold:32209,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:7500,status:NORMAL,connection£ºtrue
+    Id:3,gold:240504,bankroll:7500,status:NORMAL,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:52:03 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,
+    Id:226,gold:38407,bankroll:4950,status:NORMAL,
+    Id:6,gold:32209,bankroll:4900,status:NORMAL,
+
+Board cards£ººÚ4£¬ºÚ5£¬ºÚ9£¬ºì4£¬ºÚ3
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º4900£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º4850£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÍ¬»¨
+    Origin cards£º·½13£¬ºÚ12£¬ºÚ9£¬ºÚ5£¬ºÚ4£¬ºì4£¬ºÚ3
+    Max combined£ººÚ12£¬ºÚ9£¬ºÚ5£¬ºÚ4£¬ºÚ3
+    Hole cards£º·½13£¬ºÚ12
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·13£¬ºÚ9£¬Ã·8£¬ºÚ5£¬ºÚ4£¬ºì4£¬ºÚ3
+    Max combined£ººÚ4£¬ºì4£¬Ã·13£¬ºÚ9£¬Ã·8
+    Hole cards£ºÃ·8£¬Ã·13
+Id£º3£¬victory£ºfalse£¬cards£ºÍ¬»¨
+    Origin cards£ººÚ13£¬ºÚ9£¬ºÚ5£¬ºì4£¬ºÚ4£¬Ã·3£¬ºÚ3
+    Max combined£ººÚ13£¬ºÚ9£¬ºÚ5£¬ºÚ4£¬ºÚ3
+    Hole cards£ºÃ·3£¬ºÚ13
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4900£¬gained£º0
+	id£º226£¬bankroll£º4850£¬gained£º0
+	id£º6£¬bankroll£º4900£¬gained£º200
+
+Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4850,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4900,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:52:07 new game begin in type 2 room 3.
+Room 3£¬playingCount£º3£¬Player list£º
+    Id:6,gold:32209,bankroll:0,status:KNOCKED_OUT,
+    Id:226,gold:38407,bankroll:7500,status:NORMAL,
+    Id:3,gold:240504,bankroll:7500,status:NORMAL,
+
+Board cards£ººì3£¬·½13£¬Ã·12£¬ºÚ3£¬·½11
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 3 in 2£¬bankroll£º7400£¬anted£º100£¬minCall£º100,minRaise:300...-----------------------------------Begin----------------------------------------
+11/11 12:52:13 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,
+    Id:226,gold:38407,bankroll:4850,status:NORMAL,
+    Id:6,gold:32209,bankroll:4900,status:NORMAL,
+
+Board cards£º·½5£¬·½A£¬ºÚ3£¬ºì5£¬ºÚ6
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º4850£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º4800£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬ºÚA£¬ºì8£¬ºÚ6£¬ºì5£¬·½5£¬ºÚ3
+    Max combined£º·½A£¬ºÚA£¬ºì5£¬·½5£¬ºì8
+    Hole cards£ººÚA£¬ºì8
+Id£º226£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬ºÚ13£¬ºÚ6£¬·½5£¬ºì5£¬ºì3£¬ºÚ3
+    Max combined£º·½5£¬ºì5£¬ºì3£¬ºÚ3£¬·½A
+    Hole cards£ººì3£¬ºÚ13
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£º·½A£¬Ã·A£¬·½11£¬ºÚ6£¬ºì5£¬·½5£¬ºÚ3
+    Max combined£º·½A£¬Ã·A£¬ºì5£¬·½5£¬·½11
+    Hole cards£º·½11£¬Ã·A
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4900£¬gained£º200
+	id£º226£¬bankroll£º4850£¬gained£º0
+	id£º6£¬bankroll£º4800£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4850,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4800,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+raise 6000
+    Player 226 in 1£¬bankroll£º7300£¬anted£º200£¬minCall£º5900,minRaise:12000...call 5900
+         All betted.
+       ½±³Ø£º12200(6100)£¬
+         Broadcast cards£ººì3£¬·½13£¬Ã·12
+Turn£º1
+    Player 3 in 2£¬bankroll£º1400£¬anted£º6100£¬checkable,minRaise:200...check
+    Player 226 in 1£¬bankroll£º1400£¬anted£º6100£¬checkable,minRaise:200...check
+         All checked.
+       ½±³Ø£º12200(6100)£¬
+         Broadcast cards£ººÚ3
+Turn£º2
+    Player 3 in 2£¬bankroll£º1400£¬anted£º6100£¬checkable,minRaise:200...check
+    Player 226 in 1£¬bankroll£º1400£¬anted£º6100£¬checkable,minRaise:200...-----------------------------------Begin----------------------------------------
+11/11 12:52:23 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4900,status:NORMAL,
+    Id:226,gold:38407,bankroll:4850,status:NORMAL,
+    Id:6,gold:32209,bankroll:4800,status:NORMAL,
+
+Board cards£ºÃ·5£¬ºÚ2£¬ºÚ6£¬Ã·8£¬·½10
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º4800£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º4800£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬·½10£¬Ã·8£¬ºÚ6£¬Ã·5£¬ºÚ5£¬ºÚ2
+    Max combined£ºÃ·5£¬ºÚ5£¬ºì13£¬·½10£¬Ã·8
+    Hole cards£ººì13£¬ºÚ5
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½10£¬ºì9£¬Ã·8£¬·½8£¬ºÚ6£¬Ã·5£¬ºÚ2
+    Max combined£ºÃ·8£¬·½8£¬·½10£¬ºì9£¬ºÚ6
+    Hole cards£ººì9£¬·½8
+Id£º6£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½11£¬·½10£¬Ã·8£¬ºÚ6£¬Ã·5£¬ºì4£¬ºÚ2
+    Max combined£º·½11£¬·½10£¬Ã·8£¬ºÚ6£¬Ã·5
+    Hole cards£ººì4£¬·½11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4800£¬gained£º0
+	id£º226£¬bankroll£º4850£¬gained£º200
+	id£º6£¬bankroll£º4800£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4850,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4800,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+All in 1400
+    Player 3 in 2£¬bankroll£º1400£¬anted£º6100£¬minCall£º1400,minRaise:2800...All in 1400
+No player left.
+       ½±³Ø£º15000(7500)£¬
+         Broadcast cards£º·½11
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£º·½13£¬ºÚ13£¬Ã·12£¬·½11£¬ºì9£¬ºÚ3£¬ºì3
+    Max combined£º·½13£¬ºÚ13£¬ºÚ3£¬ºì3£¬Ã·12
+    Hole cards£ººÚ13£¬ºì9
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½13£¬Ã·12£¬·½11£¬ºÚ9£¬ºì3£¬ºÚ3£¬ºÚ2
+    Max combined£ººì3£¬ºÚ3£¬·½13£¬Ã·12£¬·½11
+    Hole cards£ººÚ2£¬ºÚ9
+
+Result(not calculate)£º
+	id£º6£¬bankroll£º0£¬gained£º0
+	id£º226£¬bankroll£º15000£¬gained£º15000
+	id£º3£¬bankroll£º0£¬gained£º0
+µÚ1Ãû£º226
+µÚ2Ãû£º3
+µÚ3Ãû£º6
+
+Player list£º
+    Id:6,gold:32209,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+    Id:226,gold:38407,bankroll:15000,status:NORMAL,connection£ºtrue
+    Id:3,gold:240504,bankroll:0,status:KNOCKED_OUT,connection£ºtrue
+
+-------------------------------------End----------------------------------------
+Player 6 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 226 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 3 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+-----------------------------------Begin----------------------------------------
+11/11 12:52:33 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,
+    Id:226,gold:38407,bankroll:4850,status:NORMAL,
+    Id:6,gold:32209,bankroll:4800,status:NORMAL,
+
+Board cards£º·½9£¬Ã·10£¬ºì4£¬·½6£¬Ã·7
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º4800£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º4750£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ12£¬Ã·10£¬ºì10£¬·½9£¬Ã·7£¬·½6£¬ºì4
+    Max combined£ºÃ·10£¬ºì10£¬ºÚ12£¬·½9£¬Ã·7
+    Hole cards£ººÚ12£¬ºì10
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½A£¬Ã·10£¬·½9£¬Ã·7£¬·½6£¬ºì5£¬ºì4
+    Max combined£º·½A£¬Ã·10£¬·½9£¬Ã·7£¬·½6
+    Hole cards£ººì5£¬·½A
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·10£¬·½9£¬Ã·7£¬·½7£¬·½6£¬ºì4£¬ºì3
+    Max combined£ºÃ·7£¬·½7£¬Ã·10£¬·½9£¬·½6
+    Hole cards£º·½7£¬ºì3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4800£¬gained£º0
+	id£º226£¬bankroll£º4750£¬gained£º0
+	id£º6£¬bankroll£º4800£¬gained£º200
+
+Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4750,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4800,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:52:43 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,
+    Id:226,gold:38407,bankroll:4750,status:NORMAL,
+    Id:6,gold:32209,bankroll:4800,status:NORMAL,
+
+Board cards£ººÚ10£¬Ã·11£¬ºì2£¬Ã·4£¬ºÚ7
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º4750£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º4700£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·11£¬ºÚ10£¬ºì10£¬Ã·9£¬ºÚ7£¬Ã·4£¬ºì2
+    Max combined£ººÚ10£¬ºì10£¬Ã·11£¬Ã·9£¬ºÚ7
+    Hole cards£ººì10£¬Ã·9
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·12£¬Ã·11£¬ºÚ10£¬ºÚ7£¬Ã·6£¬Ã·4£¬ºì2
+    Max combined£ºÃ·12£¬Ã·11£¬ºÚ10£¬ºÚ7£¬Ã·6
+    Hole cards£ºÃ·6£¬Ã·12
+Id£º6£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·A£¬ºì12£¬Ã·11£¬ºÚ10£¬ºÚ7£¬Ã·4£¬ºì2
+    Max combined£ºÃ·A£¬ºì12£¬Ã·11£¬ºÚ10£¬ºÚ7
+    Hole cards£ººì12£¬Ã·A
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4800£¬gained£º200
+	id£º226£¬bankroll£º4750£¬gained£º0
+	id£º6£¬bankroll£º4700£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4750,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4700,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:52:53 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4800,status:NORMAL,
+    Id:226,gold:38407,bankroll:4750,status:NORMAL,
+    Id:6,gold:32209,bankroll:4700,status:NORMAL,
+
+Board cards£º·½8£¬·½13£¬·½3£¬ºÚ11£¬ºÚ10
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º4700£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º4700£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººìA£¬·½13£¬ºÚ11£¬ºÚ10£¬·½8£¬ºÚ7£¬·½3
+    Max combined£ººìA£¬·½13£¬ºÚ11£¬ºÚ10£¬·½8
+    Hole cards£ººÚ7£¬ºìA
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½13£¬ºÚ11£¬ºÚ10£¬·½8£¬Ã·6£¬ºì6£¬·½3
+    Max combined£ºÃ·6£¬ºì6£¬·½13£¬ºÚ11£¬ºÚ10
+    Hole cards£ºÃ·6£¬ºì6
+Id£º6£¬victory£ºfalse£¬cards£ºÈýÌõ
+    Origin cards£º·½13£¬ºÚ11£¬ºÚ10£¬·½8£¬·½3£¬ºì3£¬Ã·3
+    Max combined£º·½3£¬ºì3£¬Ã·3£¬·½13£¬ºÚ11
+    Hole cards£ººì3£¬Ã·3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4700£¬gained£º0
+	id£º226£¬bankroll£º4750£¬gained£º200
+	id£º6£¬bankroll£º4700£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4700,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4750,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4700,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:53:03 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4700,status:NORMAL,
+    Id:226,gold:38407,bankroll:4750,status:NORMAL,
+    Id:6,gold:32209,bankroll:4700,status:NORMAL,
+
+Board cards£º·½10£¬·½3£¬ºÚ8£¬ºÚA£¬Ã·2
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º4700£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º4650£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬Ã·12£¬·½10£¬ºÚ8£¬·½8£¬·½3£¬Ã·2
+    Max combined£ººÚ8£¬·½8£¬ºÚA£¬Ã·12£¬·½10
+    Hole cards£ºÃ·12£¬·½8
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬·½10£¬ºÚ8£¬ºì8£¬·½5£¬·½3£¬Ã·2
+    Max combined£ººÚ8£¬ºì8£¬ºÚA£¬·½10£¬·½5
+    Hole cards£º·½5£¬ºì8
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬Ã·11£¬·½10£¬ºÚ8£¬·½3£¬ºì2£¬Ã·2
+    Max combined£ººì2£¬Ã·2£¬ºÚA£¬Ã·11£¬·½10
+    Hole cards£ººì2£¬Ã·11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4700£¬gained£º0
+	id£º226£¬bankroll£º4650£¬gained£º0
+	id£º6£¬bankroll£º4700£¬gained£º200
+
+Player list£º
+    Id:3,gold:240004,bankroll:4700,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4650,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4700,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:53:13 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4700,status:NORMAL,
+    Id:226,gold:38407,bankroll:4650,status:NORMAL,
+    Id:6,gold:32209,bankroll:4700,status:NORMAL,
+
+Board cards£ºÃ·4£¬ºì7£¬Ã·11£¬ºÚ3£¬Ã·6
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º4650£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º4600£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·A£¬·½11£¬Ã·11£¬ºì7£¬Ã·6£¬Ã·4£¬ºÚ3
+    Max combined£º·½11£¬Ã·11£¬Ã·A£¬ºì7£¬Ã·6
+    Hole cards£º·½11£¬Ã·A
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººì13£¬Ã·11£¬ºì7£¬Ã·6£¬Ã·4£¬ºÚ3£¬ºì2
+    Max combined£ººì13£¬Ã·11£¬ºì7£¬Ã·6£¬Ã·4
+    Hole cards£ººì2£¬ºì13
+Id£º6£¬victory£ºfalse£¬cards£ºÍ¬»¨
+    Origin cards£ºÃ·13£¬Ã·11£¬ºì7£¬Ã·6£¬Ã·4£¬ºÚ3£¬Ã·2
+    Max combined£ºÃ·13£¬Ã·11£¬Ã·6£¬Ã·4£¬Ã·2
+    Hole cards£ºÃ·2£¬Ã·13
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4700£¬gained£º200
+	id£º226£¬bankroll£º4650£¬gained£º0
+	id£º6£¬bankroll£º4600£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4700,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4650,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4600,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:53:23 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4700,status:NORMAL,
+    Id:226,gold:38407,bankroll:4650,status:NORMAL,
+    Id:6,gold:32209,bankroll:4600,status:NORMAL,
+
+Board cards£º·½2£¬·½8£¬·½7£¬ºì6£¬·½3
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º4600£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º4600£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººì13£¬ºì10£¬·½8£¬·½7£¬ºì6£¬·½3£¬·½2
+    Max combined£ººì13£¬ºì10£¬·½8£¬·½7£¬ºì6
+    Hole cards£ººì13£¬ºì10
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·9£¬·½8£¬·½7£¬ºì6£¬ºì4£¬·½3£¬·½2
+    Max combined£ºÃ·9£¬·½8£¬·½7£¬ºì6£¬ºì4
+    Hole cards£ºÃ·9£¬ºì4
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£º·½8£¬·½7£¬ºì6£¬·½3£¬Ã·3£¬Ã·2£¬·½2
+    Max combined£º·½3£¬Ã·3£¬Ã·2£¬·½2£¬·½8
+    Hole cards£ºÃ·2£¬Ã·3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4600£¬gained£º0
+	id£º226£¬bankroll£º4650£¬gained£º200
+	id£º6£¬bankroll£º4600£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4600,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4650,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4600,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:53:33 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4600,status:NORMAL,
+    Id:226,gold:38407,bankroll:4650,status:NORMAL,
+    Id:6,gold:32209,bankroll:4600,status:NORMAL,
+
+Board cards£ººì6£¬ºÚ3£¬Ã·13£¬·½13£¬Ã·10
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º4600£¬anted£º0£¬minCall£º200,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º4550£¬anted£º100£¬minCall£º100,minRaise:300...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º200(200)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººìA£¬·½13£¬Ã·13£¬Ã·10£¬ºì6£¬ºÚ3£¬ºì2
+    Max combined£º·½13£¬Ã·13£¬ºìA£¬Ã·10£¬ºì6
+    Hole cards£ººìA£¬ºì2
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·13£¬·½13£¬Ã·11£¬Ã·10£¬ºì6£¬ºÚ3£¬Ã·2
+    Max combined£ºÃ·13£¬·½13£¬Ã·11£¬Ã·10£¬ºì6
+    Hole cards£ºÃ·2£¬Ã·11
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·13£¬·½13£¬Ã·10£¬ºì6£¬ºì5£¬ºÚ3£¬ºÚ2
+    Max combined£ºÃ·13£¬·½13£¬Ã·10£¬ºì6£¬ºì5
+    Hole cards£ººÚ2£¬ºì5
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4600£¬gained£º0
+	id£º226£¬bankroll£º4550£¬gained£º0
+	id£º6£¬bankroll£º4600£¬gained£º200
+
+Player list£º
+    Id:3,gold:240004,bankroll:4600,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4550,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4600,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:53:43 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4600,status:NORMAL,
+    Id:226,gold:38407,bankroll:4550,status:NORMAL,
+    Id:6,gold:32209,bankroll:4600,status:NORMAL,
+
+Board cards£ºÃ·12£¬Ã·8£¬ºÚ5£¬ºÚ13£¬ºÚ3
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º4550£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º4400£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬Ã·13£¬ºÚ13£¬Ã·12£¬Ã·8£¬ºÚ5£¬ºÚ3
+    Max combined£ºÃ·13£¬ºÚ13£¬ºÚA£¬Ã·12£¬Ã·8
+    Hole cards£ºÃ·13£¬ºÚA
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººÚ13£¬Ã·12£¬·½9£¬Ã·8£¬ºÚ5£¬·½4£¬ºÚ3
+    Max combined£ººÚ13£¬Ã·12£¬·½9£¬Ã·8£¬ºÚ5
+    Hole cards£º·½4£¬·½9
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬Ã·12£¬Ã·8£¬ºì7£¬ºÚ5£¬ºÚ3£¬·½3
+    Max combined£ººÚ3£¬·½3£¬ºÚ13£¬Ã·12£¬Ã·8
+    Hole cards£ººì7£¬·½3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4600£¬gained£º400
+	id£º226£¬bankroll£º4550£¬gained£º0
+	id£º6£¬bankroll£º4400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4600,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4550,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:53:53 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4600,status:NORMAL,
+    Id:226,gold:38407,bankroll:4550,status:NORMAL,
+    Id:6,gold:32209,bankroll:4400,status:NORMAL,
+
+Board cards£ººÚ6£¬Ã·4£¬·½3£¬Ã·10£¬ºì3
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º4400£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º4400£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·10£¬·½9£¬ºÚ6£¬ºì6£¬Ã·4£¬·½3£¬ºì3
+    Max combined£ººÚ6£¬ºì6£¬·½3£¬ºì3£¬Ã·10
+    Hole cards£º·½9£¬ºì6
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬ºÚ10£¬Ã·10£¬ºÚ6£¬Ã·4£¬·½3£¬ºì3
+    Max combined£ººÚ10£¬Ã·10£¬·½3£¬ºì3£¬ºìA
+    Hole cards£ººÚ10£¬ºìA
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·12£¬·½10£¬Ã·10£¬ºÚ6£¬Ã·4£¬·½3£¬ºì3
+    Max combined£º·½10£¬Ã·10£¬·½3£¬ºì3£¬Ã·12
+    Hole cards£º·½10£¬Ã·12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4400£¬gained£º0
+	id£º226£¬bankroll£º4550£¬gained£º400
+	id£º6£¬bankroll£º4400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4550,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:54:03 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4400,status:NORMAL,
+    Id:226,gold:38407,bankroll:4550,status:NORMAL,
+    Id:6,gold:32209,bankroll:4400,status:NORMAL,
+
+Board cards£ººì13£¬Ã·9£¬Ã·12£¬ºì6£¬·½6
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º4400£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º4350£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·A£¬ºì13£¬Ã·12£¬Ã·10£¬Ã·9£¬ºì6£¬·½6
+    Max combined£ººì6£¬·½6£¬Ã·A£¬ºì13£¬Ã·12
+    Hole cards£ºÃ·10£¬Ã·A
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬Ã·12£¬ºì11£¬Ã·9£¬·½6£¬ºì6£¬ºÚ2
+    Max combined£º·½6£¬ºì6£¬ºì13£¬Ã·12£¬ºì11
+    Hole cards£ººì11£¬ºÚ2
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬Ã·12£¬ºÚ10£¬Ã·9£¬·½6£¬ºì6£¬Ã·5
+    Max combined£º·½6£¬ºì6£¬ºì13£¬Ã·12£¬ºÚ10
+    Hole cards£ºÃ·5£¬ºÚ10
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4400£¬gained£º0
+	id£º226£¬bankroll£º4350£¬gained£º0
+	id£º6£¬bankroll£º4400£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:4400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:54:13 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4400,status:NORMAL,
+    Id:226,gold:38407,bankroll:4350,status:NORMAL,
+    Id:6,gold:32209,bankroll:4400,status:NORMAL,
+
+Board cards£ººÚ12£¬ºì11£¬Ã·2£¬ºì12£¬·½9
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º4350£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º4200£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬ºì12£¬ºÚ12£¬ºì11£¬ºÚ9£¬·½9£¬Ã·2
+    Max combined£ººì12£¬ºÚ12£¬ºÚ9£¬·½9£¬ºìA
+    Hole cards£ººÚ9£¬ºìA
+Id£º226£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚ12£¬ºì12£¬ºì11£¬·½9£¬ºÚ6£¬·½6£¬Ã·2
+    Max combined£ººÚ12£¬ºì12£¬ºÚ6£¬·½6£¬ºì11
+    Hole cards£ººÚ6£¬·½6
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬ºì12£¬ºÚ12£¬ºì11£¬·½9£¬Ã·8£¬Ã·2
+    Max combined£ººì12£¬ºÚ12£¬ºÚ13£¬ºì11£¬·½9
+    Hole cards£ºÃ·8£¬ºÚ13
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4400£¬gained£º400
+	id£º226£¬bankroll£º4350£¬gained£º0
+	id£º6£¬bankroll£º4200£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4200,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:54:23 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4400,status:NORMAL,
+    Id:226,gold:38407,bankroll:4350,status:NORMAL,
+    Id:6,gold:32209,bankroll:4200,status:NORMAL,
+
+Board cards£º·½6£¬Ã·12£¬Ã·2£¬ºÚ13£¬ºì8
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º4200£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º4200£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººÚ13£¬Ã·12£¬·½10£¬ºì8£¬·½7£¬·½6£¬Ã·2
+    Max combined£ººÚ13£¬Ã·12£¬·½10£¬ºì8£¬·½7
+    Hole cards£º·½7£¬·½10
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·A£¬ºÚ13£¬ºì13£¬Ã·12£¬ºì8£¬·½6£¬Ã·2
+    Max combined£ººÚ13£¬ºì13£¬Ã·A£¬Ã·12£¬ºì8
+    Hole cards£ºÃ·A£¬ºì13
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬Ã·12£¬ºì8£¬·½6£¬ºì5£¬Ã·2£¬ºì2
+    Max combined£ºÃ·2£¬ºì2£¬ºÚ13£¬Ã·12£¬ºì8
+    Hole cards£ººì5£¬ºì2
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4200£¬gained£º0
+	id£º226£¬bankroll£º4350£¬gained£º400
+	id£º6£¬bankroll£º4200£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4200,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4200,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:54:33 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4200,status:NORMAL,
+    Id:226,gold:38407,bankroll:4350,status:NORMAL,
+    Id:6,gold:32209,bankroll:4200,status:NORMAL,
+
+Board cards£ººì12£¬·½3£¬ºÚ2£¬·½13£¬ºÚ11
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º4200£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º4150£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£º·½13£¬ºì12£¬ºÚ11£¬ºÚ7£¬Ã·6£¬·½3£¬ºÚ2
+    Max combined£º·½13£¬ºì12£¬ºÚ11£¬ºÚ7£¬Ã·6
+    Hole cards£ººÚ7£¬Ã·6
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½13£¬ºì12£¬ºÚ11£¬ºÚ8£¬ºÚ5£¬·½3£¬ºÚ2
+    Max combined£º·½13£¬ºì12£¬ºÚ11£¬ºÚ8£¬ºÚ5
+    Hole cards£ººÚ5£¬ºÚ8
+Id£º3£¬victory£ºfalse£¬cards£ºÈýÌõ
+    Origin cards£º·½13£¬ºì12£¬ºÚ12£¬·½12£¬ºÚ11£¬·½3£¬ºÚ2
+    Max combined£ººì12£¬ºÚ12£¬·½12£¬·½13£¬ºÚ11
+    Hole cards£ººÚ12£¬·½12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4200£¬gained£º0
+	id£º226£¬bankroll£º4150£¬gained£º0
+	id£º6£¬bankroll£º4200£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:4200,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4150,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4200,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:54:43 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4200,status:NORMAL,
+    Id:226,gold:38407,bankroll:4150,status:NORMAL,
+    Id:6,gold:32209,bankroll:4200,status:NORMAL,
+
+Board cards£ººÚ3£¬ºÚ9£¬ºì13£¬Ã·5£¬·½3
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º4150£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º4000£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººì13£¬·½13£¬·½11£¬ºÚ9£¬Ã·5£¬ºÚ3£¬·½3
+    Max combined£ººì13£¬·½13£¬ºÚ3£¬·½3£¬·½11
+    Hole cards£º·½13£¬·½11
+Id£º226£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººì13£¬ºÚ13£¬ºì9£¬ºÚ9£¬Ã·5£¬ºÚ3£¬·½3
+    Max combined£ººì13£¬ºÚ13£¬ºì9£¬ºÚ9£¬Ã·5
+    Hole cards£ººì9£¬ºÚ13
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººì13£¬·½12£¬ºÚ9£¬ºÚ5£¬Ã·5£¬ºÚ3£¬·½3
+    Max combined£ººÚ5£¬Ã·5£¬ºÚ3£¬·½3£¬ºì13
+    Hole cards£ººÚ5£¬·½12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4200£¬gained£º400
+	id£º226£¬bankroll£º4150£¬gained£º0
+	id£º6£¬bankroll£º4000£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4200,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4150,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4000,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:54:54 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4200,status:NORMAL,
+    Id:226,gold:38407,bankroll:4150,status:NORMAL,
+    Id:6,gold:32209,bankroll:4000,status:NORMAL,
+
+Board cards£ºÃ·7£¬Ã·11£¬·½12£¬Ã·6£¬ºì12
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º4000£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º4000£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½12£¬ºì12£¬Ã·11£¬Ã·8£¬Ã·7£¬Ã·6£¬ºÚ3
+    Max combined£º·½12£¬ºì12£¬Ã·11£¬Ã·8£¬Ã·7
+    Hole cards£ººÚ3£¬Ã·8
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬ºì13£¬·½12£¬ºì12£¬Ã·11£¬Ã·7£¬Ã·6
+    Max combined£º·½12£¬ºì12£¬·½A£¬ºì13£¬Ã·11
+    Hole cards£º·½A£¬ºì13
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½12£¬ºì12£¬Ã·11£¬Ã·7£¬Ã·6£¬ºì5£¬ºì4
+    Max combined£º·½12£¬ºì12£¬Ã·11£¬Ã·7£¬Ã·6
+    Hole cards£ººì5£¬ºì4
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4000£¬gained£º0
+	id£º226£¬bankroll£º4150£¬gained£º400
+	id£º6£¬bankroll£º4000£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4000,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:4150,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4000,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:55:04 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4000,status:NORMAL,
+    Id:226,gold:38407,bankroll:4150,status:NORMAL,
+    Id:6,gold:32209,bankroll:4000,status:NORMAL,
+
+Board cards£ºÃ·5£¬Ã·4£¬Ã·13£¬Ã·6£¬Ã·3
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º4000£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º3950£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÍ¬»¨
+    Origin cards£ºÃ·13£¬·½11£¬·½10£¬Ã·6£¬Ã·5£¬Ã·4£¬Ã·3
+    Max combined£ºÃ·13£¬Ã·6£¬Ã·5£¬Ã·4£¬Ã·3
+    Hole cards£º·½10£¬·½11
+Id£º226£¬victory£ºfalse£¬cards£ºÍ¬»¨
+    Origin cards£ºÃ·13£¬ºÚ7£¬ºì7£¬Ã·6£¬Ã·5£¬Ã·4£¬Ã·3
+    Max combined£ºÃ·13£¬Ã·6£¬Ã·5£¬Ã·4£¬Ã·3
+    Hole cards£ººÚ7£¬ºì7
+Id£º3£¬victory£ºfalse£¬cards£ºÍ¬»¨
+    Origin cards£ºÃ·13£¬Ã·11£¬ºì11£¬Ã·6£¬Ã·5£¬Ã·4£¬Ã·3
+    Max combined£ºÃ·13£¬Ã·11£¬Ã·6£¬Ã·5£¬Ã·4
+    Hole cards£ºÃ·11£¬ºì11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4000£¬gained£º0
+	id£º226£¬bankroll£º3950£¬gained£º0
+	id£º6£¬bankroll£º4000£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:4000,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:4000,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:55:14 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4000,status:NORMAL,
+    Id:226,gold:38407,bankroll:3950,status:NORMAL,
+    Id:6,gold:32209,bankroll:4000,status:NORMAL,
+
+Board cards£ºÃ·9£¬ºì10£¬·½8£¬Ã·5£¬ºì12
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º3950£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º3800£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬ºìA£¬ºì12£¬ºì10£¬Ã·9£¬·½8£¬Ã·5
+    Max combined£º·½A£¬ºìA£¬ºì12£¬ºì10£¬Ã·9
+    Hole cards£º·½A£¬ºìA
+Id£º226£¬victory£ºfalse£¬cards£ºË³×Ó
+    Origin cards£ººì12£¬·½12£¬ºÚ11£¬ºì10£¬Ã·9£¬·½8£¬Ã·5
+    Max combined£ººì12£¬ºÚ11£¬ºì10£¬Ã·9£¬·½8
+    Hole cards£ººÚ11£¬·½12
+Id£º6£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººì12£¬ºì10£¬Ã·9£¬·½8£¬·½7£¬Ã·5£¬ºì4
+    Max combined£ººì12£¬ºì10£¬Ã·9£¬·½8£¬·½7
+    Hole cards£º·½7£¬ºì4
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º4000£¬gained£º400
+	id£º226£¬bankroll£º3950£¬gained£º0
+	id£º6£¬bankroll£º3800£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:4000,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3800,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:55:24 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:4000,status:NORMAL,
+    Id:226,gold:38407,bankroll:3950,status:NORMAL,
+    Id:6,gold:32209,bankroll:3800,status:NORMAL,
+
+Board cards£º·½13£¬ºì6£¬Ã·4£¬Ã·11£¬Ã·8
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º3800£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º3800£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½13£¬·½12£¬Ã·11£¬Ã·8£¬ºì6£¬ºì4£¬Ã·4
+    Max combined£ººì4£¬Ã·4£¬·½13£¬·½12£¬Ã·11
+    Hole cards£ººì4£¬·½12
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½13£¬ºì12£¬Ã·11£¬Ã·8£¬ºì6£¬Ã·4£¬ºì2
+    Max combined£º·½13£¬ºì12£¬Ã·11£¬Ã·8£¬ºì6
+    Hole cards£ººì2£¬ºì12
+Id£º6£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£º·½13£¬Ã·11£¬ºÚ10£¬Ã·8£¬ºì6£¬ºì5£¬Ã·4
+    Max combined£º·½13£¬Ã·11£¬ºÚ10£¬Ã·8£¬ºì6
+    Hole cards£ººÚ10£¬ºì5
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3800£¬gained£º0
+	id£º226£¬bankroll£º3950£¬gained£º400
+	id£º6£¬bankroll£º3800£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:3800,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3800,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:55:34 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3800,status:NORMAL,
+    Id:226,gold:38407,bankroll:3950,status:NORMAL,
+    Id:6,gold:32209,bankroll:3800,status:NORMAL,
+
+Board cards£º·½A£¬Ã·6£¬·½10£¬Ã·2£¬ºì9
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º3800£¬anted£º0£¬minCall£º400,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º3750£¬anted£º200£¬minCall£º200,minRaise:600...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º400(400)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£º·½A£¬ºÚ11£¬·½10£¬ºì9£¬ºÚ8£¬Ã·6£¬Ã·2
+    Max combined£º·½A£¬ºÚ11£¬·½10£¬ºì9£¬ºÚ8
+    Hole cards£ººÚ11£¬ºÚ8
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬ºìA£¬ºì11£¬·½10£¬ºì9£¬Ã·6£¬Ã·2
+    Max combined£º·½A£¬ºìA£¬ºì11£¬·½10£¬ºì9
+    Hole cards£ººì11£¬ºìA
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬·½10£¬ºì9£¬Ã·6£¬ºì6£¬ºì5£¬Ã·2
+    Max combined£ºÃ·6£¬ºì6£¬·½A£¬·½10£¬ºì9
+    Hole cards£ººì5£¬ºì6
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3800£¬gained£º0
+	id£º226£¬bankroll£º3750£¬gained£º0
+	id£º6£¬bankroll£º3800£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:3800,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3750,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3800,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:55:44 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3800,status:NORMAL,
+    Id:226,gold:38407,bankroll:3750,status:NORMAL,
+    Id:6,gold:32209,bankroll:3800,status:NORMAL,
+
+Board cards£ºÃ·5£¬ºÚ6£¬Ã·9£¬ºì2£¬ºì13
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º3750£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º3400£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬Ã·9£¬ºì9£¬ºÚ6£¬Ã·5£¬ºì4£¬ºì2
+    Max combined£ºÃ·9£¬ºì9£¬ºì13£¬ºÚ6£¬Ã·5
+    Hole cards£ººì9£¬ºì4
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººì13£¬Ã·9£¬Ã·8£¬ºÚ6£¬Ã·5£¬Ã·3£¬ºì2
+    Max combined£ººì13£¬Ã·9£¬Ã·8£¬ºÚ6£¬Ã·5
+    Hole cards£ºÃ·8£¬Ã·3
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬·½11£¬Ã·9£¬ºÚ6£¬ºÚ5£¬Ã·5£¬ºì2
+    Max combined£ººÚ5£¬Ã·5£¬ºì13£¬·½11£¬Ã·9
+    Hole cards£ººÚ5£¬·½11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3800£¬gained£º800
+	id£º226£¬bankroll£º3750£¬gained£º0
+	id£º6£¬bankroll£º3400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:3800,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3750,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:55:54 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3800,status:NORMAL,
+    Id:226,gold:38407,bankroll:3750,status:NORMAL,
+    Id:6,gold:32209,bankroll:3400,status:NORMAL,
+
+Board cards£º·½8£¬Ã·13£¬ºì13£¬·½6£¬ºÚ6
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º3400£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º3400£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·13£¬ºì13£¬Ã·12£¬·½9£¬·½8£¬·½6£¬ºÚ6
+    Max combined£ºÃ·13£¬ºì13£¬·½6£¬ºÚ6£¬Ã·12
+    Hole cards£ºÃ·12£¬·½9
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·13£¬ºì13£¬·½11£¬ºÚ10£¬·½8£¬·½6£¬ºÚ6
+    Max combined£ºÃ·13£¬ºì13£¬·½6£¬ºÚ6£¬·½11
+    Hole cards£º·½11£¬ºÚ10
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·13£¬ºì13£¬ºì11£¬ºì9£¬·½8£¬·½6£¬ºÚ6
+    Max combined£ºÃ·13£¬ºì13£¬·½6£¬ºÚ6£¬ºì11
+    Hole cards£ººì11£¬ºì9
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3400£¬gained£º0
+	id£º226£¬bankroll£º3750£¬gained£º800
+	id£º6£¬bankroll£º3400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:3400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3750,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:56:04 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3400,status:NORMAL,
+    Id:226,gold:38407,bankroll:3750,status:NORMAL,
+    Id:6,gold:32209,bankroll:3400,status:NORMAL,
+
+Board cards£ººì8£¬Ã·5£¬ºÚ2£¬Ã·11£¬ºì13
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º3400£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º3350£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººì13£¬Ã·11£¬·½10£¬ºì8£¬·½7£¬Ã·5£¬ºÚ2
+    Max combined£ººì13£¬Ã·11£¬·½10£¬ºì8£¬·½7
+    Hole cards£º·½10£¬·½7
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººì13£¬Ã·11£¬ºì8£¬ºÚ8£¬Ã·5£¬ºÚ3£¬ºÚ2
+    Max combined£ººì8£¬ºÚ8£¬ºì13£¬Ã·11£¬Ã·5
+    Hole cards£ººÚ8£¬ºÚ3
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººì13£¬Ã·12£¬Ã·11£¬ºì8£¬ºÚ6£¬Ã·5£¬ºÚ2
+    Max combined£ººì13£¬Ã·12£¬Ã·11£¬ºì8£¬ºÚ6
+    Hole cards£ººÚ6£¬Ã·12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3400£¬gained£º0
+	id£º226£¬bankroll£º3350£¬gained£º0
+	id£º6£¬bankroll£º3400£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:3400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:56:14 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3400,status:NORMAL,
+    Id:226,gold:38407,bankroll:3350,status:NORMAL,
+    Id:6,gold:32209,bankroll:3400,status:NORMAL,
+
+Board cards£ºÃ·12£¬·½2£¬ºì9£¬ºì7£¬·½10
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º3350£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º3000£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººÚA£¬Ã·12£¬·½10£¬ºì9£¬ºì7£¬ºÚ5£¬·½2
+    Max combined£ººÚA£¬Ã·12£¬·½10£¬ºì9£¬ºì7
+    Hole cards£ººÚA£¬ºÚ5
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·12£¬·½10£¬ºì9£¬ºì7£¬Ã·7£¬·½6£¬·½2
+    Max combined£ººì7£¬Ã·7£¬Ã·12£¬·½10£¬ºì9
+    Hole cards£ºÃ·7£¬·½6
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½13£¬Ã·12£¬·½12£¬·½10£¬ºì9£¬ºì7£¬·½2
+    Max combined£ºÃ·12£¬·½12£¬·½13£¬·½10£¬ºì9
+    Hole cards£º·½13£¬·½12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3400£¬gained£º800
+	id£º226£¬bankroll£º3350£¬gained£º0
+	id£º6£¬bankroll£º3000£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:3400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3000,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:56:24 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3400,status:NORMAL,
+    Id:226,gold:38407,bankroll:3350,status:NORMAL,
+    Id:6,gold:32209,bankroll:3000,status:NORMAL,
+
+Board cards£ººì10£¬ºÚ2£¬·½7£¬Ã·10£¬ºì6
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º3000£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º3000£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººì11£¬Ã·10£¬ºì10£¬·½7£¬Ã·6£¬ºì6£¬ºÚ2
+    Max combined£ºÃ·10£¬ºì10£¬Ã·6£¬ºì6£¬ºì11
+    Hole cards£ºÃ·6£¬ºì11
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººìA£¬Ã·10£¬ºì10£¬·½7£¬ºì6£¬·½4£¬ºÚ2
+    Max combined£ºÃ·10£¬ºì10£¬ºìA£¬·½7£¬ºì6
+    Hole cards£º·½4£¬ºìA
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ12£¬Ã·10£¬ºì10£¬Ã·9£¬·½7£¬ºì6£¬ºÚ2
+    Max combined£ºÃ·10£¬ºì10£¬ºÚ12£¬Ã·9£¬·½7
+    Hole cards£ººÚ12£¬Ã·9
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3000£¬gained£º0
+	id£º226£¬bankroll£º3350£¬gained£º800
+	id£º6£¬bankroll£º3000£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:3000,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:3350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3000,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:56:34 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3000,status:NORMAL,
+    Id:226,gold:38407,bankroll:3350,status:NORMAL,
+    Id:6,gold:32209,bankroll:3000,status:NORMAL,
+
+Board cards£ººÚ6£¬ºì7£¬·½12£¬ºÚA£¬ºì6
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º3000£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º2950£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚA£¬ºìA£¬·½12£¬·½11£¬ºì7£¬ºÚ6£¬ºì6
+    Max combined£ººÚA£¬ºìA£¬ºÚ6£¬ºì6£¬·½12
+    Hole cards£º·½11£¬ºìA
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬·½12£¬·½10£¬ºì7£¬ºì6£¬ºÚ6£¬ºÚ3
+    Max combined£ººì6£¬ºÚ6£¬ºÚA£¬·½12£¬·½10
+    Hole cards£ººÚ3£¬·½10
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬ºÚ13£¬·½12£¬·½9£¬ºì7£¬ºÚ6£¬ºì6
+    Max combined£ººÚ6£¬ºì6£¬ºÚA£¬ºÚ13£¬·½12
+    Hole cards£º·½9£¬ºÚ13
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3000£¬gained£º0
+	id£º226£¬bankroll£º2950£¬gained£º0
+	id£º6£¬bankroll£º3000£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:3000,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:3000,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:56:44 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3000,status:NORMAL,
+    Id:226,gold:38407,bankroll:2950,status:NORMAL,
+    Id:6,gold:32209,bankroll:3000,status:NORMAL,
+
+Board cards£ºÃ·A£¬·½3£¬·½9£¬ºÚ12£¬ºì3
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º2950£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º2600£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·A£¬ºÚ12£¬·½9£¬ºì9£¬·½6£¬·½3£¬ºì3
+    Max combined£º·½9£¬ºì9£¬·½3£¬ºì3£¬Ã·A
+    Hole cards£º·½6£¬ºì9
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·A£¬ºÚ12£¬·½9£¬Ã·7£¬ºì4£¬·½3£¬ºì3
+    Max combined£º·½3£¬ºì3£¬Ã·A£¬ºÚ12£¬·½9
+    Hole cards£ººì4£¬Ã·7
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·A£¬ºÚ12£¬·½9£¬ºÚ9£¬ºÚ4£¬·½3£¬ºì3
+    Max combined£º·½9£¬ºÚ9£¬·½3£¬ºì3£¬Ã·A
+    Hole cards£ººÚ9£¬ºÚ4
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º3000£¬gained£º800
+	id£º226£¬bankroll£º2950£¬gained£º0
+	id£º6£¬bankroll£º2600£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:3000,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:2600,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:56:54 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:3000,status:NORMAL,
+    Id:226,gold:38407,bankroll:2950,status:NORMAL,
+    Id:6,gold:32209,bankroll:2600,status:NORMAL,
+
+Board cards£ºÃ·7£¬ºì4£¬ºì8£¬ºÚ13£¬Ã·5
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º2600£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º2600£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºË³×Ó
+    Origin cards£ººÚ13£¬ºì8£¬Ã·7£¬ºÚ6£¬Ã·5£¬ºì4£¬Ã·2
+    Max combined£ººì8£¬Ã·7£¬ºÚ6£¬Ã·5£¬ºì4
+    Hole cards£ººÚ6£¬Ã·2
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬·½9£¬ºì8£¬·½7£¬Ã·7£¬Ã·5£¬ºì4
+    Max combined£º·½7£¬Ã·7£¬ºÚ13£¬·½9£¬ºì8
+    Hole cards£º·½7£¬·½9
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚ13£¬ºì8£¬·½8£¬Ã·7£¬ºÚ7£¬Ã·5£¬ºì4
+    Max combined£ººì8£¬·½8£¬Ã·7£¬ºÚ7£¬ºÚ13
+    Hole cards£º·½8£¬ºÚ7
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2600£¬gained£º0
+	id£º226£¬bankroll£º2950£¬gained£º800
+	id£º6£¬bankroll£º2600£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:2600,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2950,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:2600,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:57:04 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2600,status:NORMAL,
+    Id:226,gold:38407,bankroll:2950,status:NORMAL,
+    Id:6,gold:32209,bankroll:2600,status:NORMAL,
+
+Board cards£ºÃ·7£¬ºÚA£¬ºì5£¬ºÚ3£¬·½A
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º2600£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º2550£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬·½A£¬ºÚ13£¬·½10£¬Ã·7£¬ºì5£¬ºÚ3
+    Max combined£ººÚA£¬·½A£¬ºÚ13£¬·½10£¬Ã·7
+    Hole cards£ººÚ13£¬·½10
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬·½A£¬ºì8£¬Ã·7£¬ºì5£¬·½4£¬ºÚ3
+    Max combined£ººÚA£¬·½A£¬ºì8£¬Ã·7£¬ºì5
+    Hole cards£ººì8£¬·½4
+Id£º3£¬victory£ºfalse£¬cards£ºË³×Ó
+    Origin cards£ººÚA£¬·½A£¬Ã·7£¬·½6£¬ºì5£¬Ã·4£¬ºÚ3
+    Max combined£ºÃ·7£¬·½6£¬ºì5£¬Ã·4£¬ºÚ3
+    Hole cards£ºÃ·4£¬·½6
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2600£¬gained£º0
+	id£º226£¬bankroll£º2550£¬gained£º0
+	id£º6£¬bankroll£º2600£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:2600,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2550,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:2600,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:57:14 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2600,status:NORMAL,
+    Id:226,gold:38407,bankroll:2550,status:NORMAL,
+    Id:6,gold:32209,bankroll:2600,status:NORMAL,
+
+Board cards£ººì2£¬Ã·11£¬Ã·8£¬·½8£¬·½9
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º2550£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º2200£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬ºÚ13£¬Ã·11£¬·½9£¬·½8£¬Ã·8£¬ºì2
+    Max combined£º·½8£¬Ã·8£¬·½A£¬ºÚ13£¬Ã·11
+    Hole cards£º·½A£¬ºÚ13
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·A£¬Ã·12£¬Ã·11£¬·½9£¬·½8£¬Ã·8£¬ºì2
+    Max combined£º·½8£¬Ã·8£¬Ã·A£¬Ã·12£¬Ã·11
+    Hole cards£ºÃ·12£¬Ã·A
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·11£¬·½9£¬·½8£¬Ã·8£¬ºì7£¬·½3£¬ºì2
+    Max combined£º·½8£¬Ã·8£¬Ã·11£¬·½9£¬ºì7
+    Hole cards£ººì7£¬·½3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2600£¬gained£º800
+	id£º226£¬bankroll£º2550£¬gained£º0
+	id£º6£¬bankroll£º2200£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:2600,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2550,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:2200,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:57:24 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2600,status:NORMAL,
+    Id:226,gold:38407,bankroll:2550,status:NORMAL,
+    Id:6,gold:32209,bankroll:2200,status:NORMAL,
+
+Board cards£ººì2£¬Ã·2£¬Ã·4£¬ºÚ5£¬·½12
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º2200£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º2200£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·A£¬·½12£¬ºÚ5£¬Ã·4£¬ºì4£¬Ã·2£¬ºì2
+    Max combined£ºÃ·4£¬ºì4£¬Ã·2£¬ºì2£¬Ã·A
+    Hole cards£ºÃ·A£¬ºì4
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½12£¬Ã·10£¬Ã·9£¬ºÚ5£¬Ã·4£¬Ã·2£¬ºì2
+    Max combined£ºÃ·2£¬ºì2£¬·½12£¬Ã·10£¬Ã·9
+    Hole cards£ºÃ·10£¬Ã·9
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬·½12£¬·½8£¬ºÚ5£¬Ã·4£¬Ã·2£¬ºì2
+    Max combined£ºÃ·2£¬ºì2£¬ºÚ13£¬·½12£¬·½8
+    Hole cards£ººÚ13£¬·½8
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2200£¬gained£º0
+	id£º226£¬bankroll£º2550£¬gained£º800
+	id£º6£¬bankroll£º2200£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:2200,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2550,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:2200,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:57:34 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2200,status:NORMAL,
+    Id:226,gold:38407,bankroll:2550,status:NORMAL,
+    Id:6,gold:32209,bankroll:2200,status:NORMAL,
+
+Board cards£º·½2£¬ºì2£¬ºì12£¬ºì8£¬ºìA
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º2200£¬anted£º0£¬minCall£º800,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º2150£¬anted£º400£¬minCall£º400,minRaise:1200...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(800)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬·½A£¬ºì12£¬ºì8£¬ºÚ3£¬ºì2£¬·½2
+    Max combined£ººìA£¬·½A£¬ºì2£¬·½2£¬ºì12
+    Hole cards£º·½A£¬ºÚ3
+Id£º226£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬ºÚA£¬ºì12£¬ºì8£¬ºÚ4£¬ºì2£¬·½2
+    Max combined£ººìA£¬ºÚA£¬ºì2£¬·½2£¬ºì12
+    Hole cards£ººÚA£¬ºÚ4
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººìA£¬ºì12£¬·½9£¬ºì8£¬Ã·4£¬ºì2£¬·½2
+    Max combined£ººì2£¬·½2£¬ºìA£¬ºì12£¬·½9
+    Hole cards£ºÃ·4£¬·½9
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2200£¬gained£º0
+	id£º226£¬bankroll£º2150£¬gained£º0
+	id£º6£¬bankroll£º2200£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:2200,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2150,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:2200,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:57:44 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2200,status:NORMAL,
+    Id:226,gold:38407,bankroll:2150,status:NORMAL,
+    Id:6,gold:32209,bankroll:2200,status:NORMAL,
+
+Board cards£º·½10£¬·½12£¬ºÚ2£¬·½9£¬ºì7
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º2150£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º1400£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1600(1600)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººÚA£¬·½12£¬·½10£¬·½9£¬ºì7£¬ºì5£¬ºÚ2
+    Max combined£ººÚA£¬·½12£¬·½10£¬·½9£¬ºì7
+    Hole cards£ººì5£¬ºÚA
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½12£¬·½10£¬ºÚ10£¬·½9£¬Ã·8£¬ºì7£¬ºÚ2
+    Max combined£º·½10£¬ºÚ10£¬·½12£¬·½9£¬Ã·8
+    Hole cards£ººÚ10£¬Ã·8
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½12£¬ºÚ11£¬·½10£¬·½9£¬ºì7£¬ºÚ2£¬·½2
+    Max combined£ººÚ2£¬·½2£¬·½12£¬ºÚ11£¬·½10
+    Hole cards£ººÚ11£¬·½2
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º2200£¬gained£º1600
+	id£º226£¬bankroll£º2150£¬gained£º0
+	id£º6£¬bankroll£º1400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:2200,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2150,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:1400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:57:54 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:2200,status:NORMAL,
+    Id:226,gold:38407,bankroll:2150,status:NORMAL,
+    Id:6,gold:32209,bankroll:1400,status:NORMAL,
+
+Board cards£ººÚ11£¬ºÚ5£¬·½11£¬ºÚ10£¬ºì12
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º1400£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º1400£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1600(1600)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººì12£¬·½11£¬ºÚ11£¬ºÚ10£¬ºÚ5£¬ºÚ3£¬Ã·2
+    Max combined£º·½11£¬ºÚ11£¬ºì12£¬ºÚ10£¬ºÚ5
+    Hole cards£ºÃ·2£¬ºÚ3
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ13£¬ºì12£¬ºÚ11£¬·½11£¬ºÚ10£¬ºì7£¬ºÚ5
+    Max combined£ººÚ11£¬·½11£¬ºÚ13£¬ºì12£¬ºÚ10
+    Hole cards£ººì7£¬ºÚ13
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººì12£¬·½11£¬ºÚ11£¬ºÚ10£¬·½10£¬·½7£¬ºÚ5
+    Max combined£º·½11£¬ºÚ11£¬ºÚ10£¬·½10£¬ºì12
+    Hole cards£º·½7£¬·½10
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º1400£¬gained£º0
+	id£º226£¬bankroll£º2150£¬gained£º1600
+	id£º6£¬bankroll£º1400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:1400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:2150,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:1400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:58:04 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:1400,status:NORMAL,
+    Id:226,gold:38407,bankroll:2150,status:NORMAL,
+    Id:6,gold:32209,bankroll:1400,status:NORMAL,
+
+Board cards£ººì5£¬·½7£¬ºÚ8£¬Ã·9£¬·½4
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º1400£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º1350£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1400(1400)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººÚA£¬Ã·12£¬Ã·9£¬ºÚ8£¬·½7£¬ºì5£¬·½4
+    Max combined£ººÚA£¬Ã·12£¬Ã·9£¬ºÚ8£¬·½7
+    Hole cards£ºÃ·12£¬ºÚA
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·9£¬ºÚ8£¬·½7£¬ºì5£¬·½4£¬ºì3£¬ºÚ3
+    Max combined£ººì3£¬ºÚ3£¬Ã·9£¬ºÚ8£¬·½7
+    Hole cards£ººì3£¬ºÚ3
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·9£¬·½9£¬ºÚ8£¬Ã·8£¬·½7£¬ºì5£¬·½4
+    Max combined£ºÃ·9£¬·½9£¬ºÚ8£¬Ã·8£¬·½7
+    Hole cards£º·½9£¬Ã·8
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º1400£¬gained£º0
+	id£º226£¬bankroll£º1350£¬gained£º0
+	id£º6£¬bankroll£º1400£¬gained£º1400
+
+Player list£º
+    Id:3,gold:240004,bankroll:1400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:1350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:1400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:58:14 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:1400,status:NORMAL,
+    Id:226,gold:38407,bankroll:1350,status:NORMAL,
+    Id:6,gold:32209,bankroll:1400,status:NORMAL,
+
+Board cards£º·½9£¬ºÚ2£¬Ã·2£¬ºÚ12£¬ºì3
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º1350£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º600£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1400(1400)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚ13£¬ºÚ12£¬·½9£¬ºì3£¬·½3£¬ºÚ2£¬Ã·2
+    Max combined£ººì3£¬·½3£¬ºÚ2£¬Ã·2£¬ºÚ13
+    Hole cards£ººÚ13£¬·½3
+Id£º226£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººìA£¬ºÚ12£¬·½9£¬ºÚ9£¬ºì3£¬ºÚ2£¬Ã·2
+    Max combined£º·½9£¬ºÚ9£¬ºÚ2£¬Ã·2£¬ºìA
+    Hole cards£ººìA£¬ºÚ9
+Id£º6£¬victory£ºfalse£¬cards£ºÂúÌÃºì
+    Origin cards£ººÚ12£¬Ã·12£¬·½12£¬·½9£¬ºì3£¬ºÚ2£¬Ã·2
+    Max combined£ººÚ12£¬Ã·12£¬·½12£¬ºÚ2£¬Ã·2
+    Hole cards£ºÃ·12£¬·½12
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º1400£¬gained£º1400
+	id£º226£¬bankroll£º1350£¬gained£º0
+	id£º6£¬bankroll£º600£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:1400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:1350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:600,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:58:24 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:1400,status:NORMAL,
+    Id:226,gold:38407,bankroll:1350,status:NORMAL,
+    Id:6,gold:32209,bankroll:600,status:NORMAL,
+
+Board cards£ººÚ2£¬Ã·2£¬ºÚA£¬ºì9£¬ºìA
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º600£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º600£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1350(1350)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚA£¬ºìA£¬ºì9£¬·½6£¬ºÚ3£¬Ã·2£¬ºÚ2
+    Max combined£ººÚA£¬ºìA£¬Ã·2£¬ºÚ2£¬ºì9
+    Hole cards£º·½6£¬ºÚ3
+Id£º3£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚA£¬ºìA£¬ºì9£¬Ã·6£¬·½4£¬Ã·2£¬ºÚ2
+    Max combined£ººÚA£¬ºìA£¬Ã·2£¬ºÚ2£¬ºì9
+    Hole cards£ºÃ·6£¬·½4
+Id£º6£¬victory£ºfalse£¬cards£ºÁ½¶Ô
+    Origin cards£ººÚA£¬ºìA£¬ºì9£¬ºì8£¬ºÚ4£¬Ã·2£¬ºÚ2
+    Max combined£ººÚA£¬ºìA£¬Ã·2£¬ºÚ2£¬ºì9
+    Hole cards£ººÚ4£¬ºì8
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º600£¬gained£º0
+	id£º226£¬bankroll£º1350£¬gained£º1350
+	id£º6£¬bankroll£º600£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:600,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:1350,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:600,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:58:34 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:600,status:NORMAL,
+    Id:226,gold:38407,bankroll:1350,status:NORMAL,
+    Id:6,gold:32209,bankroll:600,status:NORMAL,
+
+Board cards£ºÃ·11£¬ºÚ6£¬Ã·8£¬ºÚ5£¬·½A
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º600£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º550£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1200(600)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬Ã·11£¬ºì9£¬ºì8£¬Ã·8£¬ºÚ6£¬ºÚ5
+    Max combined£ººì8£¬Ã·8£¬·½A£¬Ã·11£¬ºì9
+    Hole cards£ººì8£¬ºì9
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬ºÚA£¬Ã·11£¬·½10£¬Ã·8£¬ºÚ6£¬ºÚ5
+    Max combined£º·½A£¬ºÚA£¬Ã·11£¬·½10£¬Ã·8
+    Hole cards£º·½10£¬ºÚA
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬Ã·11£¬·½11£¬Ã·8£¬ºÚ6£¬ºÚ5£¬ºì4
+    Max combined£ºÃ·11£¬·½11£¬·½A£¬Ã·8£¬ºÚ6
+    Hole cards£ººì4£¬·½11
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º600£¬gained£º0
+	id£º226£¬bankroll£º550£¬gained£º0
+	id£º6£¬bankroll£º1200£¬gained£º1200
+
+Player list£º
+    Id:3,gold:240004,bankroll:600,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:550,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:1200,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:58:44 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:600,status:NORMAL,
+    Id:226,gold:38407,bankroll:550,status:NORMAL,
+    Id:6,gold:32209,bankroll:1200,status:NORMAL,
+
+Board cards£ºÃ·9£¬ºì10£¬ºÚ11£¬ºÚ4£¬Ã·3
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º550£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 6 in 2£¬bankroll£º400£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1200(600)£¬
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·13£¬ºÚ11£¬ºì10£¬Ã·9£¬ºÚ7£¬ºÚ4£¬Ã·3
+    Max combined£ºÃ·13£¬ºÚ11£¬ºì10£¬Ã·9£¬ºÚ7
+    Hole cards£ºÃ·13£¬ºÚ7
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ11£¬ºì10£¬Ã·9£¬Ã·5£¬ºÚ4£¬Ã·3£¬ºì3
+    Max combined£ºÃ·3£¬ºì3£¬ºÚ11£¬ºì10£¬Ã·9
+    Hole cards£ºÃ·5£¬ºì3
+Id£º6£¬victory£ºfalse£¬cards£ºË³×Ó
+    Origin cards£º·½12£¬ºÚ11£¬ºì10£¬Ã·9£¬ºÚ8£¬ºÚ4£¬Ã·3
+    Max combined£º·½12£¬ºÚ11£¬ºì10£¬Ã·9£¬ºÚ8
+    Hole cards£º·½12£¬ºÚ8
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º1200£¬gained£º1200
+	id£º226£¬bankroll£º550£¬gained£º0
+	id£º6£¬bankroll£º400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:1200,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:550,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:58:54 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:1200,status:NORMAL,
+    Id:226,gold:38407,bankroll:550,status:NORMAL,
+    Id:6,gold:32209,bankroll:400,status:NORMAL,
+
+Board cards£ººìA£¬ºì5£¬·½8£¬ºÚ12£¬·½9
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º400£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 3 in 0£¬bankroll£º400£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º1100(550)£¬
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£º¸ßÅÆ
+    Origin cards£ººìA£¬ºÚ12£¬ºÚ10£¬·½9£¬·½8£¬ºì5£¬Ã·3
+    Max combined£ººìA£¬ºÚ12£¬ºÚ10£¬·½9£¬·½8
+    Hole cards£ººÚ10£¬Ã·3
+Id£º3£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººìA£¬·½13£¬ºÚ12£¬Ã·10£¬·½9£¬·½8£¬ºì5
+    Max combined£ººìA£¬·½13£¬ºÚ12£¬Ã·10£¬·½9
+    Hole cards£ºÃ·10£¬·½13
+Id£º6£¬victory£ºfalse£¬cards£ºË³×Ó
+    Origin cards£ººìA£¬ºÚ12£¬·½9£¬·½8£¬ºÚ7£¬·½6£¬ºì5
+    Max combined£º·½9£¬·½8£¬ºÚ7£¬·½6£¬ºì5
+    Hole cards£ººÚ7£¬·½6
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º400£¬gained£º0
+	id£º226£¬bankroll£º1100£¬gained£º1100
+	id£º6£¬bankroll£º400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:1100,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:59:04 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:400,status:NORMAL,
+    Id:226,gold:38407,bankroll:1100,status:NORMAL,
+    Id:6,gold:32209,bankroll:400,status:NORMAL,
+
+Board cards£ººì4£¬ºÚ5£¬ºÚ6£¬·½4£¬Ã·11
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º400£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+    Player 226 in 1£¬bankroll£º300£¬anted£º800£¬minCall£º800,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+       ½±³Ø£º800(400)£¬
+
+Victory player id£º6
+Id£º6£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·A£¬·½11£¬Ã·11£¬ºÚ6£¬ºÚ5£¬·½4£¬ºì4
+    Max combined£º·½11£¬Ã·11£¬·½4£¬ºì4£¬Ã·A
+    Hole cards£º·½11£¬Ã·A
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚ12£¬Ã·11£¬·½10£¬ºÚ6£¬ºÚ5£¬·½4£¬ºì4
+    Max combined£º·½4£¬ºì4£¬ºÚ12£¬Ã·11£¬·½10
+    Hole cards£º·½10£¬ºÚ12
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·11£¬Ã·10£¬ºì9£¬ºÚ6£¬ºÚ5£¬·½4£¬ºì4
+    Max combined£º·½4£¬ºì4£¬Ã·11£¬Ã·10£¬ºì9
+    Hole cards£ººì9£¬Ã·10
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º400£¬gained£º0
+	id£º226£¬bankroll£º300£¬gained£º0
+	id£º6£¬bankroll£º800£¬gained£º800
+
+Player list£º
+    Id:3,gold:240004,bankroll:400,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:300,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:800,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:59:14 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:400,status:NORMAL,
+    Id:226,gold:38407,bankroll:300,status:NORMAL,
+    Id:6,gold:32209,bankroll:800,status:NORMAL,
+
+Board cards£ºÃ·10£¬ºì2£¬Ã·A£¬ºì6£¬ºÚ4
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º300£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+No player left.
+       ½±³Ø£º800(400)£¬400(800)£¬
+         Broadcast cards£ºÃ·10£¬ºì2£¬Ã·A£¬ºì6£¬ºÚ4
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·A£¬Ã·10£¬ºì9£¬ºì6£¬ºÚ4£¬Ã·2£¬ºì2
+    Max combined£ºÃ·2£¬ºì2£¬Ã·A£¬Ã·10£¬ºì9
+    Hole cards£ºÃ·2£¬ºì9
+Id£º6£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·A£¬Ã·10£¬Ã·9£¬Ã·7£¬ºì6£¬ºÚ4£¬ºì2
+    Max combined£ºÃ·A£¬Ã·10£¬Ã·9£¬Ã·7£¬ºì6
+    Hole cards£ºÃ·9£¬Ã·7
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·A£¬·½13£¬Ã·10£¬ºì6£¬ºÚ4£¬ºì3£¬ºì2
+    Max combined£ºÃ·A£¬·½13£¬Ã·10£¬ºì6£¬ºÚ4
+    Hole cards£ººì3£¬·½13
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º800£¬gained£º800
+	id£º226£¬bankroll£º300£¬gained£º0
+	id£º6£¬bankroll£º400£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:800,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:300,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:59:24 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:800,status:NORMAL,
+    Id:226,gold:38407,bankroll:300,status:NORMAL,
+    Id:6,gold:32209,bankroll:400,status:NORMAL,
+
+Board cards£ºÃ·13£¬ºÚ6£¬Ã·10£¬·½6£¬ºÚ2
+Thread id£º32£¬banker seat£º2£¬banker Id£º6
+Turn£º0
+    Player 6 in 2£¬bankroll£º400£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+No player left.
+       ½±³Ø£º600(300)£¬500(800)£¬
+         Broadcast cards£ºÃ·13£¬ºÚ6£¬Ã·10£¬·½6£¬ºÚ2
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½A£¬Ã·13£¬Ã·10£¬·½9£¬ºÚ6£¬·½6£¬ºÚ2
+    Max combined£ººÚ6£¬·½6£¬·½A£¬Ã·13£¬Ã·10
+    Hole cards£º·½9£¬·½A
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ºÃ·13£¬Ã·10£¬Ã·8£¬·½6£¬ºÚ6£¬ºÚ4£¬ºÚ2
+    Max combined£º·½6£¬ºÚ6£¬Ã·13£¬Ã·10£¬Ã·8
+    Hole cards£ºÃ·8£¬ºÚ4
+Id£º6£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬Ã·13£¬·½12£¬Ã·10£¬ºÚ6£¬·½6£¬ºÚ2
+    Max combined£ººÚ6£¬·½6£¬ºÚA£¬Ã·13£¬·½12
+    Hole cards£º·½12£¬ºÚA
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º500£¬gained£º500
+	id£º226£¬bankroll£º600£¬gained£º600
+	id£º6£¬bankroll£º400£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:500,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:600,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:59:34 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:500,status:NORMAL,
+    Id:226,gold:38407,bankroll:600,status:NORMAL,
+    Id:6,gold:32209,bankroll:400,status:NORMAL,
+
+Board cards£ººÚA£¬Ã·10£¬ºì12£¬Ã·12£¬ºÚ8
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+    Player 3 in 0£¬bankroll£º500£¬anted£º0£¬minCall£º1600,minRaise:2400...(ÍÐ¹Ü3)Could not check.fold
+No player left.
+       ½±³Ø£º800(400)£¬200(600)£¬
+         Broadcast cards£ººÚA£¬Ã·10£¬ºì12£¬Ã·12£¬ºÚ8
+
+Victory player id£º226
+Id£º226£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬ºì12£¬Ã·12£¬Ã·10£¬ºÚ8£¬·½7£¬ºì5
+    Max combined£ººì12£¬Ã·12£¬ºÚA£¬Ã·10£¬ºÚ8
+    Hole cards£ººì5£¬·½7
+Id£º6£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬ºì12£¬Ã·12£¬Ã·10£¬ºÚ8£¬Ã·5£¬Ã·3
+    Max combined£ººì12£¬Ã·12£¬ºÚA£¬Ã·10£¬ºÚ8
+    Hole cards£ºÃ·3£¬Ã·5
+Id£º3£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£ººÚA£¬ºì12£¬Ã·12£¬Ã·10£¬ºÚ8£¬ºì6£¬ºÚ5
+    Max combined£ººì12£¬Ã·12£¬ºÚA£¬Ã·10£¬ºÚ8
+    Hole cards£ººÚ5£¬ºì6
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º500£¬gained£º0
+	id£º226£¬bankroll£º600£¬gained£º600
+	id£º6£¬bankroll£º400£¬gained£º400
+
+Player list£º
+    Id:3,gold:240004,bankroll:500,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:600,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:400,status:NORMAL,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:59:44 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:500,status:NORMAL,
+    Id:226,gold:38407,bankroll:600,status:NORMAL,
+    Id:6,gold:32209,bankroll:400,status:NORMAL,
+
+Board cards£ºÃ·10£¬·½8£¬ºì6£¬·½7£¬Ã·12
+Thread id£º32£¬banker seat£º1£¬banker Id£º226
+Turn£º0
+    Player 226 in 1£¬bankroll£º600£¬anted£º0£¬minCall£º3200,minRaise:4800...(ÍÐ¹Ü3)Could not check.fold
+No player left.
+       ½±³Ø£º800(400)£¬100(500)£¬
+         Broadcast cards£ºÃ·10£¬·½8£¬ºì6£¬·½7£¬Ã·12
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÁ½¶Ô
+    Origin cards£ºÃ·12£¬Ã·10£¬·½10£¬·½8£¬·½7£¬ºÚ6£¬ºì6
+    Max combined£ºÃ·10£¬·½10£¬ºÚ6£¬ºì6£¬Ã·12
+    Hole cards£ººÚ6£¬·½10
+Id£º6£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ºÃ·12£¬ºÚ11£¬Ã·10£¬·½8£¬·½7£¬ºì6£¬·½5
+    Max combined£ºÃ·12£¬ºÚ11£¬Ã·10£¬·½8£¬·½7
+    Hole cards£º·½5£¬ºÚ11
+Id£º226£¬victory£ºfalse£¬cards£º¸ßÅÆ
+    Origin cards£ººÚA£¬Ã·12£¬Ã·10£¬·½8£¬·½7£¬ºì6£¬Ã·5
+    Max combined£ººÚA£¬Ã·12£¬Ã·10£¬·½8£¬·½7
+    Hole cards£ºÃ·5£¬ºÚA
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º900£¬gained£º900
+	id£º226£¬bankroll£º600£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+
+Player list£º
+    Id:3,gold:240004,bankroll:900,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:600,status:NORMAL,connection£ºfalse
+    Id:6,gold:32209,bankroll:0,status:KNOCKED_OUT,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+-----------------------------------Begin----------------------------------------
+11/11 12:59:54 new game begin in type 2 room 2.
+Room 2£¬playingCount£º3£¬Player list£º
+    Id:3,gold:240004,bankroll:900,status:NORMAL,
+    Id:226,gold:38407,bankroll:600,status:NORMAL,
+    Id:6,gold:32209,bankroll:0,status:KNOCKED_OUT,
+
+Board cards£º·½10£¬ºì6£¬Ã·9£¬ºÚ2£¬·½11
+Thread id£º32£¬banker seat£º0£¬banker Id£º3
+Turn£º0
+No player left.
+       ½±³Ø£º1200(600)£¬300(900)£¬
+         Broadcast cards£º·½10£¬ºì6£¬Ã·9£¬ºÚ2£¬·½11
+
+Victory player id£º3
+Id£º3£¬victory£ºtrue£¬cards£ºÒ»¶Ô
+    Origin cards£º·½11£¬ºÚ11£¬·½10£¬Ã·9£¬ºì6£¬ºì5£¬ºÚ2
+    Max combined£º·½11£¬ºÚ11£¬·½10£¬Ã·9£¬ºì6
+    Hole cards£ººì5£¬ºÚ11
+Id£º226£¬victory£ºfalse£¬cards£ºÒ»¶Ô
+    Origin cards£º·½11£¬·½10£¬Ã·9£¬ºì6£¬ºÚ6£¬ºì3£¬ºÚ2
+    Max combined£ººì6£¬ºÚ6£¬·½11£¬·½10£¬Ã·9
+    Hole cards£ººÚ6£¬ºì3
+
+Result(not calculate)£º
+	id£º3£¬bankroll£º1500£¬gained£º1500
+	id£º226£¬bankroll£º0£¬gained£º0
+	id£º6£¬bankroll£º0£¬gained£º0
+µÚ1Ãû£º3
+µÚ2Ãû£º226
+µÚ3Ãû£º6
+
+Player list£º
+    Id:3,gold:240004,bankroll:1500,status:NORMAL,connection£ºfalse
+    Id:226,gold:38407,bankroll:0,status:KNOCKED_OUT,connection£ºfalse
+    Id:6,gold:32209,bankroll:0,status:KNOCKED_OUT,connection£ºfalse
+
+-------------------------------------End----------------------------------------
+Player 3 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 226 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Player 6 leaveGamersGroup.ÍÐ¹ÜÖÐ...
+Msg length is negative or too long.1886680168
+Msg length is negative or too long.1886680168
+Msg length is negative or too long.1886680168
+Msg length is negative or too long.1886680168
+Validation is successfully£¡Username£ºannawei
+Validation is successfully£¡Username£ºannawei
+Validation is successfully£¡Username£ºannawei
+Can not find omaha room level 0
+java.lang.NullPointerException
+	at com.lingzerg.gamecenter.main.EventHandler.enterRoom(EventHandler.java:296)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:115)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
+Validation is successfully£¡Username£ºannawei
+Can not find normal room level 0
+java.lang.NullPointerException
+	at com.lingzerg.gamecenter.main.EventHandler.enterRoom(EventHandler.java:216)
+	at com.lingzerg.gamecenter.main.EventHandler.packProcessor(EventHandler.java:115)
+	at com.lingzerg.gamecenter.main.EventHandler.channelRead(EventHandler.java:100)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:125)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Thread.java:745)
