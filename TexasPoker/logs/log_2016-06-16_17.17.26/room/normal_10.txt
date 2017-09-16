@@ -1,0 +1,5 @@
+[Enter]06-16 17:17:58 Player 50815 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-16 17:17:58 Player 50884 joinGamersGroup.Player count:0/2/6.Phase:0
+[Enter]06-16 17:17:58 Player 50876 joinGamersGroup.Player count:0/3/6.Phase:1
+Player 50815 leaveGamersGroup.
+[Enter]06-16 17:22:27 Player 50960 joinGamersGroup.Player count:2/3/6.Phase:2

@@ -1,0 +1,48 @@
+[Enter]06-17 09:01:47 Player 50825 joinGamersGroup.Player count:0/1/9.Phase:0
+[Enter]06-17 09:01:47 Player 50784 joinGamersGroup.Player count:0/2/9.Phase:0
+
+Condition met,game begin.Player count:0/2/9
+Player 50825 in 0 recharge：5000
+Player 50784 in 1 recharge：5000
+Room 16，playerCount：2，player list：
+    Id:50825 in 0,gold:4337252,bankroll:5000,status:NORMAL,connection:true
+    Id:50784 in 1,gold:3096983,bankroll:5000,status:NORMAL,connection:true
+Bankroll total:10000
+
+Board cards：黑7，方6，方11，黑13，黑5
+Banker:0,player 50784 blind:50,player 50825 blind:100
+显示手牌：梅2，黑6
+显示手牌：梅10，红9
+Turn：0
+    Id:50784 in 1,status:NORMAL,bankroll：4950,anted：50,minCall：50,bigActed:false,minRaise:150...call 50
+    Id:50825 in 0,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:false,minRaise:150...check
+         All betted.
+      Player 50825 put in 100:100.
+      Player 50784 put in 100:100.
+       Pot list：200(100)；
+         Broadcast cards：黑7，方6，方11
+Turn：1
+    Id:50784 in 1,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:true,minRaise:100...check
+    Id:50825 in 0,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:true,minRaise:100...check
+         All checked.
+      Player 50825 put in 100:100.
+      Player 50784 put in 100:100.
+       Pot list：200(100)；
+         Broadcast cards：黑13
+Turn：2
+    Id:50784 in 1,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:true,minRaise:100...check
+    Id:50825 in 0,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:true,minRaise:100...check
+         All checked.
+      Player 50825 put in 100:100.
+      Player 50784 put in 100:100.
+       Pot list：200(100)；
+         Broadcast cards：黑5
+Turn：3
+    Id:50784 in 1,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:true,minRaise:100...raise 1600
+    Id:50825 in 0,status:NORMAL,bankroll：4900,anted：100,minCall：1600,bigActed:true,minRaise:3200...(Auto action 3)Could not check.fold
+      Player 50784 put in 1700:1700.
+      Player 50825 overage put in 1700:100.
+       Pot list：1800(1700)；
+
+Player 50825 reconnect type 1 room 16.
+Reconnect succeed.

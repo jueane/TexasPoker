@@ -1,0 +1,140 @@
+[Enter]06-17 08:34:13 Player 50970 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-17 08:34:13 Player 50887 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+[Enter]06-17 08:34:13 Player 50820 joinGamersGroup.Player count:1/3/6.Phase:1
+Player 50970 in 0 recharge：400
+Player 50887 in 1 recharge：400
+Player 50820 in 2 recharge：400
+Room 1，playerCount：3，player list：
+    Id:50970 in 0,gold:12945695,bankroll:400,status:NORMAL,connection:true
+    Id:50887 in 1,gold:13503458,bankroll:400,status:NORMAL,connection:true
+    Id:50820 in 2,gold:16435887,bankroll:400,status:NORMAL,connection:true
+Bankroll total:1200
+
+Board cards：方3，梅A，梅7，梅3，梅9
+Banker:0,player 50887 blind:5,player 50820 blind:10
+显示手牌：梅11，黑12
+显示手牌：黑7，黑10
+显示手牌：梅12，梅8
+Turn：0
+    Id:50970 in 0,status:NORMAL,bankroll：400,anted：0,minCall：10,bigActed:false,minRaise:15...call 10
+    Id:50887 in 1,status:NORMAL,bankroll：395,anted：5,minCall：5,bigActed:false,minRaise:15...call 5
+    Id:50820 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:false,minRaise:15...check
+         All betted.
+      Player 50970 put in 10:10.
+      Player 50887 put in 10:10.
+      Player 50820 put in 10:10.
+       Pot list：30(10)；
+         Broadcast cards：方3，梅A，梅7
+Turn：1
+    Id:50887 in 1,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50820 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50970 in 0,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+         All checked.
+      Player 50970 put in 10:10.
+      Player 50887 put in 10:10.
+      Player 50820 put in 10:10.
+       Pot list：30(10)；
+         Broadcast cards：梅3
+Turn：2
+    Id:50887 in 1,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50820 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50970 in 0,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+         All checked.
+      Player 50970 put in 10:10.
+      Player 50887 put in 10:10.
+      Player 50820 put in 10:10.
+       Pot list：30(10)；
+         Broadcast cards：梅9
+Turn：3
+    Id:50887 in 1,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50820 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...All in 390
+    Id:50970 in 0,status:NORMAL,bankroll：390,anted：10,minCall：390,bigActed:true,minRaise:780...All in 390
+    Id:50887 in 1,status:CHECK,bankroll：390,anted：10,minCall：390,bigActed:true,minRaise:780...fold
+      Player 50970 put in 400:400.
+      Player 50820 put in 400:400.
+      Player 50887 overage put in 400:10.
+       Pot list：810(400)；
+
+Victory player id：50820
+Id：50820，victory：true，cards：同花
+    Origin cards：梅A，梅12，梅9，梅8，梅7，梅3，方3
+    Max combined：梅A，梅12，梅9，梅8，梅7
+    Hole cards：梅12，梅8
+Id：50970，victory：false，cards：同花
+    Origin cards：梅A，黑12，梅11，梅9，梅7，梅3，方3
+    Max combined：梅A，梅11，梅9，梅7，梅3
+    Hole cards：梅11，黑12
+Id：50887，victory：false，cards：两对
+    Origin cards：梅A，黑10，梅9，黑7，梅7，梅3，方3
+    Max combined：黑7，梅7，梅3，方3，梅A
+    Hole cards：黑7，黑10
+      Player 50970 put in 400:400.
+      Player 50820 put in 400:400.
+      Player 50887 overage put in 400:10.
+       Pot list：810(400)；
+
+Result：
+	id：50970 in 0，bankroll：0，gained：0,drawoff:0
+	id：50887 in 1，bankroll：390，gained：0,drawoff:0
+	id：50820 in 2，bankroll：790，gained：810,drawoff:20
+Player 50970 actualGained：-400,drawoff：0
+Player 50887 actualGained：-10,drawoff：0
+Player 50820 actualGained：410,drawoff：20
+
+Player list：
+    Id:50970 in 0,gold:12945695,bankroll:0,status:NORMAL,connection:true
+conok:true
+    Id:50887 in 1,gold:13503458,bankroll:390,status:NORMAL,connection:true
+conok:true
+    Id:50820 in 2,gold:16435887,bankroll:790,status:NORMAL,connection:true
+conok:true
+Player 50970 in 0 recharge：400
+Room 1，playerCount：3，player list：
+    Id:50970 in 0,gold:12945295,bankroll:400,status:NORMAL,connection:true
+    Id:50887 in 1,gold:13503458,bankroll:390,status:NORMAL,connection:true
+    Id:50820 in 2,gold:16435887,bankroll:790,status:NORMAL,connection:true
+Bankroll total:1580
+
+Board cards：黑12，梅6，梅8，梅3，红2
+Banker:1,player 50820 blind:5,player 50970 blind:10
+显示手牌：方2，方9
+显示手牌：黑13，梅5
+显示手牌：红9，方4
+Turn：0
+    Id:50887 in 1,status:NORMAL,bankroll：390,anted：0,minCall：10,bigActed:false,minRaise:15...call 10
+    Id:50820 in 2,status:NORMAL,bankroll：785,anted：5,minCall：5,bigActed:false,minRaise:15...call 5
+    Id:50970 in 0,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:false,minRaise:15...check
+         All betted.
+      Player 50970 put in 10:10.
+      Player 50887 put in 10:10.
+      Player 50820 put in 10:10.
+       Pot list：30(10)；
+         Broadcast cards：黑12，梅6，梅8
+Turn：1
+    Id:50820 in 2,status:NORMAL,bankroll：780,anted：10,checkable,bigActed:true,minRaise:10...raise 260
+    Id:50970 in 0,status:NORMAL,bankroll：390,anted：10,minCall：260,bigActed:true,minRaise:520...call 260
+    Id:50887 in 1,status:NORMAL,bankroll：380,anted：10,minCall：260,bigActed:true,minRaise:520...call 260
+         All betted.
+      Player 50970 put in 270:270.
+      Player 50887 put in 270:270.
+      Player 50820 put in 270:270.
+       Pot list：810(270)；
+         Broadcast cards：梅3
+Turn：2
+    Id:50820 in 2,status:NORMAL,bankroll：520,anted：270,checkable,bigActed:true,minRaise:10...check
+    Id:50970 in 0,status:NORMAL,bankroll：130,anted：270,checkable,bigActed:true,minRaise:10...check
+    Id:50887 in 1,status:NORMAL,bankroll：120,anted：270,checkable,bigActed:true,minRaise:10...raise 55
+    Id:50820 in 2,status:CHECK,bankroll：520,anted：270,minCall：55,bigActed:true,minRaise:110...call 55
+    Id:50970 in 0,status:CHECK,bankroll：130,anted：270,minCall：55,bigActed:true,minRaise:110...call 55
+         All betted.
+      Player 50970 put in 325:325.
+      Player 50887 put in 325:325.
+      Player 50820 put in 325:325.
+       Pot list：975(325)；
+         Broadcast cards：红2
+Turn：3
+    Id:50820 in 2,status:NORMAL,bankroll：465,anted：325,checkable,bigActed:true,minRaise:10...check
+    Id:50970 in 0,status:NORMAL,bankroll：75,anted：325,checkable,bigActed:true,minRaise:10...check
+    Id:50887 in 1,status:NORMAL,bankroll：65,anted：325,checkable,bigActed:true,minRaise:10...

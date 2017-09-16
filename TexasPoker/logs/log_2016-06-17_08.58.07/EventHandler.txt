@@ -1,0 +1,12 @@
+Player Robot129 login.
+Player Robot193 login.
+Player Robot187 login.
+Player Robot48 login.
+Channel exception caught.
+Channel exception caught.
+Channel exception caught.
+Channel exception caught.
+Channel inactive.
+Channel inactive.
+Channel inactive.
+Channel inactive.

@@ -1,0 +1,43 @@
+[Enter]06-17 09:01:46 Player 50860 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-17 09:01:46 Player 50972 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+Player 50860 in 0 recharge：400
+[Enter]06-17 09:01:46 Player 50811 joinGamersGroup.Player count:1/3/6.Phase:1
+Player 50972 in 1 recharge：400
+Player 50811 in 2 recharge：400
+Room 11，playerCount：3，player list：
+    Id:50860 in 0,gold:15616017,bankroll:400,status:NORMAL,connection:true
+    Id:50972 in 1,gold:16033662,bankroll:400,status:NORMAL,connection:true
+    Id:50811 in 2,gold:10721397,bankroll:400,status:NORMAL,connection:true
+Bankroll total:1200
+
+Board cards：梅A，梅6，红6，黑6，黑8
+Banker:0,player 50972 blind:5,player 50811 blind:10
+显示手牌：红7，红8
+显示手牌：方10，梅9
+显示手牌：方12，红11
+Turn：0
+    Id:50860 in 0,status:NORMAL,bankroll：400,anted：0,minCall：10,bigActed:false,minRaise:15...call 10
+    Id:50972 in 1,status:NORMAL,bankroll：395,anted：5,minCall：5,bigActed:false,minRaise:15...call 5
+    Id:50811 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:false,minRaise:15...check
+         All betted.
+      Player 50860 put in 10:10.
+      Player 50972 put in 10:10.
+      Player 50811 put in 10:10.
+       Pot list：30(10)；
+         Broadcast cards：梅A，梅6，红6
+Turn：1
+    Id:50972 in 1,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50811 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50860 in 0,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+         All checked.
+      Player 50860 put in 10:10.
+      Player 50972 put in 10:10.
+      Player 50811 put in 10:10.
+       Pot list：30(10)；
+         Broadcast cards：黑6
+Turn：2
+    Id:50972 in 1,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50811 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50860 in 0,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...

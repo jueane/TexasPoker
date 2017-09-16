@@ -1,0 +1,48 @@
+[Enter]06-17 09:01:45 Player 50908 joinGamersGroup.Player count:0/1/9.Phase:0
+[Enter]06-17 09:01:45 Player 50780 joinGamersGroup.Player count:0/2/9.Phase:0
+
+Condition met,game begin.Player count:0/2/9
+Player 50908 in 0 recharge：40000
+Player 50780 in 1 recharge：40000
+Room 1，playerCount：2，player list：
+    Id:50908 in 0,gold:6607689,bankroll:40000,status:NORMAL,connection:true
+    Id:50780 in 1,gold:14147444,bankroll:40000,status:NORMAL,connection:true
+Bankroll total:80000
+
+Board cards：梅3，黑10，方7，梅2，梅11
+Banker:0,player 50780 blind:200,player 50908 blind:400
+显示手牌：红7，红12
+显示手牌：方3，红11
+Turn：0
+    Id:50780 in 1,status:NORMAL,bankroll：39800,anted：200,minCall：200,bigActed:false,minRaise:600...[Enter]06-17 09:01:46 Player 50877 joinGamersGroup.Player count:2/3/9.Phase:2
+call 200
+    Id:50908 in 0,status:NORMAL,bankroll：39600,anted：400,checkable,bigActed:false,minRaise:600...check
+         All betted.
+      Player 50908 put in 400:400.
+      Player 50780 put in 400:400.
+       Pot list：800(400)；
+         Broadcast cards：梅3，黑10，方7
+Turn：1
+    Id:50780 in 1,status:NORMAL,bankroll：39600,anted：400,checkable,bigActed:true,minRaise:400...check
+    Id:50908 in 0,status:NORMAL,bankroll：39600,anted：400,checkable,bigActed:true,minRaise:400...check
+         All checked.
+      Player 50908 put in 400:400.
+      Player 50780 put in 400:400.
+       Pot list：800(400)；
+         Broadcast cards：梅2
+Turn：2
+    Id:50780 in 1,status:NORMAL,bankroll：39600,anted：400,checkable,bigActed:true,minRaise:400...raise 7600
+    Id:50908 in 0,status:NORMAL,bankroll：39600,anted：400,minCall：7600,bigActed:true,minRaise:15200...call 7600
+         All betted.
+      Player 50908 put in 8000:8000.
+      Player 50780 put in 8000:8000.
+       Pot list：16000(8000)；
+         Broadcast cards：梅11
+Turn：3
+    Id:50780 in 1,status:NORMAL,bankroll：32000,anted：8000,checkable,bigActed:true,minRaise:400...check
+    Id:50908 in 0,status:NORMAL,bankroll：32000,anted：8000,checkable,bigActed:true,minRaise:400...check
+         All checked.
+      Player 50908 put in 8000:8000.
+      Player 50780 put in 8000:8000.
+       Pot list：16000(8000)；
+

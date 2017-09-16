@@ -1,0 +1,54 @@
+[Enter]06-17 09:01:45 Player 50916 joinGamersGroup.Player count:0/1/9.Phase:0
+[Enter]06-17 09:01:45 Player 50960 joinGamersGroup.Player count:0/2/9.Phase:0
+
+Condition met,game begin.Player count:0/2/9
+Player 50916 in 0 recharge：5000
+[Enter]06-17 09:01:46 Player 50788 joinGamersGroup.Player count:2/3/9.Phase:1
+Player 50960 in 1 recharge：5000
+Player 50788 in 2 recharge：5000
+Room 6，playerCount：3，player list：
+    Id:50916 in 0,gold:13668768,bankroll:5000,status:NORMAL,connection:true
+    Id:50960 in 1,gold:13732876,bankroll:5000,status:NORMAL,connection:true
+    Id:50788 in 2,gold:8490081,bankroll:5000,status:NORMAL,connection:true
+Bankroll total:15000
+
+Board cards：梅13，方6，红12，黑7，红13
+Banker:0,player 50960 blind:50,player 50788 blind:100
+显示手牌：方10，方4
+显示手牌：方8，梅2
+显示手牌：黑9，红11
+Turn：0
+    Id:50916 in 0,status:NORMAL,bankroll：5000,anted：0,minCall：100,bigActed:false,minRaise:150...call 100
+    Id:50960 in 1,status:NORMAL,bankroll：4950,anted：50,minCall：50,bigActed:false,minRaise:150...call 50
+    Id:50788 in 2,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:false,minRaise:150...check
+         All betted.
+      Player 50916 put in 100:100.
+      Player 50960 put in 100:100.
+      Player 50788 put in 100:100.
+       Pot list：300(100)；
+         Broadcast cards：梅13，方6，红12
+Turn：1
+    Id:50960 in 1,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:true,minRaise:100...check
+    Id:50788 in 2,status:NORMAL,bankroll：4900,anted：100,checkable,bigActed:true,minRaise:100...raise 3200
+    Id:50916 in 0,status:NORMAL,bankroll：4900,anted：100,minCall：3200,bigActed:true,minRaise:6400...call 3200
+    Id:50960 in 1,status:CHECK,bankroll：4900,anted：100,minCall：3200,bigActed:true,minRaise:6400...call 3200
+         All betted.
+      Player 50916 put in 3300:3300.
+      Player 50960 put in 3300:3300.
+      Player 50788 put in 3300:3300.
+       Pot list：9900(3300)；
+         Broadcast cards：黑7
+Turn：2
+    Id:50960 in 1,status:NORMAL,bankroll：1700,anted：3300,checkable,bigActed:true,minRaise:100...check
+    Id:50788 in 2,status:NORMAL,bankroll：1700,anted：3300,checkable,bigActed:true,minRaise:100...check
+    Id:50916 in 0,status:NORMAL,bankroll：1700,anted：3300,checkable,bigActed:true,minRaise:100...check
+         All checked.
+      Player 50916 put in 3300:3300.
+      Player 50960 put in 3300:3300.
+      Player 50788 put in 3300:3300.
+       Pot list：9900(3300)；
+         Broadcast cards：红13
+Turn：3
+    Id:50960 in 1,status:NORMAL,bankroll：1700,anted：3300,checkable,bigActed:true,minRaise:100...check
+    Id:50788 in 2,status:NORMAL,bankroll：1700,anted：3300,checkable,bigActed:true,minRaise:100...check
+    Id:50916 in 0,status:NORMAL,bankroll：1700,anted：3300,checkable,bigActed:true,minRaise:100...

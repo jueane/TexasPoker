@@ -1,0 +1,8 @@
+Endless loop.
+BetablePlayerNotEnoughException
+Endless loop.
+BetablePlayerNotEnoughException
+BetablePlayerNotEnoughException
+BetablePlayerNotEnoughException
+Endless loop.
+BetablePlayerNotEnoughException

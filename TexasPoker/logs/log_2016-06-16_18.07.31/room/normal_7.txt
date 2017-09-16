@@ -1,0 +1,183 @@
+[Enter]06-16 18:07:42 Player 50916 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-16 18:07:42 Player 50862 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+[Enter]06-16 18:07:42 Player 50935 joinGamersGroup.Player count:0/3/6.Phase:1
+Player 50916 in 0 recharge：400
+Player 50862 in 1 recharge：400
+Player 50935 in 2 recharge：400
+Room 7，playerCount：3，player list：
+    Id:50916 in 0,gold:13704033,bankroll:400,status:NORMAL,connection:true
+    Id:50862 in 1,gold:14564904,bankroll:400,status:NORMAL,connection:true
+    Id:50935 in 2,gold:12811656,bankroll:400,status:NORMAL,connection:true
+Bankroll total:1200
+
+Board cards：黑5，黑8，梅11，黑4，方3
+Banker:0,player 50862 blind:5,player 50935 blind:10
+显示手牌：梅A，梅3
+显示手牌：红12，黑A
+显示手牌：梅5，黑6
+Turn：0
+    Id:50916 in 0,status:NORMAL,bankroll：400,anted：0,minCall：10,bigActed:false,minRaise:15...raise 360
+    Id:50862 in 1,status:NORMAL,bankroll：395,anted：5,minCall：355,bigActed:false,minRaise:710...call 355
+    Id:50935 in 2,status:NORMAL,bankroll：390,anted：10,minCall：350,bigActed:false,minRaise:710...call 350
+         All betted.
+      Player 50916 put in 360:360.
+      Player 50862 put in 360:360.
+      Player 50935 put in 360:360.
+       Pot list：1080(360)；
+         Broadcast cards：黑5，黑8，梅11
+Turn：1
+    Id:50862 in 1,status:NORMAL,bankroll：40,anted：360,checkable,bigActed:true,minRaise:10...check
+    Id:50935 in 2,status:NORMAL,bankroll：40,anted：360,checkable,bigActed:true,minRaise:10...check
+    Id:50916 in 0,status:NORMAL,bankroll：40,anted：360,checkable,bigActed:true,minRaise:10...check
+         All checked.
+      Player 50916 put in 360:360.
+      Player 50862 put in 360:360.
+      Player 50935 put in 360:360.
+       Pot list：1080(360)；
+         Broadcast cards：黑4
+Turn：2
+    Id:50862 in 1,status:NORMAL,bankroll：40,anted：360,checkable,bigActed:true,minRaise:10...check
+    Id:50935 in 2,status:NORMAL,bankroll：40,anted：360,checkable,bigActed:true,minRaise:10...raise 25
+    Id:50916 in 0,status:NORMAL,bankroll：40,anted：360,minCall：25,bigActed:true,minRaise:50...call 25
+    Id:50862 in 1,status:CHECK,bankroll：40,anted：360,minCall：25,bigActed:true,minRaise:50...call 25
+         All betted.
+      Player 50916 put in 385:385.
+      Player 50862 put in 385:385.
+      Player 50935 put in 385:385.
+       Pot list：1155(385)；
+         Broadcast cards：方3
+Turn：3
+    Id:50862 in 1,status:NORMAL,bankroll：15,anted：385,checkable,bigActed:true,minRaise:10...check
+    Id:50935 in 2,status:NORMAL,bankroll：15,anted：385,checkable,bigActed:true,minRaise:10...check
+    Id:50916 in 0,status:NORMAL,bankroll：15,anted：385,checkable,bigActed:true,minRaise:10...raise 10
+    Id:50862 in 1,status:CHECK,bankroll：15,anted：385,minCall：10,bigActed:true,minRaise:20...call 10
+    Id:50935 in 2,status:CHECK,bankroll：15,anted：385,minCall：10,bigActed:true,minRaise:20...call 10
+         All betted.
+      Player 50916 put in 395:395.
+      Player 50862 put in 395:395.
+      Player 50935 put in 395:395.
+       Pot list：1185(395)；
+
+Victory player id：50935
+Id：50935，victory：true，cards：一对
+    Origin cards：梅11，黑8，黑6，梅5，黑5，黑4，方3
+    Max combined：梅5，黑5，梅11，黑8，黑6
+    Hole cards：梅5，黑6
+Id：50916，victory：false，cards：一对
+    Origin cards：梅A，梅11，黑8，黑5，黑4，方3，梅3
+    Max combined：方3，梅3，梅A，梅11，黑8
+    Hole cards：梅A，梅3
+Id：50862，victory：false，cards：高牌
+    Origin cards：黑A，红12，梅11，黑8，黑5，黑4，方3
+    Max combined：黑A，红12，梅11，黑8，黑5
+    Hole cards：红12，黑A
+      Player 50916 put in 395:395.
+      Player 50862 put in 395:395.
+      Player 50935 put in 395:395.
+       Pot list：1185(395)；
+
+Result：
+	id：50916 in 0，bankroll：5，gained：0,drawoff:0
+	id：50862 in 1，bankroll：5，gained：0,drawoff:0
+	id：50935 in 2，bankroll：1151，gained：1185,drawoff:39
+Player 50916 actualGained：-395,drawoff：0
+Player 50862 actualGained：-395,drawoff：0
+Player 50935 actualGained：790,drawoff：39
+
+Player list：
+    Id:50916 in 0,gold:13704033,bankroll:5,status:NORMAL,connection:true
+conok:true
+    Id:50862 in 1,gold:14564904,bankroll:5,status:NORMAL,connection:true
+conok:true
+    Id:50935 in 2,gold:12811656,bankroll:1151,status:NORMAL,connection:true
+conok:true
+Player 50916 in 0 recharge：400
+Player 50862 in 1 recharge：400
+Room 7，playerCount：3，player list：
+    Id:50916 in 0,gold:13703633,bankroll:405,status:NORMAL,connection:true
+    Id:50862 in 1,gold:14564504,bankroll:405,status:NORMAL,connection:true
+    Id:50935 in 2,gold:12811656,bankroll:1151,status:NORMAL,connection:true
+Bankroll total:1961
+
+Board cards：梅3，方2，梅2，梅9，红13
+Banker:1,player 50935 blind:5,player 50916 blind:10
+显示手牌：红8，黑7
+显示手牌：方9，黑13
+显示手牌：红9，红11
+Turn：0
+    Id:50862 in 1,status:NORMAL,bankroll：405,anted：0,minCall：10,bigActed:false,minRaise:15...call 10
+    Id:50935 in 2,status:NORMAL,bankroll：1146,anted：5,minCall：5,bigActed:false,minRaise:15...call 5
+    Id:50916 in 0,status:NORMAL,bankroll：395,anted：10,checkable,bigActed:false,minRaise:15...check
+         All betted.
+      Player 50916 put in 10:10.
+      Player 50862 put in 10:10.
+      Player 50935 put in 10:10.
+       Pot list：30(10)；
+         Broadcast cards：梅3，方2，梅2
+Turn：1
+    Id:50935 in 2,status:NORMAL,bankroll：1141,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50916 in 0,status:NORMAL,bankroll：395,anted：10,checkable,bigActed:true,minRaise:10...raise 100
+    Id:50862 in 1,status:NORMAL,bankroll：395,anted：10,minCall：100,bigActed:true,minRaise:200...call 100
+    Id:50935 in 2,status:CHECK,bankroll：1141,anted：10,minCall：100,bigActed:true,minRaise:200...call 100
+         All betted.
+      Player 50916 put in 110:110.
+      Player 50862 put in 110:110.
+      Player 50935 put in 110:110.
+       Pot list：330(110)；
+         Broadcast cards：梅9
+Turn：2
+    Id:50935 in 2,status:NORMAL,bankroll：1041,anted：110,checkable,bigActed:true,minRaise:10...check
+    Id:50916 in 0,status:NORMAL,bankroll：295,anted：110,checkable,bigActed:true,minRaise:10...check
+    Id:50862 in 1,status:NORMAL,bankroll：295,anted：110,checkable,bigActed:true,minRaise:10...check
+         All checked.
+      Player 50916 put in 110:110.
+      Player 50862 put in 110:110.
+      Player 50935 put in 110:110.
+       Pot list：330(110)；
+         Broadcast cards：红13
+Turn：3
+    Id:50935 in 2,status:NORMAL,bankroll：1041,anted：110,checkable,bigActed:true,minRaise:10...check
+    Id:50916 in 0,status:NORMAL,bankroll：295,anted：110,checkable,bigActed:true,minRaise:10...check
+    Id:50862 in 1,status:NORMAL,bankroll：295,anted：110,checkable,bigActed:true,minRaise:10...raise 240
+    Id:50935 in 2,status:CHECK,bankroll：1041,anted：110,minCall：240,bigActed:true,minRaise:480...Could not check.fold
+    Id:50916 in 0,status:CHECK,bankroll：295,anted：110,minCall：240,bigActed:true,minRaise:480...(Auto action 3)Could not check.fold
+      Player 50862 put in 350:350.
+      Player 50916 overage put in 350:110.
+      Player 50935 overage put in 350:110.
+       Pot list：570(350)；
+
+Victory player id：50862
+Id：50862，victory：true，cards：两对
+    Origin cards：红13，黑13，方9，梅9，梅3，方2，梅2
+    Max combined：红13，黑13，方9，梅9，梅3
+    Hole cards：方9，黑13
+Id：50916，victory：false，cards：一对
+    Origin cards：红13，梅9，红8，黑7，梅3，方2，梅2
+    Max combined：方2，梅2，红13，梅9，红8
+    Hole cards：红8，黑7
+Id：50935，victory：false，cards：两对
+    Origin cards：红13，红11，红9，梅9，梅3，方2，梅2
+    Max combined：红9，梅9，方2，梅2，红13
+    Hole cards：红9，红11
+      Player 50862 put in 350:350.
+      Player 50916 overage put in 350:110.
+      Player 50935 overage put in 350:110.
+       Pot list：570(350)；
+
+Result：
+	id：50916 in 0，bankroll：295，gained：0,drawoff:0
+	id：50862 in 1，bankroll：614，gained：570,drawoff:11
+	id：50935 in 2，bankroll：1041，gained：0,drawoff:0
+Player 50916 actualGained：-110,drawoff：0
+Player 50862 actualGained：220,drawoff：11
+Player 50935 actualGained：-110,drawoff：0
+
+Player list：
+    Id:50916 in 0,gold:13703633,bankroll:295,status:NORMAL,connection:false
+conok:false
+    Id:50862 in 1,gold:14564504,bankroll:614,status:NORMAL,connection:false
+conok:false
+    Id:50935 in 2,gold:12811656,bankroll:1041,status:NORMAL,connection:false
+conok:false

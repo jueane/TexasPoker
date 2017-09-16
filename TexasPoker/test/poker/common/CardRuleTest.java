@@ -3,7 +3,7 @@ package poker.common;
 import org.junit.Test;
 import org.junit.runner.notification.Failure;
 
-import poker.main.room.impl.CardRule;
+import poker.main.rule.CardRule;
 import poker.util.JLog;
 
 /*

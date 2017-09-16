@@ -1,0 +1,48 @@
+[Enter]06-17 09:01:47 Player 50966 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-17 09:01:47 Player 50862 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+Player 50966 in 0 recharge：2500
+Player 50862 in 1 recharge：2500
+Room 15，playerCount：2，player list：
+    Id:50966 in 0,gold:18148344,bankroll:2500,status:NORMAL,connection:true
+    Id:50862 in 1,gold:14546953,bankroll:2500,status:NORMAL,connection:true
+Bankroll total:5000
+
+Board cards：黑5，红10，方3，方6，梅3
+Banker:0,player 50862 blind:25,player 50966 blind:50
+显示手牌：黑3，方8
+显示手牌：梅6，黑A
+Turn：0
+    Id:50862 in 1,status:NORMAL,bankroll：2475,anted：25,minCall：25,bigActed:false,minRaise:75...call 25
+    Id:50966 in 0,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:false,minRaise:75...raise 1600
+    Id:50862 in 1,status:NORMAL,bankroll：2450,anted：50,minCall：1600,bigActed:true,minRaise:3250...call 1600
+         All betted.
+      Player 50966 put in 1650:1650.
+      Player 50862 put in 1650:1650.
+       Pot list：3300(1650)；
+         Broadcast cards：黑5，红10，方3
+Turn：1
+    Id:50862 in 1,status:NORMAL,bankroll：850,anted：1650,checkable,bigActed:true,minRaise:50...check
+    Id:50966 in 0,status:NORMAL,bankroll：850,anted：1650,checkable,bigActed:true,minRaise:50...check
+         All checked.
+      Player 50966 put in 1650:1650.
+      Player 50862 put in 1650:1650.
+       Pot list：3300(1650)；
+         Broadcast cards：方6
+Turn：2
+    Id:50862 in 1,status:NORMAL,bankroll：850,anted：1650,checkable,bigActed:true,minRaise:50...raise 420
+    Id:50966 in 0,status:NORMAL,bankroll：850,anted：1650,minCall：420,bigActed:true,minRaise:840...call 420
+         All betted.
+      Player 50966 put in 2070:2070.
+      Player 50862 put in 2070:2070.
+       Pot list：4140(2070)；
+         Broadcast cards：梅3
+Turn：3
+    Id:50862 in 1,status:NORMAL,bankroll：430,anted：2070,checkable,bigActed:true,minRaise:50...(Auto action 3)check
+    Id:50966 in 0,status:NORMAL,bankroll：430,anted：2070,checkable,bigActed:true,minRaise:50...check
+         All checked.
+      Player 50966 put in 2070:2070.
+      Player 50862 put in 2070:2070.
+       Pot list：4140(2070)；
+

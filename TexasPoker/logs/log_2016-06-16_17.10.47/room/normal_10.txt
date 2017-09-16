@@ -1,0 +1,6 @@
+[Enter]06-16 17:10:56 Player 50866 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-16 17:10:56 Player 50969 joinGamersGroup.Player count:0/2/6.Phase:0
+[Enter]06-16 17:10:56 Player 50922 joinGamersGroup.Player count:0/3/6.Phase:1
+Wanna raise is less than min raise.
+Player 50922 leaveGamersGroup.
+[Enter]06-16 17:15:34 Player 50913 joinGamersGroup.Player count:2/3/6.Phase:2

@@ -1,0 +1,7 @@
+[Monitor]Player count 22,room running count 7/0/0/0,room count 8/0/0/0
+[Monitor]Player count 45,room running count 15/0/0/0,room count 15/0/0/0
+[Monitor]Player count 60,room running count 20/0/0/0,room count 20/0/0/0
+[Monitor]Player count 59,room running count 20/0/0/0,room count 20/0/0/0
+[Monitor]Player count 60,room running count 20/0/0/0,room count 20/0/0/0
+[Monitor]Player count 59,room running count 20/0/0/0,room count 20/0/0/0
+[Monitor]Player count 60,room running count 20/0/0/0,room count 20/0/0/0

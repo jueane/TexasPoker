@@ -1,0 +1,2 @@
+[Monitor]Player count 6,room running count 0/0/0/0,room count 4/2/0/0
+[Monitor]Player count 2,room running count 0/0/0/0,room count 4/2/0/0

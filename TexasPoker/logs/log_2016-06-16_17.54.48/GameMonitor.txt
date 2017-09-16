@@ -1,0 +1,16 @@
+[Monitor]Player count 15,room running count 5/0/0/0,room count 5/0/0/0
+[Monitor]Player count 38,room running count 13/0/0/0,room count 13/0/0/0
+[Monitor]Player count 60,room running count 20/0/0/0,room count 20/0/0/0
+[Monitor]Player count 57,room running count 19/0/0/0,room count 20/0/0/0
+[Monitor]Player count 42,room running count 13/0/0/0,room count 20/0/0/0
+[Monitor]Player count 40,room running count 12/0/0/0,room count 20/0/0/0
+[Monitor]Player count 32,room running count 9/0/0/0,room count 20/0/0/0
+[Monitor]Player count 30,room running count 9/0/0/0,room count 20/0/0/0
+[Monitor]Player count 29,room running count 9/0/0/0,room count 20/0/0/0
+[Monitor]Player count 26,room running count 7/0/0/0,room count 20/0/0/0
+[Monitor]Player count 28,room running count 7/0/0/0,room count 20/0/0/0
+[Monitor]Player count 29,room running count 7/0/0/0,room count 20/0/0/0
+[Monitor]Player count 28,room running count 7/0/0/0,room count 20/0/0/0
+[Monitor]Player count 29,room running count 7/0/0/0,room count 20/0/0/0
+[Monitor]Player count 28,room running count 6/0/0/0,room count 20/0/0/0
+[Monitor]Player count 29,room running count 7/0/0/0,room count 20/0/0/0

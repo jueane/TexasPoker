@@ -1,0 +1,44 @@
+[Enter]06-17 09:01:46 Player 50779 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-17 09:01:46 Player 50969 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+[Enter]06-17 09:01:46 Player 50826 joinGamersGroup.Player count:0/3/6.Phase:1
+Player 50779 in 0 recharge：2500
+Player 50969 in 1 recharge：2500
+Player 50826 in 2 recharge：2500
+Room 10，playerCount：3，player list：
+    Id:50779 in 0,gold:9411234,bankroll:2500,status:NORMAL,connection:true
+    Id:50969 in 1,gold:12627620,bankroll:2500,status:NORMAL,connection:true
+    Id:50826 in 2,gold:18423104,bankroll:2500,status:NORMAL,connection:true
+Bankroll total:7500
+
+Board cards：红10，红11，方10，方A，红12
+Banker:0,player 50969 blind:25,player 50826 blind:50
+显示手牌：方13，梅10
+显示手牌：方12，黑10
+显示手牌：方11，梅13
+Turn：0
+    Id:50779 in 0,status:NORMAL,bankroll：2500,anted：0,minCall：50,bigActed:false,minRaise:75...call 50
+    Id:50969 in 1,status:NORMAL,bankroll：2475,anted：25,minCall：25,bigActed:false,minRaise:75...call 25
+    Id:50826 in 2,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:false,minRaise:75...check
+         All betted.
+      Player 50779 put in 50:50.
+      Player 50969 put in 50:50.
+      Player 50826 put in 50:50.
+       Pot list：150(50)；
+         Broadcast cards：红10，红11，方10
+Turn：1
+    Id:50969 in 1,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+    Id:50826 in 2,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+    Id:50779 in 0,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+         All checked.
+      Player 50779 put in 50:50.
+      Player 50969 put in 50:50.
+      Player 50826 put in 50:50.
+       Pot list：150(50)；
+         Broadcast cards：方A
+Turn：2
+    Id:50969 in 1,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+    Id:50826 in 2,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...raise 2000
+    Id:50779 in 0,status:NORMAL,bankroll：2450,anted：50,minCall：2000,bigActed:true,minRaise:4000...call 2000
+    Id:50969 in 1,status:CHECK,bankroll：2450,anted：50,minCall：2000,bigActed:true,minRaise:4000...

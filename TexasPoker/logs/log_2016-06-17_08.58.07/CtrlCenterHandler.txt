@@ -1,0 +1,8 @@
+Notice ctrlCenter player 50906 joined.
+Notice ctrlCenter player 50970 joined.
+Notice ctrlCenter player 50964 joined.
+Notice ctrlCenter player 50825 joined.
+Notice ctrlCenter player 50906 has left.
+Notice ctrlCenter player 50825 has left.
+Notice ctrlCenter player 50970 has left.
+Notice ctrlCenter player 50964 has left.

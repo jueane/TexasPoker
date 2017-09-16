@@ -1,0 +1,60 @@
+[Enter]06-16 17:50:44 Player 50926 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-16 17:50:44 Player 50791 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+[Enter]06-16 17:50:44 Player 50935 joinGamersGroup.Player count:0/3/6.Phase:1
+Player 50926 in 0 recharge：400
+Player 50791 in 1 recharge：400
+Player 50935 in 2 recharge：400
+Room 12，playerCount：3，player list：
+    Id:50926 in 0,gold:16930087,bankroll:400,status:NORMAL,connection:true
+    Id:50791 in 1,gold:12076577,bankroll:400,status:NORMAL,connection:true
+    Id:50935 in 2,gold:12814856,bankroll:400,status:NORMAL,connection:true
+Bankroll total:1200
+
+Board cards：方4，红3，红7，红10，梅13
+Banker:0,player 50791 blind:5,player 50935 blind:10
+显示手牌：方6，红8
+显示手牌：梅2，黑6
+显示手牌：梅9，方7
+Turn：0
+    Id:50926 in 0,status:NORMAL,bankroll：400,anted：0,minCall：10,bigActed:false,minRaise:15...call 10
+    Id:50791 in 1,status:NORMAL,bankroll：395,anted：5,minCall：5,bigActed:false,minRaise:15...call 5
+    Id:50935 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:false,minRaise:15...raise 300
+    Id:50926 in 0,status:NORMAL,bankroll：390,anted：10,minCall：300,bigActed:true,minRaise:610...call 300
+    Id:50791 in 1,status:NORMAL,bankroll：390,anted：10,minCall：300,bigActed:true,minRaise:610...call 300
+         All betted.
+      Player 50926 put in 310:310.
+      Player 50791 put in 310:310.
+      Player 50935 put in 310:310.
+       Pot list：930(310)；
+         Broadcast cards：方4，红3，红7
+Turn：1
+    Id:50791 in 1,status:NORMAL,bankroll：90,anted：310,checkable,bigActed:true,minRaise:10...check
+    Id:50935 in 2,status:NORMAL,bankroll：90,anted：310,checkable,bigActed:true,minRaise:10...check
+    Id:50926 in 0,status:NORMAL,bankroll：90,anted：310,checkable,bigActed:true,minRaise:10...raise 25
+    Id:50791 in 1,status:CHECK,bankroll：90,anted：310,minCall：25,bigActed:true,minRaise:50...call 25
+    Id:50935 in 2,status:CHECK,bankroll：90,anted：310,minCall：25,bigActed:true,minRaise:50...raise 75
+    Id:50926 in 0,status:NORMAL,bankroll：65,anted：335,minCall：50,bigActed:true,minRaise:125...call 50
+    Id:50791 in 1,status:CHECK,bankroll：65,anted：335,minCall：50,bigActed:true,minRaise:125...call 50
+         All betted.
+      Player 50926 put in 385:385.
+      Player 50791 put in 385:385.
+      Player 50935 put in 385:385.
+       Pot list：1155(385)；
+         Broadcast cards：红10
+Turn：2
+    Id:50791 in 1,status:NORMAL,bankroll：15,anted：385,checkable,bigActed:true,minRaise:10...check
+    Id:50935 in 2,status:NORMAL,bankroll：15,anted：385,checkable,bigActed:true,minRaise:10...raise 10
+    Id:50926 in 0,status:NORMAL,bankroll：15,anted：385,minCall：10,bigActed:true,minRaise:20...call 10
+    Id:50791 in 1,status:CHECK,bankroll：15,anted：385,minCall：10,bigActed:true,minRaise:20...call 10
+         All betted.
+      Player 50926 put in 395:395.
+      Player 50791 put in 395:395.
+      Player 50935 put in 395:395.
+       Pot list：1185(395)；
+         Broadcast cards：梅13
+Turn：3
+    Id:50791 in 1,status:NORMAL,bankroll：5,anted：395,checkable,bigActed:true,minRaise:10...All in 5
+    Id:50935 in 2,status:NORMAL,bankroll：5,anted：395,minCall：5,bigActed:true,minRaise:10...Could not check.fold
+    Id:50926 in 0,status:NORMAL,bankroll：5,anted：395,minCall：5,bigActed:true,minRaise:10...

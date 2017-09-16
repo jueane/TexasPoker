@@ -11,6 +11,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import poker.main.rule.CardRule;
 import poker.util.JLog;
 
 /*
@@ -35,7 +36,7 @@ public class TestCardRule {
 		cr.showCards(cds);
 		System.out.println("长度:" + cds.length);
 		byte cd = cr.getCard();
-		cr.showCard(cd);
+//		cr.showCard(cd);
 	}
 
 	@After

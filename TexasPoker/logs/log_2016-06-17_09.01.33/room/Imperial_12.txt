@@ -1,0 +1,44 @@
+[Enter]06-17 09:01:46 Player 50919 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-17 09:01:46 Player 50870 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+Player 50919 in 0 recharge：2500
+Player 50870 in 1 recharge：2500
+Room 12，playerCount：2，player list：
+    Id:50919 in 0,gold:16166988,bankroll:2500,status:NORMAL,connection:true
+    Id:50870 in 1,gold:11905162,bankroll:2500,status:NORMAL,connection:true
+Bankroll total:5000
+
+Board cards：红12，方A，红11，梅12，红10
+Banker:0,player 50870 blind:25,player 50919 blind:50
+显示手牌：梅A，黑12
+显示手牌：梅10，梅11
+Turn：0
+    Id:50870 in 1,status:NORMAL,bankroll：2475,anted：25,minCall：25,bigActed:false,minRaise:75...[Enter]06-17 09:01:47 Player 50922 joinGamersGroup.Player count:2/3/6.Phase:2
+call 25
+    Id:50919 in 0,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:false,minRaise:75...check
+         All betted.
+      Player 50919 put in 50:50.
+      Player 50870 put in 50:50.
+       Pot list：100(50)；
+         Broadcast cards：红12，方A，红11
+Turn：1
+    Id:50870 in 1,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+    Id:50919 in 0,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+         All checked.
+      Player 50919 put in 50:50.
+      Player 50870 put in 50:50.
+       Pot list：100(50)；
+         Broadcast cards：梅12
+Turn：2
+    Id:50870 in 1,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+    Id:50919 in 0,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+         All checked.
+      Player 50919 put in 50:50.
+      Player 50870 put in 50:50.
+       Pot list：100(50)；
+         Broadcast cards：红10
+Turn：3
+    Id:50870 in 1,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...(Auto action 3)check
+    Id:50919 in 0,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...All in 2450
+    Id:50870 in 1,status:CHECK,bankroll：2450,anted：50,minCall：2450,bigActed:true,minRaise:4900...

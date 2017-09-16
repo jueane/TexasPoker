@@ -1,0 +1,50 @@
+[Enter]06-16 17:50:53 Player 50862 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-16 17:50:53 Player 50872 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+[Enter]06-16 17:50:53 Player 50877 joinGamersGroup.Player count:0/3/6.Phase:1
+Player 50862 in 0 recharge：400
+Player 50872 in 1 recharge：400
+Player 50877 in 2 recharge：400
+Room 19，playerCount：3，player list：
+    Id:50862 in 0,gold:14568094,bankroll:400,status:NORMAL,connection:true
+    Id:50872 in 1,gold:11958705,bankroll:400,status:NORMAL,connection:true
+    Id:50877 in 2,gold:19909059,bankroll:400,status:NORMAL,connection:true
+Bankroll total:1200
+
+Board cards：黑7，红2，红4，红7，红10
+Banker:0,player 50872 blind:5,player 50877 blind:10
+显示手牌：黑9，红5
+显示手牌：红11，黑A
+显示手牌：黑12，红9
+Turn：0
+    Id:50862 in 0,status:NORMAL,bankroll：400,anted：0,minCall：10,bigActed:false,minRaise:15...call 10
+    Id:50872 in 1,status:NORMAL,bankroll：395,anted：5,minCall：5,bigActed:false,minRaise:15...call 5
+    Id:50877 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:false,minRaise:15...check
+         All betted.
+      Player 50862 put in 10:10.
+      Player 50872 put in 10:10.
+      Player 50877 put in 10:10.
+       Pot list：30(10)；
+         Broadcast cards：黑7，红2，红4
+Turn：1
+    Id:50872 in 1,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50877 in 2,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...check
+    Id:50862 in 0,status:NORMAL,bankroll：390,anted：10,checkable,bigActed:true,minRaise:10...raise 90
+    Id:50872 in 1,status:CHECK,bankroll：390,anted：10,minCall：90,bigActed:true,minRaise:180...call 90
+    Id:50877 in 2,status:CHECK,bankroll：390,anted：10,minCall：90,bigActed:true,minRaise:180...raise 180
+    Id:50862 in 0,status:NORMAL,bankroll：300,anted：100,minCall：90,bigActed:true,minRaise:270...call 90
+    Id:50872 in 1,status:CHECK,bankroll：300,anted：100,minCall：90,bigActed:true,minRaise:270...Wanna raise is less than min raise.
+raise 270
+    Id:50877 in 2,status:CHECK,bankroll：210,anted：190,minCall：180,bigActed:true,minRaise:540...call 180
+    Id:50862 in 0,status:NORMAL,bankroll：210,anted：190,minCall：180,bigActed:true,minRaise:540...call 180
+         All betted.
+      Player 50862 put in 370:370.
+      Player 50872 put in 370:370.
+      Player 50877 put in 370:370.
+       Pot list：1110(370)；
+         Broadcast cards：红7
+Turn：2
+    Id:50872 in 1,status:NORMAL,bankroll：30,anted：370,checkable,bigActed:true,minRaise:10...check
+    Id:50877 in 2,status:NORMAL,bankroll：30,anted：370,checkable,bigActed:true,minRaise:10...check
+    Id:50862 in 0,status:NORMAL,bankroll：30,anted：370,checkable,bigActed:true,minRaise:10...

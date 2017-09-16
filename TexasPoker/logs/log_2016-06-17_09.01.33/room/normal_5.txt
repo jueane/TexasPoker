@@ -1,0 +1,41 @@
+[Enter]06-17 09:01:45 Player 50936 joinGamersGroup.Player count:0/1/6.Phase:0
+[Enter]06-17 09:01:45 Player 50943 joinGamersGroup.Player count:0/2/6.Phase:0
+
+Condition met,game begin.Player count:0/2/6
+Player 50936 in 0 recharge：2500
+Player 50943 in 1 recharge：2500
+Room 5，playerCount：2，player list：
+    Id:50936 in 0,gold:10669447,bankroll:2500,status:NORMAL,connection:true
+    Id:50943 in 1,gold:12609420,bankroll:2500,status:NORMAL,connection:true
+Bankroll total:5000
+
+Board cards：方7，红4，梅5，黑9，黑3
+Banker:0,player 50943 blind:25,player 50936 blind:50
+显示手牌：方9，红10
+显示手牌：梅8，梅3
+Turn：0
+    Id:50943 in 1,status:NORMAL,bankroll：2475,anted：25,minCall：25,bigActed:false,minRaise:75...[Enter]06-17 09:01:46 Player 50926 joinGamersGroup.Player count:2/3/6.Phase:2
+call 25
+    Id:50936 in 0,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:false,minRaise:75...check
+         All betted.
+      Player 50936 put in 50:50.
+      Player 50943 put in 50:50.
+       Pot list：100(50)；
+         Broadcast cards：方7，红4，梅5
+Turn：1
+    Id:50943 in 1,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...check
+    Id:50936 in 0,status:NORMAL,bankroll：2450,anted：50,checkable,bigActed:true,minRaise:50...raise 2400
+    Id:50943 in 1,status:CHECK,bankroll：2450,anted：50,minCall：2400,bigActed:true,minRaise:4800...call 2400
+         All betted.
+      Player 50936 put in 2450:2450.
+      Player 50943 put in 2450:2450.
+       Pot list：4900(2450)；
+         Broadcast cards：黑9
+Turn：2
+    Id:50943 in 1,status:NORMAL,bankroll：50,anted：2450,checkable,bigActed:true,minRaise:50...check
+    Id:50936 in 0,status:NORMAL,bankroll：50,anted：2450,checkable,bigActed:true,minRaise:50...All in 50
+    Id:50943 in 1,status:CHECK,bankroll：50,anted：2450,minCall：50,bigActed:true,minRaise:100...fold
+      Player 50936 put in 2500:2500.
+      Player 50943 overage put in 2500:2450.
+       Pot list：4950(2500)；
+

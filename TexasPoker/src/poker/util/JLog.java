@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class JLog {
 	public static boolean test = false;
-	public static boolean debug = false;
+	public static boolean debug = true;
 	public static boolean info = true;
 	public static boolean error = true;
 
